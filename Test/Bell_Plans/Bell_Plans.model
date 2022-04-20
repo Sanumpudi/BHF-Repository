@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--Bell Plans for Devices--><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="true" inputOutput="false" manual="true">
+<model-identification modelTag="@Test @1 @Test_Sample @BellPlan">
+<model-identification-field name="Application Name" partOfTag="true" value="Test"/>
+<model-identification-field name="Application code version #" partOfTag="true" value="1"/>
+<model-identification-field name="Application Function" partOfTag="true" value="Test_Sample"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+<model-identification-field name="Created By" partOfTag="false" value="saritha.mr@in.ibm.com"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="25 Sep 2021 05:28:13"/>
+<model-identification-field name="Updated By" partOfTag="false" value="saritha.mr@in.ibm.com"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="20 Apr 2022 10:10:52"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value="BellPlan"/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+<model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Plan" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @BellPlan" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="SmartPhone" neg-value="false" weight="1"/>
+<value name="Tablet" neg-value="false" weight="1"/>
+<value name="SmartWatch" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Device" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @BellPlan" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="BuyNew" neg-value="false" weight="1"/>
+<value name="BringOwn" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="SmartWatch_options" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @BellPlan" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="NumberShare" neg-value="false" weight="1"/>
+<value name="Standalone" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Customer" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @BellPlan" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="New" neg-value="false" weight="1"/>
+<value name="Existing" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="BuildPlan" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @BellPlan" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="BuildSolution" neg-value="false" weight="1"/>
+<value name="AddDevice" neg-value="false" weight="1"/>
+<value name="UpgradeDevice" neg-value="false" weight="1"/>
+<value name="Call18884Mobile" neg-value="false" weight="1"/>
+<value name="VisitStore" neg-value="false" weight="1"/>
+<value name="AddLine" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="UserName" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @BellPlan" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Valid" neg-value="false" weight="1"/>
+<value name="Blank" neg-value="true" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Password" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @BellPlan" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Valid" neg-value="false" weight="1"/>
+<value name="Invalid" neg-value="true" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="UserRegistration" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @BellPlan" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Valid" neg-value="false" weight="1"/>
+<value name="Invalid" neg-value="true" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<restriction expression="!(Plan.equals(&quot;SmartWatch&quot;)) || Device.equals(&quot;BringOwn&quot;)" group="" groupedExpression="!(Plan.equals(&quot;SmartWatch&quot;)) || Device.equals(&quot;BringOwn&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Plan" operation="Equals">
+<focus-ctd-cond-val value="SmartWatch"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Device" operation="Equals">
+<focus-ctd-cond-val value="BringOwn"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Plan.equals(&quot;SmartPhone&quot;) || Plan.equals(&quot;Tablet&quot;))) || SmartWatch_options.equals(&quot;NA&quot;)" group="" groupedExpression="!((Plan.equals(&quot;SmartPhone&quot;) || Plan.equals(&quot;Tablet&quot;))) || SmartWatch_options.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Plan" operation="Equals">
+<focus-ctd-cond-val value="SmartPhone"/>
+<focus-ctd-cond-val value="Tablet"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="SmartWatch_options" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Plan.equals(&quot;SmartPhone&quot;) || Plan.equals(&quot;Tablet&quot;)) &amp;&amp; Customer.equals(&quot;New&quot;)) || BuildPlan.equals(&quot;BuildSolution&quot;)" group="" groupedExpression="!((Plan.equals(&quot;SmartPhone&quot;) || Plan.equals(&quot;Tablet&quot;)) &amp;&amp; Customer.equals(&quot;New&quot;)) || BuildPlan.equals(&quot;BuildSolution&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Plan" operation="Equals">
+<focus-ctd-cond-val value="SmartPhone"/>
+<focus-ctd-cond-val value="Tablet"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Customer" operation="Equals">
+<focus-ctd-cond-val value="New"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="BuildPlan" operation="Equals">
+<focus-ctd-cond-val value="BuildSolution"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Plan.equals(&quot;SmartWatch&quot;) &amp;&amp; Customer.equals(&quot;New&quot;)) || (BuildPlan.equals(&quot;Call18884Mobile&quot;) || BuildPlan.equals(&quot;VisitStore&quot;))" group="" groupedExpression="!(Plan.equals(&quot;SmartWatch&quot;) &amp;&amp; Customer.equals(&quot;New&quot;)) || (BuildPlan.equals(&quot;Call18884Mobile&quot;) || BuildPlan.equals(&quot;VisitStore&quot;))" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Plan" operation="Equals">
+<focus-ctd-cond-val value="SmartWatch"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Customer" operation="Equals">
+<focus-ctd-cond-val value="New"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="BuildPlan" operation="Equals">
+<focus-ctd-cond-val value="Call18884Mobile"/>
+<focus-ctd-cond-val value="VisitStore"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Plan.equals(&quot;SmartPhone&quot;) || Plan.equals(&quot;Tablet&quot;)) &amp;&amp; Customer.equals(&quot;Existing&quot;)) || (BuildPlan.equals(&quot;AddDevice&quot;) || BuildPlan.equals(&quot;UpgradeDevice&quot;))" group="" groupedExpression="!((Plan.equals(&quot;SmartPhone&quot;) || Plan.equals(&quot;Tablet&quot;)) &amp;&amp; Customer.equals(&quot;Existing&quot;)) || (BuildPlan.equals(&quot;AddDevice&quot;) || BuildPlan.equals(&quot;UpgradeDevice&quot;))" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Plan" operation="Equals">
+<focus-ctd-cond-val value="SmartPhone"/>
+<focus-ctd-cond-val value="Tablet"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Customer" operation="Equals">
+<focus-ctd-cond-val value="Existing"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="BuildPlan" operation="Equals">
+<focus-ctd-cond-val value="AddDevice"/>
+<focus-ctd-cond-val value="UpgradeDevice"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Customer.equals(&quot;Existing&quot;)) || !UserName.equals(&quot;NA&quot;) &amp;&amp; !Password.equals(&quot;NA&quot;)" group="" groupedExpression="!(Customer.equals(&quot;Existing&quot;)) || !UserName.equals(&quot;NA&quot;) &amp;&amp; !Password.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Customer" operation="Equals">
+<focus-ctd-cond-val value="Existing"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="UserName" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Password" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Plan.equals(&quot;SmartWatch&quot;)) || !SmartWatch_options.equals(&quot;NA&quot;)" group="" groupedExpression="!(Plan.equals(&quot;SmartWatch&quot;)) || !SmartWatch_options.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Plan" operation="Equals">
+<focus-ctd-cond-val value="SmartWatch"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="SmartWatch_options" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Plan.equals(&quot;SmartWatch&quot;) &amp;&amp; Customer.equals(&quot;Existing&quot;)) || BuildPlan.equals(&quot;AddLine&quot;)" group="" groupedExpression="!(Plan.equals(&quot;SmartWatch&quot;) &amp;&amp; Customer.equals(&quot;Existing&quot;)) || BuildPlan.equals(&quot;AddLine&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Plan" operation="Equals">
+<focus-ctd-cond-val value="SmartWatch"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Customer" operation="Equals">
+<focus-ctd-cond-val value="Existing"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="BuildPlan" operation="Equals">
+<focus-ctd-cond-val value="AddLine"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Customer.equals(&quot;New&quot;)) || UserName.equals(&quot;NA&quot;)" group="" groupedExpression="!(Customer.equals(&quot;New&quot;)) || UserName.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Customer" operation="Equals">
+<focus-ctd-cond-val value="New"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="UserName" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="(!(Customer.equals(&quot;New&quot;)) || !UserRegistration.equals(&quot;NA&quot;)) &amp;&amp; (Customer.equals(&quot;New&quot;) || !(!UserRegistration.equals(&quot;NA&quot;)))" group="" groupedExpression="(!(Customer.equals(&quot;New&quot;)) || !UserRegistration.equals(&quot;NA&quot;)) &amp;&amp; (Customer.equals(&quot;New&quot;) || !(!UserRegistration.equals(&quot;NA&quot;)))" iff="true" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Customer" operation="Equals">
+<focus-ctd-cond-val value="New"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="UserRegistration" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Customer.equals(&quot;Existing&quot;)) || !UserName.equals(&quot;NA&quot;) &amp;&amp; !Password.equals(&quot;NA&quot;)" group="" groupedExpression="!(Customer.equals(&quot;Existing&quot;)) || !UserName.equals(&quot;NA&quot;) &amp;&amp; !Password.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Customer" operation="Equals">
+<focus-ctd-cond-val value="Existing"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="UserName" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Password" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Customer.equals(&quot;New&quot;)) || UserName.equals(&quot;NA&quot;) &amp;&amp; Password.equals(&quot;NA&quot;)" group="" groupedExpression="!(Customer.equals(&quot;New&quot;)) || UserName.equals(&quot;NA&quot;) &amp;&amp; Password.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Customer" operation="Equals">
+<focus-ctd-cond-val value="New"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="UserName" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Password" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<dont-care>
+<attr-value attribute="UserName" value="NA"/>
+</dont-care>
+<dont-care>
+<attr-value attribute="UserRegistration" value="NA"/>
+</dont-care>
+<dont-care>
+<attr-value attribute="Password" value="NA"/>
+</dont-care>
+<dont-care>
+<attr-value attribute="SmartWatch_options" value="NA"/>
+</dont-care>
+<negative-combination>
+<attr-value attribute="UserName" value="Blank"/>
+</negative-combination>
+<negative-combination>
+<attr-value attribute="UserRegistration" value="Invalid"/>
+</negative-combination>
+<negative-combination>
+<attr-value attribute="Password" value="Invalid"/>
+</negative-combination>
+<coverage-reqs-sets defaultCoverageRequirementsSet="ImportedModelRequirements">
+<coverage-reqs-set description="Coverage Requirements from CartesianProductImporter" name="ImportedModelRequirements">
+<coverage-req>
+<attribute name="Plan"/>
+<attribute name="Device"/>
+<attribute name="SmartWatch_options"/>
+<attribute name="Customer"/>
+<attribute name="BuildPlan"/>
+<attribute name="UserName"/>
+<attribute name="Password"/>
+<attribute name="UserRegistration"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+</coverage-reqs-set>
+<coverage-reqs-set description="" name="MultLevel">
+<coverage-req>
+<attribute name="Plan"/>
+<attribute name="Device"/>
+<attribute name="SmartWatch_options"/>
+<attribute name="Customer"/>
+<attribute name="BuildPlan"/>
+<attribute name="UserName"/>
+<attribute name="Password"/>
+<attribute name="UserRegistration"/>
+<coverage-goal coverage-goal-val="1"/>
+</coverage-req>
+<coverage-req>
+<attribute name="Plan"/>
+<attribute name="Device"/>
+<attribute name="Customer"/>
+<attribute name="BuildPlan"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+</coverage-reqs-set>
+</coverage-reqs-sets>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet">
+<coverage-req>
+<coverage-goal coverage-goal-val="1"/>
+<negative-attribute-combination>
+<attribute name="UserName"/>
+</negative-attribute-combination>
+</coverage-req>
+<coverage-req>
+<coverage-goal coverage-goal-val="1"/>
+<negative-attribute-combination>
+<attribute name="UserRegistration"/>
+</negative-attribute-combination>
+</coverage-req>
+<coverage-req>
+<coverage-goal coverage-goal-val="1"/>
+<negative-attribute-combination>
+<attribute name="Password"/>
+</negative-attribute-combination>
+</coverage-req>
+</coverage-reqs-set>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="Web" decorationType="cucumberDecoration" isActiveDecoration="true">
+<focus-ctd-trigger appliance="FIRST_TEST" is_or="false" name="BellPlans" negative="false" suppressNewLine="false" triggerType="Feature">
+<focus-ctd-single-template>
+<focus-ctd-template text="BellPlans"/>
+</focus-ctd-single-template>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Scenarios" negative="false" suppressNewLine="false" triggerType="Scenario">
+<focus-ctd-single-template>
+<focus-ctd-template text="&lt;test_number&gt;  &lt;good_bad&gt; &lt;modelTag&gt; Validate the &lt;att_val_desc = Plan&gt; with &lt;att_name = Device&gt; device for &lt;att_name = Customer&gt;"/>
+</focus-ctd-single-template>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Navigation" negative="false" suppressNewLine="false" triggerType="Steps">
+<focus-ctd-cucumber-steps-template>
+<cucumber-step actionName="navigateTo" additionalInfo="" category="NavigationalCategory" stepType="Given">
+<focus-ctd-template text="I navigate to &quot;https://www.bell.ca/&quot;"/>
+<actionParameter data="&quot;https://www.bell.ca/&quot;" dataSource="Literal"/>
+</cucumber-step>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;[Mobility]&quot; link"/>
+<actionParameter data="&quot;[Mobility]&quot;" dataSource="UIControl"/>
+</cucumber-step>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;[Plans]&quot; link"/>
+<actionParameter data="&quot;[Plans]&quot;" dataSource="UIControl"/>
+</cucumber-step>
+</focus-ctd-cucumber-steps-template>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="PlanType_SmartPhone" negative="false" suppressNewLine="false" triggerType="Steps">
+<focus-ctd-cucumber-steps-template>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;[SmartPhonePlans]&quot; link"/>
+<actionParameter data="&quot;[SmartPhonePlans]&quot;" dataSource="UIControl"/>
+</cucumber-step>
+</focus-ctd-cucumber-steps-template>
+<focus-ctd-cond attribute="Plan" operation="Equals">
+<focus-ctd-cond-val value="SmartPhone"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="PlanType_Tablets" negative="false" suppressNewLine="false" triggerType="Steps">
+<focus-ctd-cucumber-steps-template>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;[TabletPlans]&quot; link"/>
+<actionParameter data="&quot;[TabletPlans]&quot;" dataSource="UIControl"/>
+</cucumber-step>
+</focus-ctd-cucumber-steps-template>
+<focus-ctd-cond attribute="Plan" operation="Equals">
+<focus-ctd-cond-val value="Tablet"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="PlanType_SmartWatch" negative="false" suppressNewLine="false" triggerType="Steps">
+<focus-ctd-cucumber-steps-template>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;[SmartWatchPlans]&quot; link"/>
+<actionParameter data="&quot;[SmartWatchPlans]&quot;" dataSource="UIControl"/>
+</cucumber-step>
+</focus-ctd-cucumber-steps-template>
+<focus-ctd-cond attribute="Plan" operation="Equals">
+<focus-ctd-cond-val value="SmartWatch"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="NumberShare" negative="false" suppressNewLine="false" triggerType="Steps">
+<focus-ctd-cucumber-steps-template>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;[NumberShare]&quot; link"/>
+<actionParameter data="&quot;[NumberShare]&quot;" dataSource="UIControl"/>
+</cucumber-step>
+</focus-ctd-cucumber-steps-template>
+<focus-ctd-cond attribute="SmartWatch_options" operation="Equals">
+<focus-ctd-cond-val value="NumberShare"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="StandAlone" negative="false" suppressNewLine="false" triggerType="Steps">
+<focus-ctd-cucumber-steps-template>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;[StandAlone]&quot; link"/>
+<actionParameter data="&quot;[StandAlone]&quot;" dataSource="UIControl"/>
+</cucumber-step>
+</focus-ctd-cucumber-steps-template>
+<focus-ctd-cond attribute="SmartWatch_options" operation="Equals">
+<focus-ctd-cond-val value="Standalone"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="NewDevice" negative="false" suppressNewLine="false" triggerType="Steps">
+<focus-ctd-cucumber-steps-template>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;(DeviceImage)&quot; link"/>
+<actionParameter data="&quot;(DeviceImage)&quot;" dataSource="ExternalData"/>
+</cucumber-step>
+</focus-ctd-cucumber-steps-template>
+<focus-ctd-cond attribute="Device" operation="Equals">
+<focus-ctd-cond-val value="BuyNew"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="OwnDevice" negative="false" suppressNewLine="false" triggerType="Steps">
+<focus-ctd-cucumber-steps-template>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;[Plan]&quot; link"/>
+<actionParameter data="&quot;[Plan]&quot;" dataSource="UIControl"/>
+</cucumber-step>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;(DeviceImage)&quot; link"/>
+<actionParameter data="&quot;(DeviceImage)&quot;" dataSource="ExternalData"/>
+</cucumber-step>
+</focus-ctd-cucumber-steps-template>
+<focus-ctd-cond attribute="Device" operation="Equals">
+<focus-ctd-cond-val value="BringOwn"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="BuildPlan" negative="false" suppressNewLine="false" triggerType="Steps">
+<focus-ctd-cucumber-steps-template>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;[BuildPlan]&quot; link"/>
+<actionParameter data="&quot;[BuildPlan]&quot;" dataSource="UIControl"/>
+</cucumber-step>
+</focus-ctd-cucumber-steps-template>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="BuildSolution" negative="false" suppressNewLine="false" triggerType="Steps">
+<focus-ctd-cucumber-steps-template>
+<cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+<focus-ctd-template text="I click on &quot;[BuildSolution]&quot; link"/>
+<actionParameter data="&quot;[BuildSolution]&quot;" dataSource="UIControl"/>
+</cucumber-step>
+</focus-ctd-cucumber-steps-template>
+<focus-ctd-cond attribute="BuildPlan" operation="Equals">
+<focus-ctd-cond-val value="BuildSolution"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+</focus-ctd-decoration>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="Bell_Plans.model" parentDetailsModelTag="@Test @1 @Test_Sample @BellPlan" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="saritha.mr"/>
+<deactivates/>
+<attrs-to-delete/>
+<pool_comments/>
+<db-dependencies/>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
