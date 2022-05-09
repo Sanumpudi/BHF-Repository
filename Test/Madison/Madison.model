@@ -441,14 +441,51 @@
 <neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
 <coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
 </neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="Web" decorationType="cucumberDecoration" isActiveDecoration="false"/>
 <focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
-<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="false"/>
 <focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
-<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="true">
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Step1" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text=""/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="E_Delivery" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+</focus-ctd-decoration>
 <defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="Madison.model" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
 <deactivates/>
 <attrs-to-delete/>
-<pool_comments/>
+<pool_comments>
+<pool_comment key="0f39d1f4-7c64-4d6c-a6af-5f1c4bb46791" value="{&quot;name&quot;:&quot;Amendment_Form&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="9e37a176-6f2e-480e-9b99-5c7eecb5cb12" value="{&quot;name&quot;:&quot;AgentID_ForFloridaCase&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="d278a5de-82ba-4298-990a-03091ee503f5" value="{&quot;name&quot;:&quot;States&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="7b8ee863-68fc-4d46-bcb8-52396e2972d8" value="{&quot;name&quot;:&quot;Primary_percentage_Share&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="d00328c3-3d21-44b6-b3d8-49b4e307980e" value="{&quot;name&quot;:&quot;Plan_Type&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="bb10a6fc-5334-4a6c-a0db-efa37550f95d" value="{&quot;name&quot;:&quot;Redemption_Amount&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="80c335ad-31b3-4e8d-a7d7-3fc6711bf867" value="{&quot;name&quot;:&quot;AgentName_Florida&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="1cbd5e5d-659e-424a-b75e-d5cd4237a9cc" value="{&quot;name&quot;:&quot;Income_Options&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="06a3c369-d2cc-449f-af05-3630156b73c9" value="{&quot;name&quot;:&quot;First_PaymentDate&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="ec0cac22-3d54-4dbb-b0a4-1b466b258d97" value="{&quot;name&quot;:&quot;Benefit_Type&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="f4a4d2e3-e052-4af3-80a1-8d3634566e8f" value="{&quot;name&quot;:&quot;Payee&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="857f22b8-2618-4cca-a7f7-02164c7fb8e9" value="{&quot;name&quot;:&quot;Suitability&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="873c7672-cfab-4bbd-b7ac-6a415f9879f9" value="{&quot;name&quot;:&quot;Primary_Beneficiaries&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="d6867e47-5d35-44df-a21f-1e6a65703b6c" value="{&quot;name&quot;:&quot;E_Delivery&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="35d4585c-7ba0-4d25-b7dc-d90ca32528b2" value="{&quot;name&quot;:&quot;Replacement_Matrix&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="b83d64c6-f1ba-4208-a928-82302c6f2315" value="{&quot;name&quot;:&quot;Agent_Profile_FloridaCase_TBD&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="3a1c03cf-cc9c-4fb9-a08b-a5de887b2de0" value="{&quot;name&quot;:&quot;issue_Age&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="41b5d4bc-11fc-4011-bff4-f493a0da8911" value="{&quot;name&quot;:&quot;Joint_Life_Age&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="110ecccc-f813-4616-9541-7bfee4dcc3c9" value="{&quot;name&quot;:&quot;Commission_Option&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="ad2081e8-e951-46b0-82fd-bfcbe1f749b2" value="{&quot;name&quot;:&quot;Initial_Payment_Amount&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="38bbb922-ea5c-46c4-a321-e3e36bd6efab" value="{&quot;name&quot;:&quot;PaymentMethodForApplicationSubmission&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="064d03f4-51e3-455b-bb6d-9d16199cf599" value="{&quot;name&quot;:&quot;Contingent_Share&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="27632316-2e62-4748-b3c1-8f1f293e8735" value="{&quot;name&quot;:&quot;Address&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="8a0f5248-1956-4573-802c-79af60d29574" value="{&quot;name&quot;:&quot;Distribution_Notification_Amount&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="d800b8a1-7360-4dce-9de6-b28c305f3218" value="{&quot;name&quot;:&quot;Florida_Split_Percenage&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="b3847a3c-725a-4c2f-9033-f21d6745ebb3" value="{&quot;name&quot;:&quot;Contingent_Beneficiaries&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+</pool_comments>
 <db-dependencies/>
 <focus-ctd-model-sync>
 <focus-ctd-model-sync-mult/>
