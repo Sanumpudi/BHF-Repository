@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--Madison--><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="true" inputOutput="false" manual="true">
+<model-identification modelTag="@Test @1 @Test_Sample @Madison">
+<model-identification-field name="Application Name" partOfTag="true" value="Test"/>
+<model-identification-field name="Application code version #" partOfTag="true" value="1"/>
+<model-identification-field name="Application Function" partOfTag="true" value="Test_Sample"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+<model-identification-field name="Created By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="31 Jan 2022 12:54:06"/>
+<model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="09 May 2022 13:03:48"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value="Madison"/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+<model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="" group="E_Delivery" iotype="NEITHER" name="E_Delivery" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value description="Yes" name="Yes" neg-value="false" weight="1"/>
+<value description="No" name="No" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Plan_Type" iotype="NEITHER" name="Plan_Type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value description="Inherited Roth IRA" name="Inherited Roth IRA" neg-value="false" weight="1"/>
+<value description="Inherited Traditional IRA" name="Inherited Traditional IRA" neg-value="false" weight="1"/>
+<value description="Roth IRA" name="Roth IRA" neg-value="false" weight="1"/>
+<value description="Traditional IRA" name="Traditional IRA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="States" iotype="NEITHER" name="States" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Alaska" neg-value="false" weight="1"/>
+<value name="Alabama" neg-value="false" weight="1"/>
+<value name="Arizona" neg-value="false" weight="1"/>
+<value name="Arkansas" neg-value="false" weight="1"/>
+<value name="California" neg-value="false" weight="1"/>
+<value name="Colorado" neg-value="false" weight="1"/>
+<value name="Connecticut" neg-value="false" weight="1"/>
+<value name="Delaware" neg-value="false" weight="1"/>
+<value name="&#9;Florida" neg-value="false" weight="1"/>
+<value name="Gregoria" neg-value="false" weight="1"/>
+<value name="Hawaii" neg-value="false" weight="1"/>
+<value name="&#9;Idaho" neg-value="false" weight="1"/>
+<value name="Illinois" neg-value="false" weight="1"/>
+<value name="Indiana" neg-value="false" weight="1"/>
+<value name="&#9;Iowa" neg-value="false" weight="1"/>
+<value name="Kansas" neg-value="false" weight="1"/>
+<value name="Kentucky" neg-value="false" weight="1"/>
+<value name="Maine" neg-value="false" weight="1"/>
+<value name="Maryland" neg-value="false" weight="1"/>
+<value name="Massachusetts" neg-value="false" weight="1"/>
+<value name="&#9;Michigan" neg-value="false" weight="1"/>
+<value name="&#9;Minnesota" neg-value="false" weight="1"/>
+<value name="&#9;Utah" neg-value="false" weight="1"/>
+<value name="Oregon" neg-value="false" weight="1"/>
+<value name="Ohio" neg-value="false" weight="1"/>
+<value name="&#9;New York" neg-value="false" weight="1"/>
+<value name="&#9;Nevada" neg-value="false" weight="1"/>
+<value name="Washington" neg-value="false" weight="1"/>
+<value name="Virginia" neg-value="false" weight="1"/>
+<value name="Texas" neg-value="false" weight="1"/>
+<value name="West Virginia" neg-value="false" weight="1"/>
+<value name="Vermont" neg-value="false" weight="1"/>
+<value name="Wyoming" neg-value="false" weight="1"/>
+<value name="South Dakota" neg-value="false" weight="1"/>
+<value name="Oklahoma" neg-value="false" weight="1"/>
+<value name="New Jersey" neg-value="false" weight="1"/>
+<value name="New Mexico" neg-value="false" weight="1"/>
+<value name="New Hemisphere" neg-value="false" weight="1"/>
+<value name="Mississippi" neg-value="false" weight="1"/>
+<value name="Montana" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Suitability" iotype="NEITHER" name="Suitability" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value description="Yes" name="Yes" neg-value="false" weight="1"/>
+<value description="No" name="No" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Amendment_Form" iotype="NEITHER" name="Amendment_Form" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Income_Options" iotype="NEITHER" name="Income_Options" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value description=" Lifetime Income for two with a guarantee period of 10 years" name=" Lifetime Income for two with a guarantee period of 10 years" neg-value="false" weight="1"/>
+<value description="Lifetime Income with Cash refund" name="Lifetime Income with Cash refund" neg-value="false" weight="1"/>
+<value description="Lifetime Income with a guarantee period of 10 years" name="Lifetime Income with a guarantee period of 10 years" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="First_PaymentDate" iotype="NEITHER" name="First_PaymentDate" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value description="1st" name="1st" neg-value="false" weight="1"/>
+<value description="15th" name="15th" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Initial_Payment_Amount" iotype="NEITHER" name="Initial_Payment_Amount" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="10000" neg-value="false" weight="1"/>
+<value name="20000" neg-value="false" weight="1"/>
+<value name="25000" neg-value="false" weight="1"/>
+<value name="30000" neg-value="false" weight="1"/>
+<value name="40000" neg-value="false" weight="1"/>
+<value name="45000" neg-value="false" weight="1"/>
+<value name="50000" neg-value="false" weight="1"/>
+<value name="55000" neg-value="false" weight="1"/>
+<value name="56000" neg-value="false" weight="1"/>
+<value name="65000" neg-value="false" weight="1"/>
+<value name="75000" neg-value="false" weight="1"/>
+<value name="80000" neg-value="false" weight="1"/>
+<value name="85000" neg-value="false" weight="1"/>
+<value name="89000" neg-value="false" weight="1"/>
+<value name="100000" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Redemption_Amount" iotype="NEITHER" name="Redemption_Amount" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="10000" neg-value="false" weight="1"/>
+<value name="20000" neg-value="false" weight="1"/>
+<value name="25000" neg-value="false" weight="1"/>
+<value name="29699" neg-value="false" weight="1"/>
+<value name="29999" neg-value="false" weight="1"/>
+<value name="30000" neg-value="false" weight="1"/>
+<value name="30300" neg-value="false" weight="1"/>
+<value name="40000" neg-value="false" weight="1"/>
+<value name="45000" neg-value="false" weight="1"/>
+<value name="49499" neg-value="false" weight="1"/>
+<value name="50000" neg-value="false" weight="1"/>
+<value name="50500" neg-value="false" weight="1"/>
+<value name="55000" neg-value="false" weight="1"/>
+<value name="55500" neg-value="false" weight="1"/>
+<value name="56000" neg-value="false" weight="1"/>
+<value name="65000" neg-value="false" weight="1"/>
+<value name="65650" neg-value="false" weight="1"/>
+<value name="75000" neg-value="false" weight="1"/>
+<value name="75751" neg-value="false" weight="1"/>
+<value name="80000" neg-value="false" weight="1"/>
+<value name="85550" neg-value="false" weight="1"/>
+<value name="89000" neg-value="false" weight="1"/>
+<value name="99500" neg-value="false" weight="1"/>
+<value name="100000" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Distribution_Notification_Amount" iotype="NEITHER" name="Distribution_Notification_Amount" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="10000" neg-value="false" weight="1"/>
+<value name="20000" neg-value="false" weight="1"/>
+<value name="25000" neg-value="false" weight="1"/>
+<value name="29000" neg-value="false" weight="1"/>
+<value name="29999" neg-value="false" weight="1"/>
+<value name="30000" neg-value="false" weight="1"/>
+<value name="30300" neg-value="false" weight="1"/>
+<value name="32000" neg-value="false" weight="1"/>
+<value name="40000" neg-value="false" weight="1"/>
+<value name="45000" neg-value="false" weight="1"/>
+<value name="49499" neg-value="false" weight="1"/>
+<value name="49500" neg-value="false" weight="1"/>
+<value name="50000" neg-value="false" weight="1"/>
+<value name="50500" neg-value="false" weight="1"/>
+<value name="55000" neg-value="false" weight="1"/>
+<value name="56000" neg-value="false" weight="1"/>
+<value name="65000" neg-value="false" weight="1"/>
+<value name="65650" neg-value="false" weight="1"/>
+<value name="75000" neg-value="false" weight="1"/>
+<value name="75751" neg-value="false" weight="1"/>
+<value name="80000" neg-value="false" weight="1"/>
+<value name="85550" neg-value="false" weight="1"/>
+<value name="89000" neg-value="false" weight="1"/>
+<value name="99500" neg-value="false" weight="1"/>
+<value name="100000" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="issue_Age" iotype="NEITHER" name="issue_Age" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="59.5" neg-value="false" weight="1"/>
+<value name="60" neg-value="false" weight="1"/>
+<value name="61" neg-value="false" weight="1"/>
+<value name="61.5" neg-value="false" weight="1"/>
+<value name="63" neg-value="false" weight="1"/>
+<value name="64" neg-value="false" weight="1"/>
+<value name="65" neg-value="false" weight="1"/>
+<value name="66" neg-value="false" weight="1"/>
+<value name="67" neg-value="false" weight="1"/>
+<value name="69" neg-value="false" weight="1"/>
+<value name="70" neg-value="false" weight="1"/>
+<value name="70.5" neg-value="false" weight="1"/>
+<value name="71" neg-value="false" weight="1"/>
+<value name="72" neg-value="false" weight="1"/>
+<value name="90" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Payee" iotype="NEITHER" name="Payee" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value description="Same_As_Owner" name="Same_As_Owner" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Address" iotype="NEITHER" name="Address" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Residence Only" neg-value="false" weight="1"/>
+<value name="Residence(PassedtoWMA)" neg-value="false" weight="1"/>
+<value name="Residence,Mailling" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Benefit_Type" iotype="NEITHER" name="Benefit_Type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Single" neg-value="false" weight="1"/>
+<value name="Joint" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Joint_Life_Age" iotype="NEITHER" name="Joint_Life_Age" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="39" neg-value="false" weight="1"/>
+<value name="40" neg-value="false" weight="1"/>
+<value name="42" neg-value="false" weight="1"/>
+<value name="50" neg-value="false" weight="1"/>
+<value name="51" neg-value="false" weight="1"/>
+<value name="53" neg-value="false" weight="1"/>
+<value name="59" neg-value="false" weight="1"/>
+<value name="66" neg-value="false" weight="1"/>
+<value name="69" neg-value="false" weight="1"/>
+<value name="90" neg-value="false" weight="1"/>
+<value name="92" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Primaey_Beneficiaries" iotype="NEITHER" name="Primary_Beneficiaries" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="1" neg-value="false" weight="1"/>
+<value name="2" neg-value="false" weight="1"/>
+<value name="3" neg-value="false" weight="1"/>
+<value name="4" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Primary_percentage_Share" iotype="NEITHER" name="Primary_percentage_Share" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="100" neg-value="false" weight="1"/>
+<value name="33.33" neg-value="false" weight="1"/>
+<value name="70_To_30" neg-value="false" weight="1"/>
+<value name="75_To_25" neg-value="false" weight="1"/>
+<value name="80_To_20" neg-value="false" weight="1"/>
+<value name="equal" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Contingent_Beneficiaries" iotype="NEITHER" name="Contingent_Beneficiaries" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="1" neg-value="false" weight="1"/>
+<value name="2" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Contingent_Share" iotype="NEITHER" name="Contingent_Share" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="100" neg-value="false" weight="1"/>
+<value name="60_To_40" neg-value="false" weight="1"/>
+<value name="Equal" neg-value="false" weight="1"/>
+<value name="Na" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="PaymentMethodForApplicationSubmission" iotype="NEITHER" name="PaymentMethodForApplicationSubmission" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Check" neg-value="false" weight="1"/>
+<value name="EFT" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Replacement_Matrix" iotype="NEITHER" name="Replacement_Matrix" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="YES" neg-value="false" weight="1"/>
+<value name="NO" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="AgentID_ForFloridaCase" iotype="NEITHER" name="AgentID_ForFloridaCase" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="8388106" neg-value="false" weight="1"/>
+<value name="T111111111" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="AgentName_Florida" iotype="NEITHER" name="AgentName_Florida" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Angela_Hendrickson" neg-value="false" weight="1"/>
+<value name="Edward_To_Confirm" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Agent_Profile_FloridaCase_TBD" iotype="NEITHER" name="Agent_Profile_FloridaCase_TBD" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="TBD" neg-value="false" weight="1"/>
+<value name="TBD_Edward_To_Confirm" neg-value="false" weight="1"/>
+<value name="XRX" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Florida_Split_Percenage" iotype="NEITHER" name="Florida_Split_Percenage" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="First and Second  Year Percent 100" neg-value="false" weight="1"/>
+<value name="Na" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="Commission_Option" iotype="NEITHER" name="Commission_Option" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="A" neg-value="false" weight="1"/>
+<value name="TBD for Florida" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<restriction expression="!(States.equals(&quot;&#9;Florida&quot;)) || (AgentID_ForFloridaCase.equals(&quot;8388106&quot;) || AgentID_ForFloridaCase.equals(&quot;T111111111&quot;)) &amp;&amp; (AgentName_Florida.equals(&quot;Angela_Hendrickson&quot;) || AgentName_Florida.equals(&quot;Edward_To_Confirm&quot;)) &amp;&amp; (Agent_Profile_FloridaCase_TBD.equals(&quot;TBD&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;TBD_Edward_To_Confirm&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;XRX&quot;)) &amp;&amp; Florida_Split_Percenage.equals(&quot;First and Second  Year Percent 100&quot;) &amp;&amp; (Commission_Option.equals(&quot;A&quot;) || Commission_Option.equals(&quot;TBD for Florida&quot;))" group="" groupedExpression="!(States.equals(&quot;&#9;Florida&quot;)) || (AgentID_ForFloridaCase.equals(&quot;8388106&quot;) || AgentID_ForFloridaCase.equals(&quot;T111111111&quot;)) &amp;&amp; (AgentName_Florida.equals(&quot;Angela_Hendrickson&quot;) || AgentName_Florida.equals(&quot;Edward_To_Confirm&quot;)) &amp;&amp; (Agent_Profile_FloridaCase_TBD.equals(&quot;TBD&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;TBD_Edward_To_Confirm&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;XRX&quot;)) &amp;&amp; Florida_Split_Percenage.equals(&quot;First and Second  Year Percent 100&quot;) &amp;&amp; (Commission_Option.equals(&quot;A&quot;) || Commission_Option.equals(&quot;TBD for Florida&quot;))" iff="false" isActive="true" isAutoGenerated="false" name="FloridaState" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="&#9;Florida"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="AgentID_ForFloridaCase" operation="Equals">
+<focus-ctd-cond-val value="8388106"/>
+<focus-ctd-cond-val value="T111111111"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="AgentName_Florida" operation="Equals">
+<focus-ctd-cond-val value="Angela_Hendrickson"/>
+<focus-ctd-cond-val value="Edward_To_Confirm"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Agent_Profile_FloridaCase_TBD" operation="Equals">
+<focus-ctd-cond-val value="TBD"/>
+<focus-ctd-cond-val value="TBD_Edward_To_Confirm"/>
+<focus-ctd-cond-val value="XRX"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Florida_Split_Percenage" operation="Equals">
+<focus-ctd-cond-val value="First and Second  Year Percent 100"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Commission_Option" operation="Equals">
+<focus-ctd-cond-val value="A"/>
+<focus-ctd-cond-val value="TBD for Florida"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(States.equals(&quot;Alaska&quot;) || States.equals(&quot;Alabama&quot;) || States.equals(&quot;Arizona&quot;) || States.equals(&quot;Arkansas&quot;) || States.equals(&quot;California&quot;) || States.equals(&quot;Colorado&quot;) || States.equals(&quot;Connecticut&quot;) || States.equals(&quot;Delaware&quot;) || States.equals(&quot;Gregoria&quot;) || States.equals(&quot;Hawaii&quot;) || States.equals(&quot;&#9;Idaho&quot;) || States.equals(&quot;Illinois&quot;) || States.equals(&quot;Indiana&quot;) || States.equals(&quot;&#9;Iowa&quot;) || States.equals(&quot;Kansas&quot;) || States.equals(&quot;Kentucky&quot;) || States.equals(&quot;Maine&quot;) || States.equals(&quot;Maryland&quot;) || States.equals(&quot;Massachusetts&quot;) || States.equals(&quot;&#9;Michigan&quot;) || States.equals(&quot;&#9;Minnesota&quot;) || States.equals(&quot;&#9;Utah&quot;) || States.equals(&quot;Oregon&quot;) || States.equals(&quot;Ohio&quot;) || States.equals(&quot;&#9;New York&quot;) || States.equals(&quot;&#9;Nevada&quot;) || States.equals(&quot;Washington&quot;) || States.equals(&quot;Virginia&quot;) || States.equals(&quot;Texas&quot;) || States.equals(&quot;West Virginia&quot;) || States.equals(&quot;Wyoming&quot;) || States.equals(&quot;South Dakota&quot;) || States.equals(&quot;Oklahoma&quot;) || States.equals(&quot;New Jersey&quot;) || States.equals(&quot;New Mexico&quot;) || States.equals(&quot;New Hemisphere&quot;) || States.equals(&quot;Mississippi&quot;) || States.equals(&quot;Montana&quot;) || States.equals(&quot;Vermont&quot;)) || AgentID_ForFloridaCase.equals(&quot;NA&quot;) &amp;&amp; AgentName_Florida.equals(&quot;NA&quot;) &amp;&amp; Agent_Profile_FloridaCase_TBD.equals(&quot;NA&quot;) &amp;&amp; Florida_Split_Percenage.equals(&quot;Na&quot;) &amp;&amp; Commission_Option.equals(&quot;NA&quot;)" group="" groupedExpression="!(States.equals(&quot;Alaska&quot;) || States.equals(&quot;Alabama&quot;) || States.equals(&quot;Arizona&quot;) || States.equals(&quot;Arkansas&quot;) || States.equals(&quot;California&quot;) || States.equals(&quot;Colorado&quot;) || States.equals(&quot;Connecticut&quot;) || States.equals(&quot;Delaware&quot;) || States.equals(&quot;Gregoria&quot;) || States.equals(&quot;Hawaii&quot;) || States.equals(&quot;&#9;Idaho&quot;) || States.equals(&quot;Illinois&quot;) || States.equals(&quot;Indiana&quot;) || States.equals(&quot;&#9;Iowa&quot;) || States.equals(&quot;Kansas&quot;) || States.equals(&quot;Kentucky&quot;) || States.equals(&quot;Maine&quot;) || States.equals(&quot;Maryland&quot;) || States.equals(&quot;Massachusetts&quot;) || States.equals(&quot;&#9;Michigan&quot;) || States.equals(&quot;&#9;Minnesota&quot;) || States.equals(&quot;&#9;Utah&quot;) || States.equals(&quot;Oregon&quot;) || States.equals(&quot;Ohio&quot;) || States.equals(&quot;&#9;New York&quot;) || States.equals(&quot;&#9;Nevada&quot;) || States.equals(&quot;Washington&quot;) || States.equals(&quot;Virginia&quot;) || States.equals(&quot;Texas&quot;) || States.equals(&quot;West Virginia&quot;) || States.equals(&quot;Wyoming&quot;) || States.equals(&quot;South Dakota&quot;) || States.equals(&quot;Oklahoma&quot;) || States.equals(&quot;New Jersey&quot;) || States.equals(&quot;New Mexico&quot;) || States.equals(&quot;New Hemisphere&quot;) || States.equals(&quot;Mississippi&quot;) || States.equals(&quot;Montana&quot;) || States.equals(&quot;Vermont&quot;)) || AgentID_ForFloridaCase.equals(&quot;NA&quot;) &amp;&amp; AgentName_Florida.equals(&quot;NA&quot;) &amp;&amp; Agent_Profile_FloridaCase_TBD.equals(&quot;NA&quot;) &amp;&amp; Florida_Split_Percenage.equals(&quot;Na&quot;) &amp;&amp; Commission_Option.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Alaska"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Alabama"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Arizona"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Arkansas"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="California"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Colorado"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Connecticut"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Delaware"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Gregoria"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Hawaii"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="&#9;Idaho"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Illinois"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Indiana"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="&#9;Iowa"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Kansas"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Kentucky"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Maine"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Maryland"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Massachusetts"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="&#9;Michigan"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="&#9;Minnesota"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="&#9;Utah"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Oregon"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Ohio"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="&#9;New York"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="&#9;Nevada"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Washington"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Virginia"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Texas"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="West Virginia"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Wyoming"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="South Dakota"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Oklahoma"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="New Jersey"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="New Mexico"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="New Hemisphere"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Mississippi"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Montana"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Vermont"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="AgentID_ForFloridaCase" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="AgentName_Florida" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Agent_Profile_FloridaCase_TBD" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Florida_Split_Percenage" operation="Equals">
+<focus-ctd-cond-val value="Na"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Commission_Option" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<requirements-collection>
+<requirement-node Ambiguity="" Complexity="Simple" DocumentName="test" Keywords="" Ranking="0" RequirementDescription="" RequirementId="test" Restrictions=""/>
+</requirements-collection>
+<coverage-reqs-sets defaultCoverageRequirementsSet="Madison">
+<coverage-reqs-set description="" name="Madison">
+<coverage-req>
+<attribute name="States"/>
+<coverage-goal coverage-goal-val="1"/>
+</coverage-req>
+</coverage-reqs-set>
+</coverage-reqs-sets>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true"/>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="Madison.model" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
+<deactivates/>
+<attrs-to-delete/>
+<pool_comments/>
+<db-dependencies/>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
