@@ -446,12 +446,32 @@
 <focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="false"/>
 <focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
 <focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="true">
-<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Step1" negative="false" suppressNewLine="false" triggerType="Preconditions">
-<focus-ctd-single-template>
-<focus-ctd-template text=""/>
-</focus-ctd-single-template>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Step1" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Yes or No"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="yes"/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
 <focus-ctd-cond attribute="E_Delivery" operation="Equals">
 <focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Step2" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Select one state"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="State"/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Alaska"/>
 </focus-ctd-cond>
 </focus-ctd-trigger>
 </focus-ctd-decoration>
