@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--BeelineModelNew for Contractor Onboarding--><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="" inputOutput="false" manual="true">
+<model-identification modelTag="@Test @1 @Test_Sample @Demo">
+<model-identification-field name="Application Name" partOfTag="true" value="Test"/>
+<model-identification-field name="Application code version #" partOfTag="true" value="1"/>
+<model-identification-field name="Application Function" partOfTag="true" value="Test_Sample"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+<model-identification-field name="Created By" partOfTag="false" value="no user"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="15 Sep 2020 03:01:46"/>
+<model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="21 Jun 2022 14:42:39"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value="Demo"/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+<model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Employee_Type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="IT-Temporary Employee" neg-value="false" weight="1"/>
+<value name="Non IT-Temporary Employee" neg-value="false" weight="2"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Submitted" neg-value="false" weight="1"/>
+<value name="Not Submitted" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="VMO_approved_the_Request" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="0"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Release_to_Suppliers" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="0"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Hiring_Manager_Qualifies_the_Candidate" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Qualified" neg-value="false" weight="1"/>
+<value name="Rejected" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="0"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Hiring_Manager_Scheduled_the_Interview" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="0"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Supplier_Accepted_the_Interview" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="0"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Selection_of_Candidate" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Selected" neg-value="false" weight="1"/>
+<value name="Rejected" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="0"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Offer_has_been_Sent" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="0"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Offer_Accepted_by_Supplier" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Accepted" neg-value="false" weight="1"/>
+<value name="Rejected" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="0"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Pending_Worker_Download" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Should Present in Worker Download" neg-value="false" weight="1"/>
+<value name="Should Not Present in Workerdownload" neg-value="false" weight="1"/>
+</attribute>
+<restriction expression="(!(Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Submitted&quot;) &amp;&amp; VMO_approved_the_Request.equals(&quot;Yes&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;Yes&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Selected&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;Yes&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Accepted&quot;)) || Pending_Worker_Download.equals(&quot;Should Present in Worker Download&quot;)) &amp;&amp; (Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Submitted&quot;) &amp;&amp; VMO_approved_the_Request.equals(&quot;Yes&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;Yes&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Selected&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;Yes&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Accepted&quot;) || !(Pending_Worker_Download.equals(&quot;Should Present in Worker Download&quot;)))" group="" groupedExpression="(!(Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Submitted&quot;) &amp;&amp; VMO_approved_the_Request.equals(&quot;Yes&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;Yes&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Selected&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;Yes&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Accepted&quot;)) || Pending_Worker_Download.equals(&quot;Should Present in Worker Download&quot;)) &amp;&amp; (Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Submitted&quot;) &amp;&amp; VMO_approved_the_Request.equals(&quot;Yes&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;Yes&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Selected&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;Yes&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Accepted&quot;) || !(Pending_Worker_Download.equals(&quot;Should Present in Worker Download&quot;)))" iff="true" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Qualified"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Selected"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="Accepted"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Present in Worker Download"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(!Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Submitted&quot;) || !VMO_approved_the_Request.equals(&quot;Yes&quot;) || !Release_to_Suppliers.equals(&quot;Yes&quot;) || !Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;) || !Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;) || !Selection_of_Candidate.equals(&quot;Selected&quot;) || !Offer_has_been_Sent.equals(&quot;Yes&quot;) || !Offer_Accepted_by_Supplier.equals(&quot;Accepted&quot;)) || Pending_Worker_Download.equals(&quot;Should Not Present in Workerdownload&quot;)" group="" groupedExpression="!(!Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Submitted&quot;) || !VMO_approved_the_Request.equals(&quot;Yes&quot;) || !Release_to_Suppliers.equals(&quot;Yes&quot;) || !Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;) || !Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;) || !Selection_of_Candidate.equals(&quot;Selected&quot;) || !Offer_has_been_Sent.equals(&quot;Yes&quot;) || !Offer_Accepted_by_Supplier.equals(&quot;Accepted&quot;)) || Pending_Worker_Download.equals(&quot;Should Not Present in Workerdownload&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Doesn't Equal">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Doesn't Equal">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Doesn't Equal">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Doesn't Equal">
+<focus-ctd-cond-val value="Qualified"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Doesn't Equal">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Doesn't Equal">
+<focus-ctd-cond-val value="Selected"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Doesn't Equal">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Doesn't Equal">
+<focus-ctd-cond-val value="Accepted"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Not Present in Workerdownload"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="Offer_has_been_Sent.equals(&quot;No&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Accepted&quot;)" group="" groupedExpression="Offer_has_been_Sent.equals(&quot;No&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Accepted&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Offer_has_been_Sent.equals(&quot;No&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Rejected&quot;)" group="" groupedExpression="Offer_has_been_Sent.equals(&quot;No&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Rejected&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Offer_has_been_Sent.equals(&quot;NA&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Accepted&quot;)" group="" groupedExpression="Offer_has_been_Sent.equals(&quot;NA&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Accepted&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Offer_has_been_Sent.equals(&quot;NA&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Rejected&quot;)" group="" groupedExpression="Offer_has_been_Sent.equals(&quot;NA&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;Rejected&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Offer_has_been_Sent.equals(&quot;Yes&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;NA&quot;)" group="" groupedExpression="Offer_has_been_Sent.equals(&quot;Yes&quot;) &amp;&amp; Offer_Accepted_by_Supplier.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Selection_of_Candidate.equals(&quot;Rejected&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;Yes&quot;)" group="" groupedExpression="Selection_of_Candidate.equals(&quot;Rejected&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Selection_of_Candidate.equals(&quot;Rejected&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;No&quot;)" group="" groupedExpression="Selection_of_Candidate.equals(&quot;Rejected&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Selection_of_Candidate.equals(&quot;NA&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;Yes&quot;)" group="" groupedExpression="Selection_of_Candidate.equals(&quot;NA&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Selection_of_Candidate.equals(&quot;NA&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;No&quot;)" group="" groupedExpression="Selection_of_Candidate.equals(&quot;NA&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Selection_of_Candidate.equals(&quot;Selected&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;NA&quot;)" group="" groupedExpression="Selection_of_Candidate.equals(&quot;Selected&quot;) &amp;&amp; Offer_has_been_Sent.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Supplier_Accepted_the_Interview.equals(&quot;No&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Selected&quot;)" group="" groupedExpression="Supplier_Accepted_the_Interview.equals(&quot;No&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Selected&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Supplier_Accepted_the_Interview.equals(&quot;No&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Rejected&quot;)" group="" groupedExpression="Supplier_Accepted_the_Interview.equals(&quot;No&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Rejected&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Supplier_Accepted_the_Interview.equals(&quot;NA&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Selected&quot;)" group="" groupedExpression="Supplier_Accepted_the_Interview.equals(&quot;NA&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Selected&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Supplier_Accepted_the_Interview.equals(&quot;NA&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Rejected&quot;)" group="" groupedExpression="Supplier_Accepted_the_Interview.equals(&quot;NA&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;Rejected&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;NA&quot;)" group="" groupedExpression="Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Selection_of_Candidate.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Hiring_Manager_Scheduled_the_Interview.equals(&quot;No&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;)" group="" groupedExpression="Hiring_Manager_Scheduled_the_Interview.equals(&quot;No&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Hiring_Manager_Scheduled_the_Interview.equals(&quot;No&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;No&quot;)" group="" groupedExpression="Hiring_Manager_Scheduled_the_Interview.equals(&quot;No&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Hiring_Manager_Scheduled_the_Interview.equals(&quot;NA&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;)" group="" groupedExpression="Hiring_Manager_Scheduled_the_Interview.equals(&quot;NA&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Hiring_Manager_Scheduled_the_Interview.equals(&quot;NA&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;No&quot;)" group="" groupedExpression="Hiring_Manager_Scheduled_the_Interview.equals(&quot;NA&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Hiring_Manager_Scheduled_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;NA&quot;)" group="" groupedExpression="Hiring_Manager_Scheduled_the_Interview.equals(&quot;Yes&quot;) &amp;&amp; Supplier_Accepted_the_Interview.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Rejected&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;Yes&quot;)" group="" groupedExpression="Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Rejected&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Rejected&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;No&quot;)" group="" groupedExpression="Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Rejected&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Hiring_Manager_Qualifies_the_Candidate.equals(&quot;NA&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;Yes&quot;)" group="" groupedExpression="Hiring_Manager_Qualifies_the_Candidate.equals(&quot;NA&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Hiring_Manager_Qualifies_the_Candidate.equals(&quot;NA&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;No&quot;)" group="" groupedExpression="Hiring_Manager_Qualifies_the_Candidate.equals(&quot;NA&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;NA&quot;)" group="" groupedExpression="Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;) &amp;&amp; Hiring_Manager_Scheduled_the_Interview.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Release_to_Suppliers.equals(&quot;No&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;)" group="" groupedExpression="Release_to_Suppliers.equals(&quot;No&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Release_to_Suppliers.equals(&quot;No&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Rejected&quot;)" group="" groupedExpression="Release_to_Suppliers.equals(&quot;No&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Rejected&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Release_to_Suppliers.equals(&quot;NA&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;)" group="" groupedExpression="Release_to_Suppliers.equals(&quot;NA&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Qualified&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Release_to_Suppliers.equals(&quot;NA&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Rejected&quot;)" group="" groupedExpression="Release_to_Suppliers.equals(&quot;NA&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;Rejected&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Release_to_Suppliers.equals(&quot;Yes&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;NA&quot;)" group="" groupedExpression="Release_to_Suppliers.equals(&quot;Yes&quot;) &amp;&amp; Hiring_Manager_Qualifies_the_Candidate.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="VMO_approved_the_Request.equals(&quot;No&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;Yes&quot;)" group="" groupedExpression="VMO_approved_the_Request.equals(&quot;No&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="VMO_approved_the_Request.equals(&quot;No&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;No&quot;)" group="" groupedExpression="VMO_approved_the_Request.equals(&quot;No&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="VMO_approved_the_Request.equals(&quot;NA&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;Yes&quot;)" group="" groupedExpression="VMO_approved_the_Request.equals(&quot;NA&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="VMO_approved_the_Request.equals(&quot;NA&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;No&quot;)" group="" groupedExpression="VMO_approved_the_Request.equals(&quot;NA&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="VMO_approved_the_Request.equals(&quot;Yes&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;NA&quot;)" group="" groupedExpression="VMO_approved_the_Request.equals(&quot;Yes&quot;) &amp;&amp; Release_to_Suppliers.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Not Submitted&quot;) &amp;&amp; VMO_approved_the_Request.equals(&quot;Yes&quot;)" group="" groupedExpression="Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Not Submitted&quot;) &amp;&amp; VMO_approved_the_Request.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Submitted&quot;) &amp;&amp; VMO_approved_the_Request.equals(&quot;NA&quot;)" group="" groupedExpression="Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Submitted&quot;) &amp;&amp; VMO_approved_the_Request.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Not Submitted&quot;) &amp;&amp; VMO_approved_the_Request.equals(&quot;No&quot;)" group="" groupedExpression="Employee_Details_Submitted_Successfully_and_Request_has_been_Created.equals(&quot;Not Submitted&quot;) &amp;&amp; VMO_approved_the_Request.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<coverage-reqs-sets defaultCoverageRequirementsSet="Contractor">
+<coverage-reqs-set description="Contractor" name="Contractor">
+<coverage-req>
+<attribute name="Employee_Type"/>
+<attribute name="Employee_Details_Submitted_Successfully_and_Request_has_been_Created"/>
+<attribute name="VMO_approved_the_Request"/>
+<attribute name="Release_to_Suppliers"/>
+<attribute name="Hiring_Manager_Qualifies_the_Candidate"/>
+<attribute name="Hiring_Manager_Scheduled_the_Interview"/>
+<attribute name="Supplier_Accepted_the_Interview"/>
+<attribute name="Selection_of_Candidate"/>
+<attribute name="Offer_has_been_Sent"/>
+<attribute name="Offer_Accepted_by_Supplier"/>
+<attribute name="Pending_Worker_Download"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+</coverage-reqs-set>
+</coverage-reqs-sets>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="true">
+<focus-ctd-trigger appliance="ALWAYS" is_or="true" name="Pre-Condition for all Test Cases" negative="true" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Beeline application is up and Hiring Manager able to Login to Beeline successfully using the following URL:&#13;&#10;https://projects.beeline.com/proj195&#13;&#10;"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pending Worker Download" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="HM select the option 'IT-Temporary Employee'"/>
+<focus-ctd-template text="HM submits the Job Request by filling in all the required fields."/>
+<focus-ctd-template text="VMO approves the request."/>
+<focus-ctd-template text="The request is then released to supplier."/>
+<focus-ctd-template text="Supplier add the candidate to the Job Request."/>
+<focus-ctd-template text="HM Qualifies the candidate."/>
+<focus-ctd-template text="HM schedules the interview with the candidate."/>
+<focus-ctd-template text="Supplier reviews the time slot of Interview and accepts."/>
+<focus-ctd-template text="Interview will be held and selects the candidate."/>
+<focus-ctd-template text="HM selects the candidate."/>
+<focus-ctd-template text="Offer will be send to the selected candidate's Supplier."/>
+<focus-ctd-template text="Supplier accepts the Job Offer."/>
+<focus-ctd-template text="The status of the Candidate would be 'Pending Worker Download'"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Successful selection."/>
+<focus-ctd-template text="Job Request successfully created."/>
+<focus-ctd-template text="VMO successfully approves the request."/>
+<focus-ctd-template text="Successfully released to Supplier."/>
+<focus-ctd-template text="Candidate has been successfully added to the Job Request."/>
+<focus-ctd-template text="Successfully qualified the candidate."/>
+<focus-ctd-template text="Interview has been scheduled successfully."/>
+<focus-ctd-template text="Interview slot has been reviewed and accepted."/>
+<focus-ctd-template text="Successful completion of Interview."/>
+<focus-ctd-template text="Candidate has been successfully selected."/>
+<focus-ctd-template text="Successfully sent the Offer to the Supplier."/>
+<focus-ctd-template text="Successful acceptance of Job Offer."/>
+<focus-ctd-template text="The status of the candidate changes to 'Pending Worker Download'"/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Qualified"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Selected"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="Accepted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Present in Worker Download"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="VMO Rejected" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="HM select the option 'IT-Temporary Employee'"/>
+<focus-ctd-template text="HM submits the Job Request by filling in all the required fields."/>
+<focus-ctd-template text="VMO rejects the request."/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Successful selection."/>
+<focus-ctd-template text="Job Request successfully created."/>
+<focus-ctd-template text="VMO successfully rejects the request."/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Not Present in Workerdownload"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Offer Rejected" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="HM select the option 'IT-Temporary Employee'&#10;"/>
+<focus-ctd-template text="HM submits the Job Request by filling in all the required fields.&#10;"/>
+<focus-ctd-template text="VMO approves the request.&#10;"/>
+<focus-ctd-template text="The request is then released to supplier.&#10;"/>
+<focus-ctd-template text="Supplier add the candidate to the Job Request.&#10;"/>
+<focus-ctd-template text="HM Qualifies the candidate.&#10;"/>
+<focus-ctd-template text="HM schedules the interview with the candidate.&#10;"/>
+<focus-ctd-template text="Supplier reviews the time slot of Interview and accepts.&#10;"/>
+<focus-ctd-template text="Interview will be held and selects the candidate.&#10;"/>
+<focus-ctd-template text="HM selects the candidate.&#10;"/>
+<focus-ctd-template text="Offer will be send to the selected candidate's Supplier.&#10;"/>
+<focus-ctd-template text="Supplier rejects the Job Offer.&#10;"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Successful selection.&#10;"/>
+<focus-ctd-template text="Job Request successfully created.&#10;"/>
+<focus-ctd-template text="VMO successfully approves the request.&#10;"/>
+<focus-ctd-template text="Successfully released to Supplier.&#10;"/>
+<focus-ctd-template text="Candidate has been successfully added to the Job Request.&#10;"/>
+<focus-ctd-template text="Successfully qualified the candidate.&#10;"/>
+<focus-ctd-template text="Interview has been scheduled successfully.&#10;"/>
+<focus-ctd-template text="Interview slot has been reviewed and accepted.&#10;"/>
+<focus-ctd-template text="Successful completion of Interview.&#10;"/>
+<focus-ctd-template text="Candidate has been successfully selected.&#10;"/>
+<focus-ctd-template text="Successfully sent the Offer to the Supplier.&#10;"/>
+<focus-ctd-template text="Rejection of Job Offer.&#10;"/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Qualified"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Selected"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="Rejected"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Not Present in Workerdownload"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Offer Not Sent" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="HM select the option 'IT-Temporary Employee'&#10;"/>
+<focus-ctd-template text="HM submits the Job Request by filling in all the required fields.&#10;"/>
+<focus-ctd-template text="VMO approves the request.&#10;"/>
+<focus-ctd-template text="The request is then released to supplier.&#10;"/>
+<focus-ctd-template text="Supplier add the candidate to the Job Request.&#10;"/>
+<focus-ctd-template text="HM Qualifies the candidate.&#10;"/>
+<focus-ctd-template text="HM schedules the interview with the candidate.&#10;"/>
+<focus-ctd-template text="Supplier reviews the time slot of Interview and accepts.&#10;"/>
+<focus-ctd-template text="Interview will be held and selects the candidate.&#10;"/>
+<focus-ctd-template text="HM selects the candidate.&#10;"/>
+<focus-ctd-template text="Offer will be not be send to the selected candidate's Supplier.&#10;"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Successful selection.&#10;"/>
+<focus-ctd-template text="Job Request successfully created.&#10;"/>
+<focus-ctd-template text="VMO successfully approves the request.&#10;"/>
+<focus-ctd-template text="Successfully released to Supplier.&#10;"/>
+<focus-ctd-template text="Candidate has been successfully added to the Job Request.&#10;"/>
+<focus-ctd-template text="Successfully qualified the candidate.&#10;"/>
+<focus-ctd-template text="Interview has been scheduled successfully.&#10;"/>
+<focus-ctd-template text="Interview slot has been reviewed and accepted.&#10;"/>
+<focus-ctd-template text="Successful completion of Interview.&#10;"/>
+<focus-ctd-template text="Candidate has been successfully selected.&#10;"/>
+<focus-ctd-template text="Did not send the Offer to the Supplier.&#10;"/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Qualified"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Selected"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Not Present in Workerdownload"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Reject Candidate After Interview" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="HM select the option 'IT-Temporary Employee'&#10;"/>
+<focus-ctd-template text="HM submits the Job Request by filling in all the required fields.&#10;"/>
+<focus-ctd-template text="VMO approves the request.&#10;"/>
+<focus-ctd-template text="The request is then released to supplier.&#10;"/>
+<focus-ctd-template text="Supplier add the candidate to the Job Request.&#10;"/>
+<focus-ctd-template text="HM Qualifies the candidate.&#10;"/>
+<focus-ctd-template text="HM schedules the interview with the candidate.&#10;"/>
+<focus-ctd-template text="Supplier reviews the time slot of Interview and accepts.&#10;"/>
+<focus-ctd-template text="Interview will be held as per the schedule.&#10;"/>
+<focus-ctd-template text="HM rejects the candidate.&#10;"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Successful selection.&#10;"/>
+<focus-ctd-template text="Job Request successfully created.&#10;"/>
+<focus-ctd-template text="VMO successfully approves the request.&#10;"/>
+<focus-ctd-template text="Successfully released to Supplier.&#10;"/>
+<focus-ctd-template text="Candidate has been successfully added to the Job Request.&#10;"/>
+<focus-ctd-template text="Successfully qualified the candidate.&#10;"/>
+<focus-ctd-template text="Interview has been scheduled successfully.&#10;"/>
+<focus-ctd-template text="Interview slot has been reviewed and accepted.&#10;"/>
+<focus-ctd-template text="Successful completion of Interview.&#10;"/>
+<focus-ctd-template text="Rejection of Candidate."/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Qualified"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Rejected"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Not Present in Workerdownload"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Supplier does not accept the Interview" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="HM select the option 'IT-Temporary Employee'&#10;"/>
+<focus-ctd-template text="HM submits the Job Request by filling in all the required fields.&#10;"/>
+<focus-ctd-template text="VMO approves the request.&#10;"/>
+<focus-ctd-template text="The request is then released to supplier.&#10;"/>
+<focus-ctd-template text="Supplier add the candidate to the Job Request.&#10;"/>
+<focus-ctd-template text="HM Qualifies the candidate.&#10;"/>
+<focus-ctd-template text="HM schedules the interview with the candidate.&#10;"/>
+<focus-ctd-template text="Supplier reviews the time slot of Interview and does not accept.&#10;"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Successful selection.&#10;"/>
+<focus-ctd-template text="Job Request successfully created.&#10;"/>
+<focus-ctd-template text="VMO successfully approves the request.&#10;"/>
+<focus-ctd-template text="Successfully released to Supplier.&#10;"/>
+<focus-ctd-template text="Candidate has been successfully added to the Job Request.&#10;"/>
+<focus-ctd-template text="Successfully qualified the candidate.&#10;"/>
+<focus-ctd-template text="Interview has been scheduled successfully.&#10;"/>
+<focus-ctd-template text="Interview slot has been reviewed and not accepted.&#10;"/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Qualified"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Not Present in Workerdownload"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="HM does not schedule an Interview" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="HM select the option 'IT-Temporary Employee'&#10;"/>
+<focus-ctd-template text="HM submits the Job Request by filling in all the required fields.&#10;"/>
+<focus-ctd-template text="VMO approves the request.&#10;"/>
+<focus-ctd-template text="The request is then released to supplier.&#10;"/>
+<focus-ctd-template text="Supplier add the candidate to the Job Request.&#10;"/>
+<focus-ctd-template text="HM Qualifies the candidate.&#10;"/>
+<focus-ctd-template text="HM does not schedule an interview with the candidate.&#10;"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Successful selection.&#10;"/>
+<focus-ctd-template text="Job Request successfully created.&#10;"/>
+<focus-ctd-template text="VMO successfully approves the request.&#10;"/>
+<focus-ctd-template text="Successfully released to Supplier.&#10;"/>
+<focus-ctd-template text="Candidate has been successfully added to the Job Request.&#10;"/>
+<focus-ctd-template text="Successfully qualified the candidate.&#10;"/>
+<focus-ctd-template text="Interview has not been scheduled."/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Qualified"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Not Present in Workerdownload"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Client Disqualifies the Candidate" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="HM select the option 'IT-Temporary Employee'&#10;"/>
+<focus-ctd-template text="HM submits the Job Request by filling in all the required fields.&#10;"/>
+<focus-ctd-template text="VMO approves the request.&#10;"/>
+<focus-ctd-template text="The request is then released to supplier.&#10;"/>
+<focus-ctd-template text="Supplier add the candidate to the Job Request.&#10;"/>
+<focus-ctd-template text="Client disqualifies the candidate.&#10;"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Successful selection.&#10;"/>
+<focus-ctd-template text="Job Request successfully created.&#10;"/>
+<focus-ctd-template text="VMO successfully approves the request.&#10;"/>
+<focus-ctd-template text="Successfully released to Supplier.&#10;"/>
+<focus-ctd-template text="Candidate has been successfully added to the Job Request.&#10;"/>
+<focus-ctd-template text="Successfully disqualified the candidate.&#10;"/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="Rejected"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Not Present in Workerdownload"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Does not Release to Supplier" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="HM select the option 'IT-Temporary Employee'&#10;"/>
+<focus-ctd-template text="HM submits the Job Request by filling in all the required fields.&#10;"/>
+<focus-ctd-template text="VMO approves the request.&#10;"/>
+<focus-ctd-template text="The request is not released to Supplier.&#10;"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Successful selection.&#10;"/>
+<focus-ctd-template text="Job Request successfully created.&#10;"/>
+<focus-ctd-template text="VMO successfully approves the request.&#10;"/>
+<focus-ctd-template text="Request not released to Supplier."/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Not Present in Workerdownload"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Request not Submitted" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="HM select the option 'IT-Temporary Employee'&#10;"/>
+<focus-ctd-template text="HM does not submit the Job Request by filling in all the required fields.&#10;"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Successful selection.&#10;"/>
+<focus-ctd-template text="Job Request not successfully created.&#10;"/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Employee_Type" operation="Equals">
+<focus-ctd-cond-val value="IT-Temporary Employee"/>
+<focus-ctd-cond-val value="Non IT-Temporary Employee"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Employee_Details_Submitted_Successfully_and_Request_has_been_Created" operation="Equals">
+<focus-ctd-cond-val value="Not Submitted"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="VMO_approved_the_Request" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Release_to_Suppliers" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Qualifies_the_Candidate" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Hiring_Manager_Scheduled_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Supplier_Accepted_the_Interview" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Selection_of_Candidate" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_has_been_Sent" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Offer_Accepted_by_Supplier" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Pending_Worker_Download" operation="Equals">
+<focus-ctd-cond-val value="Should Not Present in Workerdownload"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+</focus-ctd-decoration>
+<defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="BeelineModelContractorOnboarding.model" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
+<deactivates/>
+<attrs-to-delete/>
+<pool_comments/>
+<db-dependencies/>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
