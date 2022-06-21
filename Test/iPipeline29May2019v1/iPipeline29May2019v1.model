@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--Ipipeline--><focus-model NAValue="Not_Valid" auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="true" inputOutput="false" manual="true">
+<model-identification modelTag="@Test @1.0 @Test_Sample @Ipipeline">
+<model-identification-field name="Application Name" partOfTag="true" value="Test"/>
+<model-identification-field name="Application code version #" partOfTag="true" value="1.0"/>
+<model-identification-field name="Application Function" partOfTag="true" value="Test_Sample"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+<model-identification-field name="Created By" partOfTag="false" value="sananjap@in.ibm.com"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="05 Nov 2018 05:01:12"/>
+<model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="21 Jun 2022 14:30:08"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value="Ipipeline"/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+<model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Agent_License_Valid" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Agent_LTC_Training_Completed" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="True" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Agent_Appointment_Available" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Agent_Appointment_Action" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Case_Type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Start_New_Case" neg-value="false" weight="0"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Start_New_Case_Product_Type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Indexed Universal Life" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Add all 47 states, currently callifornia,puerto rico, virgin island,  all territories not included." group="" iotype="NEITHER" name="Start_New_Case_States" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Alabama" neg-value="false" weight="1"/>
+<value name="Alaska" neg-value="false" weight="1"/>
+<value name="Arizona" neg-value="false" weight="1"/>
+<value name="Arkansas" neg-value="false" weight="1"/>
+<value name="Colorado" neg-value="false" weight="1"/>
+<value name="Connecticut" neg-value="false" weight="1"/>
+<value name="Delaware" neg-value="false" weight="1"/>
+<value name="Florida" neg-value="false" weight="1"/>
+<value name="Georgia" neg-value="false" weight="1"/>
+<value name="Idaho" neg-value="false" weight="1"/>
+<value name="Illinois" neg-value="false" weight="1"/>
+<value name="Indiana" neg-value="false" weight="1"/>
+<value name="Iowa" neg-value="false" weight="1"/>
+<value name="Kansas" neg-value="false" weight="1"/>
+<value name="Kentucky" neg-value="false" weight="1"/>
+<value name="Louisiana" neg-value="false" weight="1"/>
+<value name="Maine" neg-value="false" weight="1"/>
+<value name="Maryland" neg-value="false" weight="1"/>
+<value name="Massachusetts" neg-value="false" weight="1"/>
+<value name="Michigan" neg-value="false" weight="1"/>
+<value name="Minnesota" neg-value="false" weight="1"/>
+<value name="Mississippi" neg-value="false" weight="1"/>
+<value name="Missouri" neg-value="false" weight="1"/>
+<value name="Montana" neg-value="false" weight="1"/>
+<value name="Nebraska" neg-value="false" weight="1"/>
+<value name="Nevada" neg-value="false" weight="1"/>
+<value name="New Hampshire" neg-value="false" weight="1"/>
+<value name="New Jersey" neg-value="false" weight="1"/>
+<value name="New Mexico" neg-value="false" weight="1"/>
+<value name="New York" neg-value="false" weight="1"/>
+<value name="North Carolina" neg-value="false" weight="1"/>
+<value name="North Dakota" neg-value="false" weight="1"/>
+<value name="Ohio" neg-value="false" weight="1"/>
+<value name="Oklahoma" neg-value="false" weight="1"/>
+<value name="Oregon" neg-value="false" weight="1"/>
+<value name="Pennsylvania" neg-value="false" weight="1"/>
+<value name="Rhode Island" neg-value="false" weight="1"/>
+<value name="South Carolina" neg-value="false" weight="1"/>
+<value name="South Dakota" neg-value="false" weight="1"/>
+<value name="Tennessee" neg-value="false" weight="1"/>
+<value name="Texas" neg-value="false" weight="1"/>
+<value name="Utah" neg-value="false" weight="1"/>
+<value name="Vermont" neg-value="false" weight="1"/>
+<value name="Virginia" neg-value="false" weight="1"/>
+<value name="Washington" neg-value="false" weight="1"/>
+<value name="West Virginia" neg-value="false" weight="1"/>
+<value name="Wisconsin" neg-value="false" weight="1"/>
+<value name="Wyoming" neg-value="false" weight="1"/>
+<value name="Washington DC" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="App_Setup_High_Profile_or_Employee_Application" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="App_Setup_High_Profile_or_Employee_Application_If_yes" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="High Profile" neg-value="false" weight="1"/>
+<value name="Employee" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Application_Setup_Premium_Mode" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Single" neg-value="false" weight="1"/>
+<value name="2_year_Annual" neg-value="false" weight="1"/>
+<value name="3_Year_Annual" neg-value="false" weight="1"/>
+<value name="4_Year_Annual" neg-value="false" weight="1"/>
+<value name="5_Year_Annual" neg-value="false" weight="1"/>
+<value name="Annual" neg-value="false" weight="1"/>
+<value name="Semi-Annual" neg-value="false" weight="1"/>
+<value name="Quarterly" neg-value="false" weight="1"/>
+<value name="Monthly" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="When single premium, the amount should be more than $50000, if monthly minimum is $4166.67, if it is quarterly minimum is $12500. If semi annual min is $25000, if annual min is $50000, if 5 year annual then min is $10000. 4 year is $12500, 3 year is min - $16,666.67. 2 year anuual is $25000, " group="" iotype="NEITHER" name="Application_Setup_Premium_Amount" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value description="if premium is - single" name="&gt;=50000" neg-value="false" weight="1"/>
+<value description="if premium is - quarterly" name="&gt;=12500" neg-value="false" weight="1"/>
+<value description="if premium is - monthly" name="&gt;=4166" neg-value="false" weight="1"/>
+<value description="if premium is - 2 year annual" name="&gt;=25000" neg-value="false" weight="1"/>
+<value description="if premium is - 3 year annual" name="&gt;=16666" neg-value="false" weight="1"/>
+<value description="if premium is - 5 year annual" name="&gt;=10000" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Application_Setup_Method_Of_Premium_Collection" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Bank_Draft" neg-value="false" weight="1"/>
+<value name="Wire Transfer" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Application_Setup_Riders" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="LTC_Death_Benefit" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Application_Setup_Riders_2" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value description="either 24 or 48 should be selected" name="Extension_Of_LTC_24_Months" neg-value="false" weight="1"/>
+<value description="either 24 or 48 should be selected" name="Extension_Of_LTC_48_Months" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Application_Setup_Riders_3" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value description="either 24 or 48 should be selected" name="Extension_Of_LTC_With_Inflation_Coverage_24_Months" neg-value="false" weight="1"/>
+<value description="either 24 or 48 should be selected" name="Extension_Of_LTC_With_Inflation_Coverage_48_Months" neg-value="false" weight="1"/>
+<value description="either 24 or 48 should be selected" name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Application_Setup_Riders_4" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value description="either 24 or 48 should be selected" name="Extension_Of_LTC_With_Index_Coverage_24_Months" neg-value="false" weight="1"/>
+<value description="either 24 or 48 should be selected" name="Extension_Of_LTC_With_Index_Coverage_48_Months" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Auto_Cash_Value_Rebalancing" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="I_elect_Auto_Cash_Value_Rebalance" neg-value="false" weight="1"/>
+<value name="I_decline_Auto_Cash_value_Rebalance" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Application_Setup_Continued_Compensation_Plan" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Premium_Based" neg-value="false" weight="1"/>
+<value name="Spread" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="the comission split attribute is dependent on this." group="" iotype="NEITHER" name="Application_Setup_Continued_Number_of_Financial_Advisors" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="One" neg-value="false" weight="1"/>
+<value name="Two" neg-value="false" weight="1"/>
+<value name="Three" neg-value="false" weight="1"/>
+<value name="Four" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Insurance_Replacement" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Wholesaler_Attachment" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Attach_Illustration_LTC_FinSupplement" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="PI_Application_Completed_USA" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="PI_Member_US_Military" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="No" neg-value="false" weight="1"/>
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="PI_Drivers_License" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="No" neg-value="false" weight="1"/>
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="PI_Used_Nicotine_product_Last_12_Month" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="No" neg-value="false" weight="1"/>
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="HIPAA_Signature" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Validate_and_Lock" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Medical_History" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Medical_Hist_Assessment" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Payment_Information" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Savings" neg-value="false" weight="1"/>
+<value name="Checking" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Personal_Physician_Have" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="No" neg-value="false" weight="1"/>
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Beneficiary_Information_Primary_Beneficiary" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Add_Beneficiary" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Beneficiary_Information_Add_New_Record_Relationship_To_PI" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Business" neg-value="false" weight="1"/>
+<value name="Business Partner" neg-value="false" weight="1"/>
+<value name="Charity" neg-value="false" weight="1"/>
+<value name="Child" neg-value="false" weight="1"/>
+<value name="Child in Law" neg-value="false" weight="1"/>
+<value name="Cousin" neg-value="false" weight="1"/>
+<value name="Domestic Partner" neg-value="false" weight="1"/>
+<value name="Employer" neg-value="false" weight="1"/>
+<value name="Estate of Insured" neg-value="false" weight="1"/>
+<value name="Friend" neg-value="false" weight="1"/>
+<value name="Grand Child" neg-value="false" weight="1"/>
+<value name="Grand Parent" neg-value="false" weight="1"/>
+<value name="Other" neg-value="false" weight="1"/>
+<value name="Parent" neg-value="false" weight="1"/>
+<value name="Parent in Law" neg-value="false" weight="1"/>
+<value name="Parent's Sibling" neg-value="false" weight="1"/>
+<value name="Sibling" neg-value="false" weight="1"/>
+<value name="Sibling in Law" neg-value="false" weight="1"/>
+<value name="Siblings Child" neg-value="false" weight="1"/>
+<value name="Spouse" neg-value="false" weight="1"/>
+<value name="Trust" neg-value="false" weight="1"/>
+<value name="Unknown" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Beneficiary_information_Designating_Future_Children_Of_PI_Contingency" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="No" neg-value="false" weight="1"/>
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Beneficiary_Information_Have_Contingent_Beneficiaries" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Beneficiary_Information__Contingent_Beneficiary" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Business" neg-value="false" weight="1"/>
+<value name="Business Partner" neg-value="false" weight="1"/>
+<value name="Charity" neg-value="false" weight="1"/>
+<value name="Child" neg-value="false" weight="1"/>
+<value name="Child in Law" neg-value="false" weight="1"/>
+<value name="Cousin" neg-value="false" weight="1"/>
+<value name="Domestic Partner" neg-value="false" weight="1"/>
+<value name="Employer" neg-value="false" weight="1"/>
+<value name="Estate of Insured" neg-value="false" weight="1"/>
+<value name="Friend" neg-value="false" weight="1"/>
+<value name="Grand Child" neg-value="false" weight="1"/>
+<value name="Grand Parent" neg-value="false" weight="1"/>
+<value name="Other" neg-value="false" weight="1"/>
+<value name="Parent" neg-value="false" weight="1"/>
+<value name="Parent in Law" neg-value="false" weight="1"/>
+<value name="Parent's Sibling" neg-value="false" weight="1"/>
+<value name="Sibling" neg-value="false" weight="1"/>
+<value name="Sibling in Law" neg-value="false" weight="1"/>
+<value name="Siblings Child" neg-value="false" weight="1"/>
+<value name="Spouse" neg-value="false" weight="1"/>
+<value name="Trust" neg-value="false" weight="1"/>
+<value name="Unknown" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Existing_Applied_For_Insurance" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Existing_Applied_For_Insurance_If_Yes" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Add New Record with replacement" neg-value="false" weight="1"/>
+<value name="Add New Record without replacement" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Secondary_Addressee" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="I elect not to designate a person to receive this notice" neg-value="false" weight="1"/>
+<value name="I elect to have the following person to receive this notice" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="LTC_Supplement" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="No" neg-value="false" weight="1"/>
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="LTC_Supplement_Replacement" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="No" neg-value="false" weight="1"/>
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="LTC_Supplement_Cover_Under_Medicaid" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="No" neg-value="false" weight="1"/>
+<value name="Unsure" neg-value="false" weight="1"/>
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Validate_and_Lock" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Lock_Case_and_Proceed" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Signature_Method" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Collect_all_clients_signatures_electronically" neg-value="false" weight="1"/>
+<value name="Print_Application_for_Clients_wet_signature" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Submit_to_Financial_advisor" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Submit_Application_to_Advisor" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="FA_eSignature_Consent" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="I Agree" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Submit_to_DXC" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Submit_Application_to_DXC_by_FA" neg-value="false" weight="1"/>
+</attribute>
+<restriction expression="!((Application_Setup_Premium_Mode.equals(&quot;Single&quot;) || Application_Setup_Premium_Mode.equals(&quot;Annual&quot;))) || Application_Setup_Premium_Amount.equals(&quot;&gt;=50000&quot;)" group="" groupedExpression="!((Application_Setup_Premium_Mode.equals(&quot;Single&quot;) || Application_Setup_Premium_Mode.equals(&quot;Annual&quot;))) || Application_Setup_Premium_Amount.equals(&quot;&gt;=50000&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Mode" operation="Equals">
+<focus-ctd-cond-val value="Single"/>
+<focus-ctd-cond-val value="Annual"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Amount" operation="Equals">
+<focus-ctd-cond-val value="&gt;=50000"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Application_Setup_Premium_Mode.equals(&quot;2_year_Annual&quot;) &amp;&amp; Case_Type.equals(&quot;Start_New_Case&quot;)) || Application_Setup_Premium_Amount.equals(&quot;&gt;=25000&quot;)" group="" groupedExpression="!(Application_Setup_Premium_Mode.equals(&quot;2_year_Annual&quot;) &amp;&amp; Case_Type.equals(&quot;Start_New_Case&quot;)) || Application_Setup_Premium_Amount.equals(&quot;&gt;=25000&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Mode" operation="Equals">
+<focus-ctd-cond-val value="2_year_Annual"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Case_Type" operation="Equals">
+<focus-ctd-cond-val value="Start_New_Case"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Amount" operation="Equals">
+<focus-ctd-cond-val value="&gt;=25000"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Case_Type.equals(&quot;Start_New_Case&quot;) &amp;&amp; Application_Setup_Premium_Mode.equals(&quot;Monthly&quot;)) || Application_Setup_Premium_Amount.equals(&quot;&gt;=4166&quot;)" group="" groupedExpression="!(Case_Type.equals(&quot;Start_New_Case&quot;) &amp;&amp; Application_Setup_Premium_Mode.equals(&quot;Monthly&quot;)) || Application_Setup_Premium_Amount.equals(&quot;&gt;=4166&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Case_Type" operation="Equals">
+<focus-ctd-cond-val value="Start_New_Case"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Premium_Mode" operation="Equals">
+<focus-ctd-cond-val value="Monthly"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Amount" operation="Equals">
+<focus-ctd-cond-val value="&gt;=4166"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Application_Setup_Premium_Mode.equals(&quot;Quarterly&quot;) || Application_Setup_Premium_Mode.equals(&quot;4_Year_Annual&quot;))) || Application_Setup_Premium_Amount.equals(&quot;&gt;=12500&quot;)" group="" groupedExpression="!((Application_Setup_Premium_Mode.equals(&quot;Quarterly&quot;) || Application_Setup_Premium_Mode.equals(&quot;4_Year_Annual&quot;))) || Application_Setup_Premium_Amount.equals(&quot;&gt;=12500&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Mode" operation="Equals">
+<focus-ctd-cond-val value="Quarterly"/>
+<focus-ctd-cond-val value="4_Year_Annual"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Amount" operation="Equals">
+<focus-ctd-cond-val value="&gt;=12500"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Case_Type.equals(&quot;Start_New_Case&quot;) &amp;&amp; Application_Setup_Premium_Mode.equals(&quot;Semi-Annual&quot;)) || Application_Setup_Premium_Amount.equals(&quot;&gt;=25000&quot;)" group="" groupedExpression="!(Case_Type.equals(&quot;Start_New_Case&quot;) &amp;&amp; Application_Setup_Premium_Mode.equals(&quot;Semi-Annual&quot;)) || Application_Setup_Premium_Amount.equals(&quot;&gt;=25000&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Case_Type" operation="Equals">
+<focus-ctd-cond-val value="Start_New_Case"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Premium_Mode" operation="Equals">
+<focus-ctd-cond-val value="Semi-Annual"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Amount" operation="Equals">
+<focus-ctd-cond-val value="&gt;=25000"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Application_Setup_Premium_Mode.equals(&quot;5_Year_Annual&quot;)) || Application_Setup_Premium_Amount.equals(&quot;&gt;=10000&quot;)" group="" groupedExpression="!(Application_Setup_Premium_Mode.equals(&quot;5_Year_Annual&quot;)) || Application_Setup_Premium_Amount.equals(&quot;&gt;=10000&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Mode" operation="Equals">
+<focus-ctd-cond-val value="5_Year_Annual"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Amount" operation="Equals">
+<focus-ctd-cond-val value="&gt;=10000"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Application_Setup_Premium_Mode.equals(&quot;3_Year_Annual&quot;)) || Application_Setup_Premium_Amount.equals(&quot;&gt;=16666&quot;)" group="" groupedExpression="!(Application_Setup_Premium_Mode.equals(&quot;3_Year_Annual&quot;)) || Application_Setup_Premium_Amount.equals(&quot;&gt;=16666&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Mode" operation="Equals">
+<focus-ctd-cond-val value="3_Year_Annual"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Premium_Amount" operation="Equals">
+<focus-ctd-cond-val value="&gt;=16666"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Application_Setup_Riders_2.equals(&quot;Extension_Of_LTC_24_Months&quot;) || Application_Setup_Riders_2.equals(&quot;Extension_Of_LTC_48_Months&quot;))) || Application_Setup_Riders_3.equals(&quot;NA&quot;) &amp;&amp; Application_Setup_Riders_4.equals(&quot;NA&quot;)" group="" groupedExpression="!((Application_Setup_Riders_2.equals(&quot;Extension_Of_LTC_24_Months&quot;) || Application_Setup_Riders_2.equals(&quot;Extension_Of_LTC_48_Months&quot;))) || Application_Setup_Riders_3.equals(&quot;NA&quot;) &amp;&amp; Application_Setup_Riders_4.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Riders_2" operation="Equals">
+<focus-ctd-cond-val value="Extension_Of_LTC_24_Months"/>
+<focus-ctd-cond-val value="Extension_Of_LTC_48_Months"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Riders_3" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Riders_4" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Application_Setup_Riders_3.equals(&quot;Extension_Of_LTC_With_Inflation_Coverage_24_Months&quot;) || Application_Setup_Riders_3.equals(&quot;Extension_Of_LTC_With_Inflation_Coverage_48_Months&quot;))) || Application_Setup_Riders_2.equals(&quot;NA&quot;) &amp;&amp; Application_Setup_Riders_4.equals(&quot;NA&quot;)" group="" groupedExpression="!((Application_Setup_Riders_3.equals(&quot;Extension_Of_LTC_With_Inflation_Coverage_24_Months&quot;) || Application_Setup_Riders_3.equals(&quot;Extension_Of_LTC_With_Inflation_Coverage_48_Months&quot;))) || Application_Setup_Riders_2.equals(&quot;NA&quot;) &amp;&amp; Application_Setup_Riders_4.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Riders_3" operation="Equals">
+<focus-ctd-cond-val value="Extension_Of_LTC_With_Inflation_Coverage_24_Months"/>
+<focus-ctd-cond-val value="Extension_Of_LTC_With_Inflation_Coverage_48_Months"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Riders_2" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Riders_4" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Application_Setup_Riders_4.equals(&quot;Extension_Of_LTC_With_Index_Coverage_24_Months&quot;) || Application_Setup_Riders_4.equals(&quot;Extension_Of_LTC_With_Index_Coverage_48_Months&quot;))) || Application_Setup_Riders_2.equals(&quot;NA&quot;) &amp;&amp; Application_Setup_Riders_3.equals(&quot;NA&quot;)" group="" groupedExpression="!((Application_Setup_Riders_4.equals(&quot;Extension_Of_LTC_With_Index_Coverage_24_Months&quot;) || Application_Setup_Riders_4.equals(&quot;Extension_Of_LTC_With_Index_Coverage_48_Months&quot;))) || Application_Setup_Riders_2.equals(&quot;NA&quot;) &amp;&amp; Application_Setup_Riders_3.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Riders_4" operation="Equals">
+<focus-ctd-cond-val value="Extension_Of_LTC_With_Index_Coverage_24_Months"/>
+<focus-ctd-cond-val value="Extension_Of_LTC_With_Index_Coverage_48_Months"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Riders_2" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Riders_3" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Application_Setup_Riders_2.equals(&quot;NA&quot;) &amp;&amp; Application_Setup_Riders_3.equals(&quot;NA&quot;)) || (Application_Setup_Riders_4.equals(&quot;Extension_Of_LTC_With_Index_Coverage_24_Months&quot;) || Application_Setup_Riders_4.equals(&quot;Extension_Of_LTC_With_Index_Coverage_48_Months&quot;))" group="" groupedExpression="!(Application_Setup_Riders_2.equals(&quot;NA&quot;) &amp;&amp; Application_Setup_Riders_3.equals(&quot;NA&quot;)) || (Application_Setup_Riders_4.equals(&quot;Extension_Of_LTC_With_Index_Coverage_24_Months&quot;) || Application_Setup_Riders_4.equals(&quot;Extension_Of_LTC_With_Index_Coverage_48_Months&quot;))" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Riders_2" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Riders_3" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Application_Setup_Riders_4" operation="Equals">
+<focus-ctd-cond-val value="Extension_Of_LTC_With_Index_Coverage_24_Months"/>
+<focus-ctd-cond-val value="Extension_Of_LTC_With_Index_Coverage_48_Months"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(App_Setup_High_Profile_or_Employee_Application.equals(&quot;Yes&quot;)) || (App_Setup_High_Profile_or_Employee_Application_If_yes.equals(&quot;High Profile&quot;) || App_Setup_High_Profile_or_Employee_Application_If_yes.equals(&quot;Employee&quot;))" group="" groupedExpression="!(App_Setup_High_Profile_or_Employee_Application.equals(&quot;Yes&quot;)) || (App_Setup_High_Profile_or_Employee_Application_If_yes.equals(&quot;High Profile&quot;) || App_Setup_High_Profile_or_Employee_Application_If_yes.equals(&quot;Employee&quot;))" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="App_Setup_High_Profile_or_Employee_Application" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="App_Setup_High_Profile_or_Employee_Application_If_yes" operation="Equals">
+<focus-ctd-cond-val value="High Profile"/>
+<focus-ctd-cond-val value="Employee"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(App_Setup_High_Profile_or_Employee_Application.equals(&quot;No&quot;)) || App_Setup_High_Profile_or_Employee_Application_If_yes.equals(&quot;NA&quot;)" group="" groupedExpression="!(App_Setup_High_Profile_or_Employee_Application.equals(&quot;No&quot;)) || App_Setup_High_Profile_or_Employee_Application_If_yes.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="App_Setup_High_Profile_or_Employee_Application" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="App_Setup_High_Profile_or_Employee_Application_If_yes" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Beneficiary_Information_Have_Contingent_Beneficiaries.equals(&quot;Yes&quot;)) || (Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Business&quot;) || Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Business Partner&quot;) || Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Charity&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Child&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Child in Law&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Cousin&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Domestic Partner&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Employer&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Estate of Insured&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Friend&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Grand Child&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Grand Parent&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Other&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Parent&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Parent in Law&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Parent's Sibling&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Sibling&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Sibling in Law&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Siblings Child&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Spouse&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Trust&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Unknown&quot;))" group="" groupedExpression="!(Beneficiary_Information_Have_Contingent_Beneficiaries.equals(&quot;Yes&quot;)) || (Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Business&quot;) || Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Business Partner&quot;) || Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Charity&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Child&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Child in Law&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Cousin&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Domestic Partner&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Employer&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Estate of Insured&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Friend&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Grand Child&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Grand Parent&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Other&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Parent&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Parent in Law&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Parent's Sibling&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Sibling&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Sibling in Law&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Siblings Child&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Spouse&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Trust&quot;)|| Beneficiary_Information__Contingent_Beneficiary.equals(&quot;Unknown&quot;))" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Beneficiary_Information_Have_Contingent_Beneficiaries" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Beneficiary_Information__Contingent_Beneficiary" operation="Equals">
+<focus-ctd-cond-val value="Business"/>
+<focus-ctd-cond-val value="Business Partner"/>
+<focus-ctd-cond-val value="Charity"/>
+<focus-ctd-cond-val value="Child"/>
+<focus-ctd-cond-val value="Child in Law"/>
+<focus-ctd-cond-val value="Cousin"/>
+<focus-ctd-cond-val value="Domestic Partner"/>
+<focus-ctd-cond-val value="Employer"/>
+<focus-ctd-cond-val value="Estate of Insured"/>
+<focus-ctd-cond-val value="Friend"/>
+<focus-ctd-cond-val value="Grand Child"/>
+<focus-ctd-cond-val value="Grand Parent"/>
+<focus-ctd-cond-val value="Other"/>
+<focus-ctd-cond-val value="Parent"/>
+<focus-ctd-cond-val value="Parent in Law"/>
+<focus-ctd-cond-val value="Parent's Sibling"/>
+<focus-ctd-cond-val value="Sibling"/>
+<focus-ctd-cond-val value="Sibling in Law"/>
+<focus-ctd-cond-val value="Siblings Child"/>
+<focus-ctd-cond-val value="Spouse"/>
+<focus-ctd-cond-val value="Trust"/>
+<focus-ctd-cond-val value="Unknown"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Beneficiary_Information_Have_Contingent_Beneficiaries.equals(&quot;No&quot;)) || Beneficiary_Information__Contingent_Beneficiary.equals(&quot;NA&quot;)" group="" groupedExpression="!(Beneficiary_Information_Have_Contingent_Beneficiaries.equals(&quot;No&quot;)) || Beneficiary_Information__Contingent_Beneficiary.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Beneficiary_Information_Have_Contingent_Beneficiaries" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Beneficiary_Information__Contingent_Beneficiary" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Existing_Applied_For_Insurance.equals(&quot;No&quot;)) || Existing_Applied_For_Insurance_If_Yes.equals(&quot;NA&quot;)" group="" groupedExpression="!(Existing_Applied_For_Insurance.equals(&quot;No&quot;)) || Existing_Applied_For_Insurance_If_Yes.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Existing_Applied_For_Insurance" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Existing_Applied_For_Insurance_If_Yes" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Existing_Applied_For_Insurance.equals(&quot;Yes&quot;)) || (Existing_Applied_For_Insurance_If_Yes.equals(&quot;Add New Record with replacement&quot;) || Existing_Applied_For_Insurance_If_Yes.equals(&quot;Add New Record without replacement&quot;))" group="" groupedExpression="!(Existing_Applied_For_Insurance.equals(&quot;Yes&quot;)) || (Existing_Applied_For_Insurance_If_Yes.equals(&quot;Add New Record with replacement&quot;) || Existing_Applied_For_Insurance_If_Yes.equals(&quot;Add New Record without replacement&quot;))" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Existing_Applied_For_Insurance" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Existing_Applied_For_Insurance_If_Yes" operation="Equals">
+<focus-ctd-cond-val value="Add New Record with replacement"/>
+<focus-ctd-cond-val value="Add New Record without replacement"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(LTC_Supplement.equals(&quot;Yes&quot;)) || (LTC_Supplement_Replacement.equals(&quot;No&quot;) || LTC_Supplement_Replacement.equals(&quot;Yes&quot;))" group="" groupedExpression="!(LTC_Supplement.equals(&quot;Yes&quot;)) || (LTC_Supplement_Replacement.equals(&quot;No&quot;) || LTC_Supplement_Replacement.equals(&quot;Yes&quot;))" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="LTC_Supplement" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="LTC_Supplement_Replacement" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(LTC_Supplement.equals(&quot;No&quot;)) || LTC_Supplement_Replacement.equals(&quot;NA&quot;)" group="" groupedExpression="!(LTC_Supplement.equals(&quot;No&quot;)) || LTC_Supplement_Replacement.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="LTC_Supplement" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="LTC_Supplement_Replacement" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Agent_Appointment_Available.equals(&quot;Yes&quot;)) || Agent_Appointment_Action.equals(&quot;NA&quot;)" group="" groupedExpression="!(Agent_Appointment_Available.equals(&quot;Yes&quot;)) || Agent_Appointment_Action.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Agent_Appointment_Available" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Agent_Appointment_Action" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<dont-care>
+<attr-value attribute="Application_Setup_Riders" value="LTC_Death_Benefit"/>
+</dont-care>
+<coverage-reqs-sets defaultCoverageRequirementsSet="3_1">
+<coverage-reqs-set description="1.0" name="1.0">
+<coverage-req>
+<attribute name="Agent_License_Valid"/>
+<attribute name="Agent_LTC_Training_Completed"/>
+<attribute name="Agent_Appointment_Available"/>
+<attribute name="Agent_Appointment_Action"/>
+<attribute name="Case_Type"/>
+<attribute name="Start_New_Case_Product_Type"/>
+<attribute name="Start_New_Case_States"/>
+<attribute name="App_Setup_High_Profile_or_Employee_Application"/>
+<attribute name="App_Setup_High_Profile_or_Employee_Application_If_yes"/>
+<attribute name="Application_Setup_Premium_Mode"/>
+<attribute name="Application_Setup_Premium_Amount"/>
+<attribute name="Application_Setup_Method_Of_Premium_Collection"/>
+<attribute name="Application_Setup_Riders"/>
+<attribute name="Application_Setup_Riders_2"/>
+<attribute name="Application_Setup_Riders_3"/>
+<attribute name="Application_Setup_Riders_4"/>
+<attribute name="Auto_Cash_Value_Rebalancing"/>
+<attribute name="Application_Setup_Continued_Compensation_Plan"/>
+<attribute name="Application_Setup_Continued_Number_of_Financial_Advisors"/>
+<attribute name="Insurance_Replacement"/>
+<attribute name="Wholesaler_Attachment"/>
+<attribute name="PI_Application_Completed_USA"/>
+<attribute name="PI_Member_US_Military"/>
+<attribute name="PI_Drivers_License"/>
+<attribute name="PI_Used_Nicotine_product_Last_12_Month"/>
+<attribute name="HIPAA_Signature"/>
+<attribute name="Medical_History"/>
+<attribute name="Payment_Information"/>
+<attribute name="Personal_Physician_Have"/>
+<attribute name="Beneficiary_Information_Primary_Beneficiary"/>
+<attribute name="Beneficiary_Information_Add_New_Record_Relationship_To_PI"/>
+<attribute name="Beneficiary_information_Designating_Future_Children_Of_PI_Contingency"/>
+<attribute name="Beneficiary_Information_Have_Contingent_Beneficiaries"/>
+<attribute name="Beneficiary_Information__Contingent_Beneficiary"/>
+<attribute name="Existing_Applied_For_Insurance"/>
+<attribute name="Existing_Applied_For_Insurance_If_Yes"/>
+<attribute name="Secondary_Addressee"/>
+<attribute name="LTC_Supplement"/>
+<attribute name="LTC_Supplement_Replacement"/>
+<attribute name="LTC_Supplement_Cover_Under_Medicaid"/>
+<attribute name="Validate_and_Lock"/>
+<attribute name="Signature_Method"/>
+<attribute name="Submit_to_Financial_advisor"/>
+<attribute name="FA_eSignature_Consent"/>
+<attribute name="Submit_to_DXC"/>
+<coverage-goal coverage-goal-val="1"/>
+</coverage-req>
+<coverage-req>
+<attribute name="Start_New_Case_States"/>
+<attribute name="Existing_Applied_For_Insurance"/>
+<attribute name="Existing_Applied_For_Insurance_If_Yes"/>
+<coverage-goal coverage-goal-val="3"/>
+</coverage-req>
+<coverage-req>
+<attribute name="Start_New_Case_States"/>
+<attribute name="LTC_Supplement"/>
+<attribute name="LTC_Supplement_Replacement"/>
+<coverage-goal coverage-goal-val="3"/>
+</coverage-req>
+</coverage-reqs-set>
+<coverage-reqs-set description="2.0" name="2.0">
+<coverage-req>
+<attribute name="Agent_License_Valid"/>
+<attribute name="Agent_LTC_Training_Completed"/>
+<attribute name="Agent_Appointment_Available"/>
+<attribute name="Agent_Appointment_Action"/>
+<attribute name="Case_Type"/>
+<attribute name="Start_New_Case_Product_Type"/>
+<attribute name="Start_New_Case_States"/>
+<attribute name="App_Setup_High_Profile_or_Employee_Application"/>
+<attribute name="App_Setup_High_Profile_or_Employee_Application_If_yes"/>
+<attribute name="Application_Setup_Premium_Mode"/>
+<attribute name="Application_Setup_Premium_Amount"/>
+<attribute name="Application_Setup_Method_Of_Premium_Collection"/>
+<attribute name="Application_Setup_Riders"/>
+<attribute name="Application_Setup_Riders_2"/>
+<attribute name="Application_Setup_Riders_3"/>
+<attribute name="Application_Setup_Riders_4"/>
+<attribute name="Auto_Cash_Value_Rebalancing"/>
+<attribute name="Application_Setup_Continued_Compensation_Plan"/>
+<attribute name="Application_Setup_Continued_Number_of_Financial_Advisors"/>
+<attribute name="Insurance_Replacement"/>
+<attribute name="Wholesaler_Attachment"/>
+<attribute name="PI_Application_Completed_USA"/>
+<attribute name="PI_Member_US_Military"/>
+<attribute name="PI_Drivers_License"/>
+<attribute name="PI_Used_Nicotine_product_Last_12_Month"/>
+<attribute name="HIPAA_Signature"/>
+<attribute name="Medical_History"/>
+<attribute name="Payment_Information"/>
+<attribute name="Personal_Physician_Have"/>
+<attribute name="Beneficiary_Information_Primary_Beneficiary"/>
+<attribute name="Beneficiary_Information_Add_New_Record_Relationship_To_PI"/>
+<attribute name="Beneficiary_information_Designating_Future_Children_Of_PI_Contingency"/>
+<attribute name="Beneficiary_Information_Have_Contingent_Beneficiaries"/>
+<attribute name="Beneficiary_Information__Contingent_Beneficiary"/>
+<attribute name="Existing_Applied_For_Insurance"/>
+<attribute name="Existing_Applied_For_Insurance_If_Yes"/>
+<attribute name="Secondary_Addressee"/>
+<attribute name="LTC_Supplement"/>
+<attribute name="LTC_Supplement_Replacement"/>
+<attribute name="LTC_Supplement_Cover_Under_Medicaid"/>
+<attribute name="Validate_and_Lock"/>
+<attribute name="Signature_Method"/>
+<attribute name="Submit_to_Financial_advisor"/>
+<attribute name="FA_eSignature_Consent"/>
+<attribute name="Submit_to_DXC"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+</coverage-reqs-set>
+<coverage-reqs-set description="3" name="3">
+<coverage-req>
+<attribute name="Start_New_Case_States"/>
+<attribute name="Existing_Applied_For_Insurance"/>
+<attribute name="Existing_Applied_For_Insurance_If_Yes"/>
+<attribute name="LTC_Supplement"/>
+<attribute name="LTC_Supplement_Replacement"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+<coverage-req>
+<attribute name="Agent_License_Valid"/>
+<attribute name="Agent_LTC_Training_Completed"/>
+<attribute name="Agent_Appointment_Available"/>
+<attribute name="Agent_Appointment_Action"/>
+<attribute name="Case_Type"/>
+<attribute name="Start_New_Case_Product_Type"/>
+<attribute name="App_Setup_High_Profile_or_Employee_Application"/>
+<attribute name="App_Setup_High_Profile_or_Employee_Application_If_yes"/>
+<attribute name="Application_Setup_Premium_Mode"/>
+<attribute name="Application_Setup_Premium_Amount"/>
+<attribute name="Application_Setup_Method_Of_Premium_Collection"/>
+<attribute name="Application_Setup_Riders"/>
+<attribute name="Application_Setup_Riders_2"/>
+<attribute name="Application_Setup_Riders_3"/>
+<attribute name="Application_Setup_Riders_4"/>
+<attribute name="Auto_Cash_Value_Rebalancing"/>
+<attribute name="Application_Setup_Continued_Compensation_Plan"/>
+<attribute name="Application_Setup_Continued_Number_of_Financial_Advisors"/>
+<attribute name="Insurance_Replacement"/>
+<attribute name="Wholesaler_Attachment"/>
+<attribute name="PI_Application_Completed_USA"/>
+<attribute name="PI_Member_US_Military"/>
+<attribute name="PI_Drivers_License"/>
+<attribute name="PI_Used_Nicotine_product_Last_12_Month"/>
+<attribute name="HIPAA_Signature"/>
+<attribute name="Medical_History"/>
+<attribute name="Payment_Information"/>
+<attribute name="Personal_Physician_Have"/>
+<attribute name="Beneficiary_Information_Primary_Beneficiary"/>
+<attribute name="Beneficiary_Information_Add_New_Record_Relationship_To_PI"/>
+<attribute name="Beneficiary_information_Designating_Future_Children_Of_PI_Contingency"/>
+<attribute name="Beneficiary_Information_Have_Contingent_Beneficiaries"/>
+<attribute name="Beneficiary_Information__Contingent_Beneficiary"/>
+<attribute name="Secondary_Addressee"/>
+<attribute name="LTC_Supplement_Cover_Under_Medicaid"/>
+<attribute name="Validate_and_Lock"/>
+<attribute name="Signature_Method"/>
+<attribute name="Submit_to_Financial_advisor"/>
+<attribute name="FA_eSignature_Consent"/>
+<attribute name="Submit_to_DXC"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+</coverage-reqs-set>
+<coverage-reqs-set description="3" name="3_1">
+<coverage-req>
+<attribute name="Start_New_Case_States"/>
+<attribute name="Existing_Applied_For_Insurance"/>
+<attribute name="Existing_Applied_For_Insurance_If_Yes"/>
+<attribute name="LTC_Supplement"/>
+<attribute name="LTC_Supplement_Replacement"/>
+<coverage-goal coverage-goal-val="3"/>
+</coverage-req>
+</coverage-reqs-set>
+</coverage-reqs-sets>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true">
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test1" negative="false" suppressNewLine="false" triggerType="Test Description">
+<focus-ctd-single-template>
+<focus-ctd-template text="BHF Wholesaler Checks Agent Appointment, License and LTC Training.&#13;&#10;- Verified all the 3 are available. &#13;&#10;BHF WholeSaler Create New Case&#13;&#10;BHF WholeSaler Enter First and Last name of PI.&#13;&#10;Verify Alphabets and - are only allowed. No special chars, numbers allowed&#13;&#10;Verify New product 'Indexed Universal Life' selected.&#13;&#10;Verify Email Address, SSN validated. Verify Incorrect formats will show warning message&#13;&#10;Verify Method of Premium Payment is displayed if 'Yes&quot; is selected for Cash on application option.&#13;&#10;Verify Rider - LTS for Death benefit is default selected and disabled for de-selction.&#13;&#10;Verify optional Riders can be selected.&#13;&#10;Verify Agent Compensation plan is Selected - Premium or Spread&#13;&#10;Verify commission split should be 100% total with the number of agents combined.&#13;&#10;Verify warning message displayed for less than or more than 100%"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Agent_License_Valid" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Agent_LTC_Training_Completed" operation="Equals">
+<focus-ctd-cond-val value="True"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Agent_Appointment_Available" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Case_Type" operation="Equals">
+<focus-ctd-cond-val value="Start_New_Case"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Start_New_Case_Product_Type" operation="Equals">
+<focus-ctd-cond-val value="Indexed Universal Life"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Start_New_Case_States" operation="Equals">
+<focus-ctd-cond-val value="Alabama"/>
+<focus-ctd-cond-val value="Alaska"/>
+<focus-ctd-cond-val value="Arizona"/>
+<focus-ctd-cond-val value="Arkansas"/>
+<focus-ctd-cond-val value="Colorado"/>
+<focus-ctd-cond-val value="Connecticut"/>
+<focus-ctd-cond-val value="Delaware"/>
+<focus-ctd-cond-val value="Florida"/>
+<focus-ctd-cond-val value="Georgia"/>
+<focus-ctd-cond-val value="Idaho"/>
+<focus-ctd-cond-val value="Illinois"/>
+<focus-ctd-cond-val value="Indiana"/>
+<focus-ctd-cond-val value="Iowa"/>
+<focus-ctd-cond-val value="Kansas"/>
+<focus-ctd-cond-val value="Kentucky"/>
+<focus-ctd-cond-val value="Louisiana"/>
+<focus-ctd-cond-val value="Maine"/>
+<focus-ctd-cond-val value="Maryland"/>
+<focus-ctd-cond-val value="Massachusetts"/>
+<focus-ctd-cond-val value="Michigan"/>
+<focus-ctd-cond-val value="Minnesota"/>
+<focus-ctd-cond-val value="Mississippi"/>
+<focus-ctd-cond-val value="Missouri"/>
+<focus-ctd-cond-val value="Montana"/>
+<focus-ctd-cond-val value="Nebraska"/>
+<focus-ctd-cond-val value="Nevada"/>
+<focus-ctd-cond-val value="New Hampshire"/>
+<focus-ctd-cond-val value="New Jersey"/>
+<focus-ctd-cond-val value="New Mexico"/>
+<focus-ctd-cond-val value="New York"/>
+<focus-ctd-cond-val value="North Carolina"/>
+<focus-ctd-cond-val value="North Dakota"/>
+<focus-ctd-cond-val value="Ohio"/>
+<focus-ctd-cond-val value="Oklahoma"/>
+<focus-ctd-cond-val value="Oregon"/>
+<focus-ctd-cond-val value="Pennsylvania"/>
+<focus-ctd-cond-val value="Rhode Island"/>
+<focus-ctd-cond-val value="South Carolina"/>
+<focus-ctd-cond-val value="South Dakota"/>
+<focus-ctd-cond-val value="Tennessee"/>
+<focus-ctd-cond-val value="Texas"/>
+<focus-ctd-cond-val value="Utah"/>
+<focus-ctd-cond-val value="Vermont"/>
+<focus-ctd-cond-val value="Virginia"/>
+<focus-ctd-cond-val value="Washington"/>
+<focus-ctd-cond-val value="West Virginia"/>
+<focus-ctd-cond-val value="Wisconsin"/>
+<focus-ctd-cond-val value="Wyoming"/>
+<focus-ctd-cond-val value="Washington DC"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Premium_Mode" operation="Equals">
+<focus-ctd-cond-val value="Single"/>
+<focus-ctd-cond-val value="2_year_Annual"/>
+<focus-ctd-cond-val value="3_Year_Annual"/>
+<focus-ctd-cond-val value="4_Year_Annual"/>
+<focus-ctd-cond-val value="5_Year_Annual"/>
+<focus-ctd-cond-val value="Annual"/>
+<focus-ctd-cond-val value="Semi-Annual"/>
+<focus-ctd-cond-val value="Quarterly"/>
+<focus-ctd-cond-val value="Monthly"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Premium_Amount" operation="Equals">
+<focus-ctd-cond-val value="&gt;=50000"/>
+<focus-ctd-cond-val value="&gt;=12500"/>
+<focus-ctd-cond-val value="&gt;=4166"/>
+<focus-ctd-cond-val value="&gt;=25000"/>
+<focus-ctd-cond-val value="&gt;=16666"/>
+<focus-ctd-cond-val value="&gt;=10000"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Method_Of_Premium_Collection" operation="Equals">
+<focus-ctd-cond-val value="Bank_Draft"/>
+<focus-ctd-cond-val value="Wire Transfer"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Riders_2" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Riders_3" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Riders_4" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Continued_Compensation_Plan" operation="Equals">
+<focus-ctd-cond-val value="Premium_Based"/>
+<focus-ctd-cond-val value="Spread"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test2" negative="false" suppressNewLine="false" triggerType="Test Description">
+<focus-ctd-single-template>
+<focus-ctd-template text="BHF Wholesaler Checks Agent Appointment, License and LTC Training.&#13;&#10;- Verified all the 3 are available. &#13;&#10;BHF WholeSaler Create New Case&#13;&#10;BHF WholeSaler Enter First and Last name of PI.&#13;&#10;Verify Alphabets and - are only allowed. No special chars, numbers allowed&#13;&#10;Verify New product 'Indexed Universal Life' selected.&#13;&#10;Verify Email Address, SSN validated. Verify Incorrect formats will show warning message"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Agent_License_Valid" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Agent_LTC_Training_Completed" operation="Equals">
+<focus-ctd-cond-val value="True"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Agent_Appointment_Available" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Case_Type" operation="Equals">
+<focus-ctd-cond-val value="Start_New_Case"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Start_New_Case_Product_Type" operation="Equals">
+<focus-ctd-cond-val value="Indexed Universal Life"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Start_New_Case_States" operation="Equals">
+<focus-ctd-cond-val value="Alabama"/>
+<focus-ctd-cond-val value="Alaska"/>
+<focus-ctd-cond-val value="Arizona"/>
+<focus-ctd-cond-val value="Arkansas"/>
+<focus-ctd-cond-val value="Colorado"/>
+<focus-ctd-cond-val value="Connecticut"/>
+<focus-ctd-cond-val value="Delaware"/>
+<focus-ctd-cond-val value="Florida"/>
+<focus-ctd-cond-val value="Georgia"/>
+<focus-ctd-cond-val value="Idaho"/>
+<focus-ctd-cond-val value="Illinois"/>
+<focus-ctd-cond-val value="Indiana"/>
+<focus-ctd-cond-val value="Iowa"/>
+<focus-ctd-cond-val value="Kansas"/>
+<focus-ctd-cond-val value="Kentucky"/>
+<focus-ctd-cond-val value="Louisiana"/>
+<focus-ctd-cond-val value="Maine"/>
+<focus-ctd-cond-val value="Maryland"/>
+<focus-ctd-cond-val value="Massachusetts"/>
+<focus-ctd-cond-val value="Michigan"/>
+<focus-ctd-cond-val value="Minnesota"/>
+<focus-ctd-cond-val value="Mississippi"/>
+<focus-ctd-cond-val value="Missouri"/>
+<focus-ctd-cond-val value="Montana"/>
+<focus-ctd-cond-val value="Nevada"/>
+<focus-ctd-cond-val value="Nebraska"/>
+<focus-ctd-cond-val value="New Hampshire"/>
+<focus-ctd-cond-val value="New Jersey"/>
+<focus-ctd-cond-val value="New Mexico"/>
+<focus-ctd-cond-val value="New York"/>
+<focus-ctd-cond-val value="North Carolina"/>
+<focus-ctd-cond-val value="North Dakota"/>
+<focus-ctd-cond-val value="Ohio"/>
+<focus-ctd-cond-val value="Oklahoma"/>
+<focus-ctd-cond-val value="Oregon"/>
+<focus-ctd-cond-val value="Pennsylvania"/>
+<focus-ctd-cond-val value="Rhode Island"/>
+<focus-ctd-cond-val value="South Carolina"/>
+<focus-ctd-cond-val value="South Dakota"/>
+<focus-ctd-cond-val value="Tennessee"/>
+<focus-ctd-cond-val value="Texas"/>
+<focus-ctd-cond-val value="Utah"/>
+<focus-ctd-cond-val value="Vermont"/>
+<focus-ctd-cond-val value="Virginia"/>
+<focus-ctd-cond-val value="Washington"/>
+<focus-ctd-cond-val value="West Virginia"/>
+<focus-ctd-cond-val value="Wisconsin"/>
+<focus-ctd-cond-val value="Wyoming"/>
+<focus-ctd-cond-val value="Washington DC"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Premium_Mode" operation="Equals">
+<focus-ctd-cond-val value="Single"/>
+<focus-ctd-cond-val value="2_year_Annual"/>
+<focus-ctd-cond-val value="3_Year_Annual"/>
+<focus-ctd-cond-val value="4_Year_Annual"/>
+<focus-ctd-cond-val value="5_Year_Annual"/>
+<focus-ctd-cond-val value="Annual"/>
+<focus-ctd-cond-val value="Semi-Annual"/>
+<focus-ctd-cond-val value="Quarterly"/>
+<focus-ctd-cond-val value="Monthly"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Premium_Amount" operation="Equals">
+<focus-ctd-cond-val value="&gt;=50000"/>
+<focus-ctd-cond-val value="&gt;=12500"/>
+<focus-ctd-cond-val value="&gt;=4166"/>
+<focus-ctd-cond-val value="&gt;=25000"/>
+<focus-ctd-cond-val value="&gt;=16666"/>
+<focus-ctd-cond-val value="&gt;=10000"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Method_Of_Premium_Collection" operation="Equals">
+<focus-ctd-cond-val value="Bank_Draft"/>
+<focus-ctd-cond-val value="Wire Transfer"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Riders_2" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Riders_3" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Riders_4" operation="Doesn't Equal">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Application_Setup_Continued_Compensation_Plan" operation="Equals">
+<focus-ctd-cond-val value="Premium_Based"/>
+<focus-ctd-cond-val value="Spread"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test3" negative="false" suppressNewLine="false" triggerType="Test Description">
+<focus-ctd-single-template>
+<focus-ctd-template text="BHF WholeSaler verifies the Agent LTC Training, License and Appointment Status.&#13;&#10; - Verified Agent does not have Valid License - BHF WholeSaler cannot go ahead with Application (Hard Stop)&#13;&#10; - Verified Agent does not have LTC training completed - BHF WholeSaler cannot go ahead with Application (Hard Stop)&#13;&#10;"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Agent_License_Valid" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Agent_LTC_Training_Completed" operation="Equals">
+<focus-ctd-cond-val value="True"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Agent_Appointment_Available" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Case_Type" operation="Equals">
+<focus-ctd-cond-val value="Start_New_Case"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test4" negative="false" suppressNewLine="false" triggerType="Test Description">
+<focus-ctd-single-template>
+<focus-ctd-template text="BHF WholeSaler verifies the Agent LTC Training, License and Appointment Status.&#13;&#10; - Verified Agent have Valid License &#13;&#10; - Verified Agent has completed LTC training &#13;&#10; - Verified Agent doesnot have Appointment. BHF WholeSaler refer for JIT appointment to BHF Licensing team"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Agent_License_Valid" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Agent_LTC_Training_Completed" operation="Equals">
+<focus-ctd-cond-val value="True"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Agent_Appointment_Available" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Case_Type" operation="Equals">
+<focus-ctd-cond-val value="Start_New_Case"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Start_New_Case_Product_Type" operation="Equals">
+<focus-ctd-cond-val value="Indexed Universal Life"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+</focus-ctd-decoration>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="iPipeline29May2019v1.model" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
+<deactivates/>
+<attrs-to-delete/>
+<pool_comments/>
+<db-dependencies/>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
