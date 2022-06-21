@@ -10,7 +10,7 @@
 <model-identification-field name="Created By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
 <model-identification-field name="Created Date and Time" partOfTag="false" value="31 Jan 2022 12:54:06"/>
 <model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
-<model-identification-field name="Updated Date and Time" partOfTag="false" value="09 May 2022 13:03:48"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="21 Jun 2022 11:04:24"/>
 <model-identification-field name="Application Sub Function" partOfTag="true" value="Madison"/>
 <model-identification-field name="Test Stage" partOfTag="false" value=""/>
 <model-identification-field name="Criticality" partOfTag="false" value=""/>
@@ -39,38 +39,40 @@
 <value name="Colorado" neg-value="false" weight="1"/>
 <value name="Connecticut" neg-value="false" weight="1"/>
 <value name="Delaware" neg-value="false" weight="1"/>
-<value name="&#9;Florida" neg-value="false" weight="1"/>
+<value name="Florida" neg-value="false" weight="1"/>
 <value name="Gregoria" neg-value="false" weight="1"/>
 <value name="Hawaii" neg-value="false" weight="1"/>
-<value name="&#9;Idaho" neg-value="false" weight="1"/>
+<value name="Idaho" neg-value="false" weight="1"/>
 <value name="Illinois" neg-value="false" weight="1"/>
 <value name="Indiana" neg-value="false" weight="1"/>
-<value name="&#9;Iowa" neg-value="false" weight="1"/>
+<value name="Iowa" neg-value="false" weight="1"/>
 <value name="Kansas" neg-value="false" weight="1"/>
 <value name="Kentucky" neg-value="false" weight="1"/>
+<value name="Louisiana" neg-value="false" weight="1"/>
 <value name="Maine" neg-value="false" weight="1"/>
 <value name="Maryland" neg-value="false" weight="1"/>
 <value name="Massachusetts" neg-value="false" weight="1"/>
-<value name="&#9;Michigan" neg-value="false" weight="1"/>
-<value name="&#9;Minnesota" neg-value="false" weight="1"/>
-<value name="&#9;Utah" neg-value="false" weight="1"/>
-<value name="Oregon" neg-value="false" weight="1"/>
-<value name="Ohio" neg-value="false" weight="1"/>
-<value name="&#9;New York" neg-value="false" weight="1"/>
-<value name="&#9;Nevada" neg-value="false" weight="1"/>
-<value name="Washington" neg-value="false" weight="1"/>
-<value name="Virginia" neg-value="false" weight="1"/>
-<value name="Texas" neg-value="false" weight="1"/>
-<value name="West Virginia" neg-value="false" weight="1"/>
-<value name="Vermont" neg-value="false" weight="1"/>
-<value name="Wyoming" neg-value="false" weight="1"/>
-<value name="South Dakota" neg-value="false" weight="1"/>
-<value name="Oklahoma" neg-value="false" weight="1"/>
-<value name="New Jersey" neg-value="false" weight="1"/>
-<value name="New Mexico" neg-value="false" weight="1"/>
-<value name="New Hemisphere" neg-value="false" weight="1"/>
 <value name="Mississippi" neg-value="false" weight="1"/>
+<value name="Michigan" neg-value="false" weight="1"/>
 <value name="Montana" neg-value="false" weight="1"/>
+<value name="Minnesota" neg-value="false" weight="1"/>
+<value name="Utah" neg-value="false" weight="1"/>
+<value name="North Carolina" neg-value="false" weight="1"/>
+<value name="North Dakota" neg-value="false" weight="1"/>
+<value name="New Jersey" neg-value="false" weight="1"/>
+<value name="Nevada" neg-value="false" weight="1"/>
+<value name="New York" neg-value="false" weight="1"/>
+<value name="Ohio" neg-value="false" weight="1"/>
+<value name="Oklahoma" neg-value="false" weight="1"/>
+<value name="Pennsylvania" neg-value="false" weight="1"/>
+<value name="South Dakota" neg-value="false" weight="1"/>
+<value name="Texas" neg-value="false" weight="1"/>
+<value name="Tennessee" neg-value="false" weight="1"/>
+<value name="Virginia" neg-value="false" weight="1"/>
+<value name="Vermont" neg-value="false" weight="1"/>
+<value name="Washington" neg-value="false" weight="1"/>
+<value name="Wisconsin" neg-value="false" weight="1"/>
+<value name="Wyoming" neg-value="false" weight="1"/>
 </attribute>
 <attribute attr_class="NONE" dependencies="false" description="" group="Suitability" iotype="NEITHER" name="Suitability" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
 <value description="Yes" name="Yes" neg-value="false" weight="1"/>
@@ -180,6 +182,39 @@
 <value description="Same_As_Owner" name="Same_As_Owner" neg-value="false" weight="1"/>
 <value name="NA" neg-value="false" weight="1"/>
 </attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="BankAccountNumber" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="0000000001" neg-value="false" weight="1"/>
+<value name="0000000002" neg-value="false" weight="1"/>
+<value name="0000000003" neg-value="false" weight="1"/>
+<value name="0000000004" neg-value="false" weight="1"/>
+<value name="0000000005" neg-value="false" weight="1"/>
+<value name="0000000006" neg-value="false" weight="1"/>
+<value name="0000000007" neg-value="false" weight="1"/>
+<value name="0000000008" neg-value="false" weight="1"/>
+<value name="0000000009" neg-value="false" weight="1"/>
+<value name="0000000010" neg-value="false" weight="1"/>
+<value name="0000000011" neg-value="false" weight="1"/>
+<value name="0000000012" neg-value="false" weight="1"/>
+<value name="0000000013" neg-value="false" weight="1"/>
+<value name="0000000014" neg-value="false" weight="1"/>
+<value name="0000000015" neg-value="false" weight="1"/>
+<value name="0000000016" neg-value="false" weight="1"/>
+<value name="0000000017" neg-value="false" weight="1"/>
+<value name="0000000018" neg-value="false" weight="1"/>
+<value name="0000000019" neg-value="false" weight="1"/>
+<value name="0000000020" neg-value="false" weight="1"/>
+<value name="0000000021" neg-value="false" weight="1"/>
+<value name="0000000022" neg-value="false" weight="1"/>
+<value name="0000000023" neg-value="false" weight="1"/>
+<value name="0000000024" neg-value="false" weight="1"/>
+<value name="0000000025" neg-value="false" weight="1"/>
+<value name="0000000026" neg-value="false" weight="1"/>
+<value name="0000000027" neg-value="false" weight="1"/>
+<value name="0000000028" neg-value="false" weight="1"/>
+<value name="0000000029" neg-value="false" weight="1"/>
+<value name="0000000030" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
 <attribute attr_class="NONE" dependencies="false" description="" group="Address" iotype="NEITHER" name="Address" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
 <value name="Residence Only" neg-value="false" weight="1"/>
 <value name="Residence(PassedtoWMA)" neg-value="false" weight="1"/>
@@ -260,10 +295,10 @@
 <value name="TBD for Florida" neg-value="false" weight="1"/>
 <value name="NA" neg-value="false" weight="1"/>
 </attribute>
-<restriction expression="!(States.equals(&quot;&#9;Florida&quot;)) || (AgentID_ForFloridaCase.equals(&quot;8388106&quot;) || AgentID_ForFloridaCase.equals(&quot;T111111111&quot;)) &amp;&amp; (AgentName_Florida.equals(&quot;Angela_Hendrickson&quot;) || AgentName_Florida.equals(&quot;Edward_To_Confirm&quot;)) &amp;&amp; (Agent_Profile_FloridaCase_TBD.equals(&quot;TBD&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;TBD_Edward_To_Confirm&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;XRX&quot;)) &amp;&amp; Florida_Split_Percenage.equals(&quot;First and Second  Year Percent 100&quot;) &amp;&amp; (Commission_Option.equals(&quot;A&quot;) || Commission_Option.equals(&quot;TBD for Florida&quot;))" group="" groupedExpression="!(States.equals(&quot;&#9;Florida&quot;)) || (AgentID_ForFloridaCase.equals(&quot;8388106&quot;) || AgentID_ForFloridaCase.equals(&quot;T111111111&quot;)) &amp;&amp; (AgentName_Florida.equals(&quot;Angela_Hendrickson&quot;) || AgentName_Florida.equals(&quot;Edward_To_Confirm&quot;)) &amp;&amp; (Agent_Profile_FloridaCase_TBD.equals(&quot;TBD&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;TBD_Edward_To_Confirm&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;XRX&quot;)) &amp;&amp; Florida_Split_Percenage.equals(&quot;First and Second  Year Percent 100&quot;) &amp;&amp; (Commission_Option.equals(&quot;A&quot;) || Commission_Option.equals(&quot;TBD for Florida&quot;))" iff="false" isActive="true" isAutoGenerated="false" name="FloridaState" type="If-Then">
+<restriction expression="!(States.equals(&quot;Florida&quot;)) || (AgentID_ForFloridaCase.equals(&quot;8388106&quot;) || AgentID_ForFloridaCase.equals(&quot;T111111111&quot;)) &amp;&amp; (AgentName_Florida.equals(&quot;Angela_Hendrickson&quot;) || AgentName_Florida.equals(&quot;Edward_To_Confirm&quot;)) &amp;&amp; (Agent_Profile_FloridaCase_TBD.equals(&quot;TBD&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;TBD_Edward_To_Confirm&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;XRX&quot;)) &amp;&amp; Florida_Split_Percenage.equals(&quot;First and Second  Year Percent 100&quot;) &amp;&amp; (Commission_Option.equals(&quot;A&quot;) || Commission_Option.equals(&quot;TBD for Florida&quot;))" group="" groupedExpression="!(States.equals(&quot;Florida&quot;)) || (AgentID_ForFloridaCase.equals(&quot;8388106&quot;) || AgentID_ForFloridaCase.equals(&quot;T111111111&quot;)) &amp;&amp; (AgentName_Florida.equals(&quot;Angela_Hendrickson&quot;) || AgentName_Florida.equals(&quot;Edward_To_Confirm&quot;)) &amp;&amp; (Agent_Profile_FloridaCase_TBD.equals(&quot;TBD&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;TBD_Edward_To_Confirm&quot;) || Agent_Profile_FloridaCase_TBD.equals(&quot;XRX&quot;)) &amp;&amp; Florida_Split_Percenage.equals(&quot;First and Second  Year Percent 100&quot;) &amp;&amp; (Commission_Option.equals(&quot;A&quot;) || Commission_Option.equals(&quot;TBD for Florida&quot;))" iff="false" isActive="true" isAutoGenerated="false" name="FloridaState" type="If-Then">
 <if-expr is_or="true">
 <focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="&#9;Florida"/>
+<focus-ctd-cond-val value="Florida"/>
 </focus-ctd-cond>
 </if-expr>
 <then-expr is_or="false">
@@ -289,7 +324,7 @@
 </focus-ctd-cond>
 </then-expr>
 </restriction>
-<restriction expression="!(States.equals(&quot;Alaska&quot;) || States.equals(&quot;Alabama&quot;) || States.equals(&quot;Arizona&quot;) || States.equals(&quot;Arkansas&quot;) || States.equals(&quot;California&quot;) || States.equals(&quot;Colorado&quot;) || States.equals(&quot;Connecticut&quot;) || States.equals(&quot;Delaware&quot;) || States.equals(&quot;Gregoria&quot;) || States.equals(&quot;Hawaii&quot;) || States.equals(&quot;&#9;Idaho&quot;) || States.equals(&quot;Illinois&quot;) || States.equals(&quot;Indiana&quot;) || States.equals(&quot;&#9;Iowa&quot;) || States.equals(&quot;Kansas&quot;) || States.equals(&quot;Kentucky&quot;) || States.equals(&quot;Maine&quot;) || States.equals(&quot;Maryland&quot;) || States.equals(&quot;Massachusetts&quot;) || States.equals(&quot;&#9;Michigan&quot;) || States.equals(&quot;&#9;Minnesota&quot;) || States.equals(&quot;&#9;Utah&quot;) || States.equals(&quot;Oregon&quot;) || States.equals(&quot;Ohio&quot;) || States.equals(&quot;&#9;New York&quot;) || States.equals(&quot;&#9;Nevada&quot;) || States.equals(&quot;Washington&quot;) || States.equals(&quot;Virginia&quot;) || States.equals(&quot;Texas&quot;) || States.equals(&quot;West Virginia&quot;) || States.equals(&quot;Wyoming&quot;) || States.equals(&quot;South Dakota&quot;) || States.equals(&quot;Oklahoma&quot;) || States.equals(&quot;New Jersey&quot;) || States.equals(&quot;New Mexico&quot;) || States.equals(&quot;New Hemisphere&quot;) || States.equals(&quot;Mississippi&quot;) || States.equals(&quot;Montana&quot;) || States.equals(&quot;Vermont&quot;)) || AgentID_ForFloridaCase.equals(&quot;NA&quot;) &amp;&amp; AgentName_Florida.equals(&quot;NA&quot;) &amp;&amp; Agent_Profile_FloridaCase_TBD.equals(&quot;NA&quot;) &amp;&amp; Florida_Split_Percenage.equals(&quot;Na&quot;) &amp;&amp; Commission_Option.equals(&quot;NA&quot;)" group="" groupedExpression="!(States.equals(&quot;Alaska&quot;) || States.equals(&quot;Alabama&quot;) || States.equals(&quot;Arizona&quot;) || States.equals(&quot;Arkansas&quot;) || States.equals(&quot;California&quot;) || States.equals(&quot;Colorado&quot;) || States.equals(&quot;Connecticut&quot;) || States.equals(&quot;Delaware&quot;) || States.equals(&quot;Gregoria&quot;) || States.equals(&quot;Hawaii&quot;) || States.equals(&quot;&#9;Idaho&quot;) || States.equals(&quot;Illinois&quot;) || States.equals(&quot;Indiana&quot;) || States.equals(&quot;&#9;Iowa&quot;) || States.equals(&quot;Kansas&quot;) || States.equals(&quot;Kentucky&quot;) || States.equals(&quot;Maine&quot;) || States.equals(&quot;Maryland&quot;) || States.equals(&quot;Massachusetts&quot;) || States.equals(&quot;&#9;Michigan&quot;) || States.equals(&quot;&#9;Minnesota&quot;) || States.equals(&quot;&#9;Utah&quot;) || States.equals(&quot;Oregon&quot;) || States.equals(&quot;Ohio&quot;) || States.equals(&quot;&#9;New York&quot;) || States.equals(&quot;&#9;Nevada&quot;) || States.equals(&quot;Washington&quot;) || States.equals(&quot;Virginia&quot;) || States.equals(&quot;Texas&quot;) || States.equals(&quot;West Virginia&quot;) || States.equals(&quot;Wyoming&quot;) || States.equals(&quot;South Dakota&quot;) || States.equals(&quot;Oklahoma&quot;) || States.equals(&quot;New Jersey&quot;) || States.equals(&quot;New Mexico&quot;) || States.equals(&quot;New Hemisphere&quot;) || States.equals(&quot;Mississippi&quot;) || States.equals(&quot;Montana&quot;) || States.equals(&quot;Vermont&quot;)) || AgentID_ForFloridaCase.equals(&quot;NA&quot;) &amp;&amp; AgentName_Florida.equals(&quot;NA&quot;) &amp;&amp; Agent_Profile_FloridaCase_TBD.equals(&quot;NA&quot;) &amp;&amp; Florida_Split_Percenage.equals(&quot;Na&quot;) &amp;&amp; Commission_Option.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<restriction expression="!(States.equals(&quot;Alaska&quot;) || States.equals(&quot;Alabama&quot;) || States.equals(&quot;Arizona&quot;) || States.equals(&quot;Arkansas&quot;) || States.equals(&quot;California&quot;) || States.equals(&quot;Colorado&quot;) || States.equals(&quot;Connecticut&quot;) || States.equals(&quot;Gregoria&quot;) || States.equals(&quot;Hawaii&quot;) || States.equals(&quot;Idaho&quot;) || States.equals(&quot;Illinois&quot;) || States.equals(&quot;Indiana&quot;) || States.equals(&quot;Iowa&quot;) || States.equals(&quot;Kansas&quot;) || States.equals(&quot;Kentucky&quot;) || States.equals(&quot;Louisiana&quot;) || States.equals(&quot;Maine&quot;) || States.equals(&quot;Maryland&quot;) || States.equals(&quot;Massachusetts&quot;) || States.equals(&quot;Mississippi&quot;) || States.equals(&quot;Michigan&quot;) || States.equals(&quot;Montana&quot;) || States.equals(&quot;Minnesota&quot;) || States.equals(&quot;Utah&quot;) || States.equals(&quot;North Carolina&quot;) || States.equals(&quot;North Dakota&quot;) || States.equals(&quot;New Jersey&quot;) || States.equals(&quot;Nevada&quot;) || States.equals(&quot;New York&quot;) || States.equals(&quot;Ohio&quot;) || States.equals(&quot;Oklahoma&quot;) || States.equals(&quot;Pennsylvania&quot;) || States.equals(&quot;South Dakota&quot;) || States.equals(&quot;Texas&quot;) || States.equals(&quot;Tennessee&quot;) || States.equals(&quot;Virginia&quot;) || States.equals(&quot;Vermont&quot;) || States.equals(&quot;Washington&quot;) || States.equals(&quot;Wisconsin&quot;) || States.equals(&quot;Wyoming&quot;) || States.equals(&quot;Delaware&quot;)) || AgentID_ForFloridaCase.equals(&quot;NA&quot;) &amp;&amp; AgentName_Florida.equals(&quot;NA&quot;) &amp;&amp; Agent_Profile_FloridaCase_TBD.equals(&quot;NA&quot;) &amp;&amp; Florida_Split_Percenage.equals(&quot;Na&quot;) &amp;&amp; Commission_Option.equals(&quot;NA&quot;)" group="" groupedExpression="!(States.equals(&quot;Alaska&quot;) || States.equals(&quot;Alabama&quot;) || States.equals(&quot;Arizona&quot;) || States.equals(&quot;Arkansas&quot;) || States.equals(&quot;California&quot;) || States.equals(&quot;Colorado&quot;) || States.equals(&quot;Connecticut&quot;) || States.equals(&quot;Gregoria&quot;) || States.equals(&quot;Hawaii&quot;) || States.equals(&quot;Idaho&quot;) || States.equals(&quot;Illinois&quot;) || States.equals(&quot;Indiana&quot;) || States.equals(&quot;Iowa&quot;) || States.equals(&quot;Kansas&quot;) || States.equals(&quot;Kentucky&quot;) || States.equals(&quot;Louisiana&quot;) || States.equals(&quot;Maine&quot;) || States.equals(&quot;Maryland&quot;) || States.equals(&quot;Massachusetts&quot;) || States.equals(&quot;Mississippi&quot;) || States.equals(&quot;Michigan&quot;) || States.equals(&quot;Montana&quot;) || States.equals(&quot;Minnesota&quot;) || States.equals(&quot;Utah&quot;) || States.equals(&quot;North Carolina&quot;) || States.equals(&quot;North Dakota&quot;) || States.equals(&quot;New Jersey&quot;) || States.equals(&quot;Nevada&quot;) || States.equals(&quot;New York&quot;) || States.equals(&quot;Ohio&quot;) || States.equals(&quot;Oklahoma&quot;) || States.equals(&quot;Pennsylvania&quot;) || States.equals(&quot;South Dakota&quot;) || States.equals(&quot;Texas&quot;) || States.equals(&quot;Tennessee&quot;) || States.equals(&quot;Virginia&quot;) || States.equals(&quot;Vermont&quot;) || States.equals(&quot;Washington&quot;) || States.equals(&quot;Wisconsin&quot;) || States.equals(&quot;Wyoming&quot;) || States.equals(&quot;Delaware&quot;)) || AgentID_ForFloridaCase.equals(&quot;NA&quot;) &amp;&amp; AgentName_Florida.equals(&quot;NA&quot;) &amp;&amp; Agent_Profile_FloridaCase_TBD.equals(&quot;NA&quot;) &amp;&amp; Florida_Split_Percenage.equals(&quot;Na&quot;) &amp;&amp; Commission_Option.equals(&quot;NA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
 <if-expr is_or="true">
 <focus-ctd-cond attribute="States" operation="Equals">
 <focus-ctd-cond-val value="Alaska"/>
@@ -313,16 +348,13 @@
 <focus-ctd-cond-val value="Connecticut"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="Delaware"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
 <focus-ctd-cond-val value="Gregoria"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
 <focus-ctd-cond-val value="Hawaii"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="&#9;Idaho"/>
+<focus-ctd-cond-val value="Idaho"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
 <focus-ctd-cond-val value="Illinois"/>
@@ -331,13 +363,16 @@
 <focus-ctd-cond-val value="Indiana"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="&#9;Iowa"/>
+<focus-ctd-cond-val value="Iowa"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
 <focus-ctd-cond-val value="Kansas"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
 <focus-ctd-cond-val value="Kentucky"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Louisiana"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
 <focus-ctd-cond-val value="Maine"/>
@@ -349,64 +384,70 @@
 <focus-ctd-cond-val value="Massachusetts"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="&#9;Michigan"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="&#9;Minnesota"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="&#9;Utah"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="Oregon"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="Ohio"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="&#9;New York"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="&#9;Nevada"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="Washington"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="Virginia"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="Texas"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="West Virginia"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="Wyoming"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="South Dakota"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="Oklahoma"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="New Jersey"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="New Mexico"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="New Hemisphere"/>
-</focus-ctd-cond>
-<focus-ctd-cond attribute="States" operation="Equals">
 <focus-ctd-cond-val value="Mississippi"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Michigan"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
 <focus-ctd-cond-val value="Montana"/>
 </focus-ctd-cond>
 <focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Minnesota"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Utah"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="North Carolina"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="North Dakota"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="New Jersey"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Nevada"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="New York"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Ohio"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Oklahoma"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Pennsylvania"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="South Dakota"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Texas"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Tennessee"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Virginia"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
 <focus-ctd-cond-val value="Vermont"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Washington"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Wisconsin"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Wyoming"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="States" operation="Equals">
+<focus-ctd-cond-val value="Delaware"/>
 </focus-ctd-cond>
 </if-expr>
 <then-expr is_or="false">
@@ -433,7 +474,33 @@
 <coverage-reqs-sets defaultCoverageRequirementsSet="Madison">
 <coverage-reqs-set description="" name="Madison">
 <coverage-req>
+<attribute name="E_Delivery"/>
+<attribute name="Plan_Type"/>
 <attribute name="States"/>
+<attribute name="Suitability"/>
+<attribute name="Amendment_Form"/>
+<attribute name="Income_Options"/>
+<attribute name="First_PaymentDate"/>
+<attribute name="Initial_Payment_Amount"/>
+<attribute name="Redemption_Amount"/>
+<attribute name="Distribution_Notification_Amount"/>
+<attribute name="issue_Age"/>
+<attribute name="Payee"/>
+<attribute name="BankAccountNumber"/>
+<attribute name="Address"/>
+<attribute name="Benefit_Type"/>
+<attribute name="Joint_Life_Age"/>
+<attribute name="Primary_Beneficiaries"/>
+<attribute name="Primary_percentage_Share"/>
+<attribute name="Contingent_Beneficiaries"/>
+<attribute name="Contingent_Share"/>
+<attribute name="PaymentMethodForApplicationSubmission"/>
+<attribute name="Replacement_Matrix"/>
+<attribute name="AgentID_ForFloridaCase"/>
+<attribute name="AgentName_Florida"/>
+<attribute name="Agent_Profile_FloridaCase_TBD"/>
+<attribute name="Florida_Split_Percenage"/>
+<attribute name="Commission_Option"/>
 <coverage-goal coverage-goal-val="1"/>
 </coverage-req>
 </coverage-reqs-set>
@@ -449,30 +516,35 @@
 <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Step1" negative="false" suppressNewLine="false" triggerType="Test_Steps">
 <focus-ctd-multiple-template>
 <focus-ctd-multiple-template-testSteps>
-<focus-ctd-template text="Yes or No"/>
+<focus-ctd-template text="Validate WMA for the contract."/>
 </focus-ctd-multiple-template-testSteps>
 <focus-ctd-multiple-template-expectedResults>
-<focus-ctd-template text="yes"/>
+<focus-ctd-template text="Able to find the contract with details as in the case difinition"/>
 </focus-ctd-multiple-template-expectedResults>
 <focus-ctd-multiple-template-additionalInfo/>
 </focus-ctd-multiple-template>
-<focus-ctd-cond attribute="E_Delivery" operation="Equals">
-<focus-ctd-cond-val value="Yes"/>
-</focus-ctd-cond>
 </focus-ctd-trigger>
 <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Step2" negative="false" suppressNewLine="false" triggerType="Test_Steps">
 <focus-ctd-multiple-template>
 <focus-ctd-multiple-template-testSteps>
-<focus-ctd-template text="Select one state"/>
+<focus-ctd-template text="Validate Copybooks"/>
 </focus-ctd-multiple-template-testSteps>
 <focus-ctd-multiple-template-expectedResults>
-<focus-ctd-template text="State"/>
+<focus-ctd-template text=""/>
 </focus-ctd-multiple-template-expectedResults>
 <focus-ctd-multiple-template-additionalInfo/>
 </focus-ctd-multiple-template>
-<focus-ctd-cond attribute="States" operation="Equals">
-<focus-ctd-cond-val value="Alaska"/>
-</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Step3" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Validate downstream system"/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text=""/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
 </focus-ctd-trigger>
 </focus-ctd-decoration>
 <defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="Madison.model" parentDetailsModelTag="@Test @1 @Test_Sample @Madison" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
@@ -481,7 +553,6 @@
 <pool_comments>
 <pool_comment key="0f39d1f4-7c64-4d6c-a6af-5f1c4bb46791" value="{&quot;name&quot;:&quot;Amendment_Form&quot;,&quot;version&quot;:&quot;1&quot;}"/>
 <pool_comment key="9e37a176-6f2e-480e-9b99-5c7eecb5cb12" value="{&quot;name&quot;:&quot;AgentID_ForFloridaCase&quot;,&quot;version&quot;:&quot;1&quot;}"/>
-<pool_comment key="d278a5de-82ba-4298-990a-03091ee503f5" value="{&quot;name&quot;:&quot;States&quot;,&quot;version&quot;:&quot;1&quot;}"/>
 <pool_comment key="7b8ee863-68fc-4d46-bcb8-52396e2972d8" value="{&quot;name&quot;:&quot;Primary_percentage_Share&quot;,&quot;version&quot;:&quot;1&quot;}"/>
 <pool_comment key="d00328c3-3d21-44b6-b3d8-49b4e307980e" value="{&quot;name&quot;:&quot;Plan_Type&quot;,&quot;version&quot;:&quot;1&quot;}"/>
 <pool_comment key="bb10a6fc-5334-4a6c-a0db-efa37550f95d" value="{&quot;name&quot;:&quot;Redemption_Amount&quot;,&quot;version&quot;:&quot;1&quot;}"/>
@@ -497,6 +568,7 @@
 <pool_comment key="b83d64c6-f1ba-4208-a928-82302c6f2315" value="{&quot;name&quot;:&quot;Agent_Profile_FloridaCase_TBD&quot;,&quot;version&quot;:&quot;1&quot;}"/>
 <pool_comment key="3a1c03cf-cc9c-4fb9-a08b-a5de887b2de0" value="{&quot;name&quot;:&quot;issue_Age&quot;,&quot;version&quot;:&quot;1&quot;}"/>
 <pool_comment key="41b5d4bc-11fc-4011-bff4-f493a0da8911" value="{&quot;name&quot;:&quot;Joint_Life_Age&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="5c6f1250-c3d2-4f61-a62d-52068fe65773" value="{&quot;name&quot;:&quot;States&quot;,&quot;version&quot;:&quot;2&quot;}"/>
 <pool_comment key="110ecccc-f813-4616-9541-7bfee4dcc3c9" value="{&quot;name&quot;:&quot;Commission_Option&quot;,&quot;version&quot;:&quot;1&quot;}"/>
 <pool_comment key="ad2081e8-e951-46b0-82fd-bfcbe1f749b2" value="{&quot;name&quot;:&quot;Initial_Payment_Amount&quot;,&quot;version&quot;:&quot;1&quot;}"/>
 <pool_comment key="38bbb922-ea5c-46c4-a321-e3e36bd6efab" value="{&quot;name&quot;:&quot;PaymentMethodForApplicationSubmission&quot;,&quot;version&quot;:&quot;1&quot;}"/>
