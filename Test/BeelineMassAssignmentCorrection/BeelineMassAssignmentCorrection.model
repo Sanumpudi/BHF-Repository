@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--Beeline_Assignment_Correction--><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="" inputOutput="false" manual="true">
+<model-identification modelTag="@Test @1 @Test_Sample @Assignment">
+<model-identification-field name="Application Name" partOfTag="true" value="Test"/>
+<model-identification-field name="Application code version #" partOfTag="true" value="1"/>
+<model-identification-field name="Application Function" partOfTag="true" value="Test_Sample"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+<model-identification-field name="Created By" partOfTag="false" value="no user"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="11 Sep 2020 04:41:10"/>
+<model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="21 Jun 2022 14:37:10"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value="Assignment"/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+<model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Assignment_Group_Contains_In_Process_Assignments" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Assignment" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Assignment_Group_Created" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Assignment" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Error" neg-value="false" weight="1"/>
+<value name="Success" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Assignment_Group_details_Entered_successfully" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Assignment" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Assignment" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Assignment" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+<value name="NA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Submission_of_Changes" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1 @Test_Sample @Assignment" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Success" neg-value="false" weight="1"/>
+<value name="Failure" neg-value="false" weight="1"/>
+</attribute>
+<restriction expression="!(Assignment_Group_Contains_In_Process_Assignments.equals(&quot;No&quot;) &amp;&amp; Assignment_Group_Created.equals(&quot;Success&quot;) &amp;&amp; Assignment_Group_details_Entered_successfully.equals(&quot;Yes&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;) &amp;&amp; Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;No&quot;)) || Submission_of_Changes.equals(&quot;Success&quot;)" group="" groupedExpression="!(Assignment_Group_Contains_In_Process_Assignments.equals(&quot;No&quot;) &amp;&amp; Assignment_Group_Created.equals(&quot;Success&quot;) &amp;&amp; Assignment_Group_details_Entered_successfully.equals(&quot;Yes&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;) &amp;&amp; Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;No&quot;)) || Submission_of_Changes.equals(&quot;Success&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Assignment_Group_Contains_In_Process_Assignments" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_Created" operation="Equals">
+<focus-ctd-cond-val value="Success"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_details_Entered_successfully" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Submission_of_Changes" operation="Equals">
+<focus-ctd-cond-val value="Success"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Assignment_Group_Contains_In_Process_Assignments.equals(&quot;No&quot;) &amp;&amp; Assignment_Group_Created.equals(&quot;Success&quot;) &amp;&amp; Assignment_Group_details_Entered_successfully.equals(&quot;Yes&quot;) &amp;&amp; !Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;) &amp;&amp; !Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;No&quot;)) || Submission_of_Changes.equals(&quot;Failure&quot;)" group="" groupedExpression="!(Assignment_Group_Contains_In_Process_Assignments.equals(&quot;No&quot;) &amp;&amp; Assignment_Group_Created.equals(&quot;Success&quot;) &amp;&amp; Assignment_Group_details_Entered_successfully.equals(&quot;Yes&quot;) &amp;&amp; !Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;) &amp;&amp; !Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;No&quot;)) || Submission_of_Changes.equals(&quot;Failure&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Assignment_Group_Contains_In_Process_Assignments" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_Created" operation="Equals">
+<focus-ctd-cond-val value="Success"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_details_Entered_successfully" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date" operation="Doesn't Equal">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date" operation="Doesn't Equal">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Submission_of_Changes" operation="Equals">
+<focus-ctd-cond-val value="Failure"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(!Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;) || !Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;No&quot;)) || Submission_of_Changes.equals(&quot;Failure&quot;)" group="" groupedExpression="!(!Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;) || !Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;No&quot;)) || Submission_of_Changes.equals(&quot;Failure&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="true">
+<focus-ctd-cond attribute="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date" operation="Doesn't Equal">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date" operation="Doesn't Equal">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Submission_of_Changes" operation="Equals">
+<focus-ctd-cond-val value="Failure"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;Yes&quot;) &amp;&amp; Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;NA&quot;)" group="" groupedExpression="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;Yes&quot;) &amp;&amp; Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;) &amp;&amp; Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;NA&quot;)" group="" groupedExpression="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;) &amp;&amp; Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;NA&quot;) &amp;&amp; Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;No&quot;)" group="" groupedExpression="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;NA&quot;) &amp;&amp; Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;NA&quot;) &amp;&amp; Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;Yes&quot;)" group="" groupedExpression="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;NA&quot;) &amp;&amp; Amendment_End_Date_is_a_date_past_the_current_Assigment_Date.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Assignment_Group_Created.equals(&quot;Error&quot;) &amp;&amp; Assignment_Group_details_Entered_successfully.equals(&quot;Yes&quot;)" group="" groupedExpression="Assignment_Group_Created.equals(&quot;Error&quot;) &amp;&amp; Assignment_Group_details_Entered_successfully.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Assignment_Group_Created.equals(&quot;Error&quot;) &amp;&amp; Assignment_Group_details_Entered_successfully.equals(&quot;No&quot;)" group="" groupedExpression="Assignment_Group_Created.equals(&quot;Error&quot;) &amp;&amp; Assignment_Group_details_Entered_successfully.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Assignment_Group_Contains_In_Process_Assignments.equals(&quot;Yes&quot;) &amp;&amp; Assignment_Group_Created.equals(&quot;Success&quot;)" group="" groupedExpression="Assignment_Group_Contains_In_Process_Assignments.equals(&quot;Yes&quot;) &amp;&amp; Assignment_Group_Created.equals(&quot;Success&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Assignment_Group_Contains_In_Process_Assignments.equals(&quot;No&quot;) &amp;&amp; Assignment_Group_Created.equals(&quot;Error&quot;)" group="" groupedExpression="Assignment_Group_Contains_In_Process_Assignments.equals(&quot;No&quot;) &amp;&amp; Assignment_Group_Created.equals(&quot;Error&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression=" Assignment_Group_Created.equals(&quot;Success&quot;) &amp;&amp; Assignment_Group_details_Entered_successfully.equals(&quot;NA&quot;)" group="" groupedExpression=" Assignment_Group_Created.equals(&quot;Success&quot;) &amp;&amp; Assignment_Group_details_Entered_successfully.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Assignment_Group_details_Entered_successfully.equals(&quot;No&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;Yes&quot;)" group="" groupedExpression="Assignment_Group_details_Entered_successfully.equals(&quot;No&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Assignment_Group_details_Entered_successfully.equals(&quot;No&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;)" group="" groupedExpression="Assignment_Group_details_Entered_successfully.equals(&quot;No&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Assignment_Group_details_Entered_successfully.equals(&quot;NA&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;)" group="" groupedExpression="Assignment_Group_details_Entered_successfully.equals(&quot;NA&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;No&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Assignment_Group_details_Entered_successfully.equals(&quot;NA&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;Yes&quot;)" group="" groupedExpression="Assignment_Group_details_Entered_successfully.equals(&quot;NA&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<restriction expression="Assignment_Group_details_Entered_successfully.equals(&quot;Yes&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;NA&quot;)" group="" groupedExpression="Assignment_Group_details_Entered_successfully.equals(&quot;Yes&quot;) &amp;&amp; Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date.equals(&quot;NA&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion"/>
+<coverage-reqs-sets defaultCoverageRequirementsSet="Successful Assignment Correction">
+<coverage-reqs-set description="Assignment Correction" name="Successful Assignment Correction">
+<coverage-req>
+<attribute name="Assignment_Group_Contains_In_Process_Assignments"/>
+<attribute name="Assignment_Group_Created"/>
+<attribute name="Assignment_Group_details_Entered_successfully"/>
+<attribute name="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date"/>
+<attribute name="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date"/>
+<attribute name="Submission_of_Changes"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+</coverage-reqs-set>
+</coverage-reqs-sets>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="true">
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Pre-conditon" negative="false" suppressNewLine="false" triggerType="Preconditions">
+<focus-ctd-single-template>
+<focus-ctd-template text="Hiring Manager able to access the following Beeline URL and logged in successfully.&#13;&#10;https://projects.beeline.com/proj195"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Assignment_Group_Contains_In_Process_Assignments" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Assignment Group Contains In Process" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Hiring Manager selects the Contingent Workers to be in the group."/>
+<focus-ctd-template text="Verify if the assignment group created by HM has In Process assignments.."/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Contingent workers successfully selected."/>
+<focus-ctd-template text="Since the Assignment group has In Process assignments, System throws error."/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Assignment_Group_Contains_In_Process_Assignments" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_Created" operation="Equals">
+<focus-ctd-cond-val value="Error"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_details_Entered_successfully" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Submission_of_Changes" operation="Equals">
+<focus-ctd-cond-val value="Failure"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Assignment Group Details Entered" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Hiring Manager selects the Contingent Workers to be in the group.&#10;"/>
+<focus-ctd-template text="Assignment group created by HM."/>
+<focus-ctd-template text="Assignment group details are entered."/>
+<focus-ctd-template text="Assignment group is saved."/>
+<focus-ctd-template text="Enter the amendment start date as a date prior to the current assignment date and amendment  end date as a date past the current assignment end date."/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Contingent workers successfully selected.&#10;"/>
+<focus-ctd-template text="Successfully created the Assignment group."/>
+<focus-ctd-template text="Successfully entered the details."/>
+<focus-ctd-template text="Successfully saved the assignment group."/>
+<focus-ctd-template text="System throws error since these are not valid dates to proceed."/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Assignment_Group_Contains_In_Process_Assignments" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_Created" operation="Equals">
+<focus-ctd-cond-val value="Success"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_details_Entered_successfully" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Submission_of_Changes" operation="Equals">
+<focus-ctd-cond-val value="Failure"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Verify Amendment Start Date" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Hiring Manager selects the Contingent Workers to be in the group.&#10;"/>
+<focus-ctd-template text="Assignment group created by HM.&#10;"/>
+<focus-ctd-template text="Assignment group details are entered.&#10;"/>
+<focus-ctd-template text="Assignment group is saved.&#10;"/>
+<focus-ctd-template text="Input the amendment start date as a date prior to the current assignment start date.&#10;"/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Contingent workers successfully selected.&#10;"/>
+<focus-ctd-template text="Successfully created the Assignment group.&#10;"/>
+<focus-ctd-template text="Successfully entered the details.&#10;"/>
+<focus-ctd-template text="Successfully saved the assignment group.&#10;"/>
+<focus-ctd-template text="Since amendment start date is a date prior to the current assignment start date, System throws error.&#10;"/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Assignment_Group_Contains_In_Process_Assignments" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_Created" operation="Equals">
+<focus-ctd-cond-val value="Success"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_details_Entered_successfully" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Submission_of_Changes" operation="Equals">
+<focus-ctd-cond-val value="Failure"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Verify Amendment End Date" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Hiring Manager selects the Contingent Workers to be in the group.&#10;"/>
+<focus-ctd-template text="Assignment group created by HM.&#10;"/>
+<focus-ctd-template text="Assignment group details are entered.&#10;"/>
+<focus-ctd-template text="Assignment group is saved.&#10;"/>
+<focus-ctd-template text="Enter the amendment start date which is a not a date prior to the current assignment start date.&#10;"/>
+<focus-ctd-template text="Enter the amendment end date which is a a date past the current assignment end date.&#10;"/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Contingent workers successfully selected.&#10;"/>
+<focus-ctd-template text="Successfully created the Assignment group.&#10;"/>
+<focus-ctd-template text="Successfully entered the details.&#10;"/>
+<focus-ctd-template text="Successfully saved the assignment group.&#10;"/>
+<focus-ctd-template text="Since the amendment start date is not a date prior to the current assignment start date, System throws no error.&#10;"/>
+<focus-ctd-template text="Since amendment end date is a date past the current assignment end date, System throws an error.&#10;"/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Assignment_Group_Contains_In_Process_Assignments" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_Created" operation="Equals">
+<focus-ctd-cond-val value="Success"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_details_Entered_successfully" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Submission_of_Changes" operation="Equals">
+<focus-ctd-cond-val value="Failure"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Submission of Changes" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Hiring Manager selects the Contingent Workers to be in the group.&#10;"/>
+<focus-ctd-template text="Assignment group created by HM.&#10;"/>
+<focus-ctd-template text="Assignment group details are entered.&#10;"/>
+<focus-ctd-template text="Assignment group is saved.&#10;"/>
+<focus-ctd-template text="Verify Amendment start date is a date prior to the current assignment start date.&#10;"/>
+<focus-ctd-template text="Verify Amendment end date is a date past the current assignment end date.&#10;"/>
+<focus-ctd-template text="Hiring Manager submits the changes."/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Contingent workers successfully selected.&#10;"/>
+<focus-ctd-template text="Successfully created the Assignment group.&#10;"/>
+<focus-ctd-template text="Successfully entered the details.&#10;"/>
+<focus-ctd-template text="Successfully saved the assignment group.&#10;"/>
+<focus-ctd-template text="Amendment start date is not a date prior to the current assignment start date.&#10;"/>
+<focus-ctd-template text="Amendment end date is not a date past the current assignment end date.&#10;"/>
+<focus-ctd-template text="Successfully submitted the changes."/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Assignment_Group_Contains_In_Process_Assignments" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_Created" operation="Equals">
+<focus-ctd-cond-val value="Success"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_details_Entered_successfully" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Submission_of_Changes" operation="Equals">
+<focus-ctd-cond-val value="Success"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Assignment Group Details not Entered." negative="false" suppressNewLine="false" triggerType="Test_Steps">
+<focus-ctd-multiple-template>
+<focus-ctd-multiple-template-testSteps>
+<focus-ctd-template text="Hiring Manager selects the Contingent Workers to be in the group.&#10;"/>
+<focus-ctd-template text="Assignment group created by HM.&#10;"/>
+<focus-ctd-template text="Assignment group details are not entered.&#10;"/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-testSteps>
+<focus-ctd-multiple-template-expectedResults>
+<focus-ctd-template text="Contingent workers successfully selected.&#10;"/>
+<focus-ctd-template text="Successfully created the Assignment group.&#10;"/>
+<focus-ctd-template text="Since assignment group details are not entered, the system will not allow the user to move to the next step.&#10;"/>
+<focus-ctd-template text="End Of Script."/>
+</focus-ctd-multiple-template-expectedResults>
+<focus-ctd-multiple-template-additionalInfo/>
+</focus-ctd-multiple-template>
+<focus-ctd-cond attribute="Assignment_Group_Contains_In_Process_Assignments" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_Created" operation="Equals">
+<focus-ctd-cond-val value="Success"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Assignment_Group_details_Entered_successfully" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Amendment_End_Date_is_a_date_past_the_current_Assigment_Date" operation="Equals">
+<focus-ctd-cond-val value="NA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Submission_of_Changes" operation="Equals">
+<focus-ctd-cond-val value="Failure"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+</focus-ctd-decoration>
+<defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="BeelineMassAssignmentCorrection.model" parentDetailsModelTag="@Test @1 @Test_Sample @Assignment" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
+<deactivates/>
+<attrs-to-delete/>
+<pool_comments/>
+<db-dependencies/>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
