@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--FireLight--><focus-model NAValue="Not_Valid" auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="" inputOutput="false" manual="true">
+<model-identification modelTag="@Test @1.0 @Test_Sample @FireLight">
+<model-identification-field name="Application Name" partOfTag="true" value="Test"/>
+<model-identification-field name="Application code version #" partOfTag="true" value="1.0"/>
+<model-identification-field name="Application Function" partOfTag="true" value="Test_Sample"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+<model-identification-field name="Created By" partOfTag="false" value="sananjap@in.ibm.com"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="05 Nov 2018 05:01:12"/>
+<model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="21 Jun 2022 14:25:59"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value="FireLight"/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+<model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="Add all 47 states, currently callifornia,puerto rico, virgin island,  all territories not included." group="" iotype="NEITHER" name="Start_New_Case_States" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @FireLight" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Alabama" neg-value="false" weight="1"/>
+<value name="Alaska" neg-value="false" weight="1"/>
+<value name="Arizona" neg-value="false" weight="1"/>
+<value name="Arkansas" neg-value="false" weight="1"/>
+<value name="Colorado" neg-value="false" weight="1"/>
+<value name="Connecticut" neg-value="false" weight="1"/>
+<value name="Delaware" neg-value="false" weight="1"/>
+<value name="Florida" neg-value="false" weight="1"/>
+<value name="Georgia" neg-value="false" weight="1"/>
+<value name="Idaho" neg-value="false" weight="1"/>
+<value name="Illinois" neg-value="false" weight="1"/>
+<value name="Indiana" neg-value="false" weight="1"/>
+<value name="Iowa" neg-value="false" weight="1"/>
+<value name="Kansas" neg-value="false" weight="1"/>
+<value name="Kentucky" neg-value="false" weight="1"/>
+<value name="Louisiana" neg-value="false" weight="1"/>
+<value name="Maine" neg-value="false" weight="1"/>
+<value name="Maryland" neg-value="false" weight="1"/>
+<value name="Massachusetts" neg-value="false" weight="1"/>
+<value name="Michigan" neg-value="false" weight="1"/>
+<value name="Minnesota" neg-value="false" weight="1"/>
+<value name="Mississippi" neg-value="false" weight="1"/>
+<value name="Missouri" neg-value="false" weight="1"/>
+<value name="Montana" neg-value="false" weight="1"/>
+<value name="Nebraska" neg-value="false" weight="1"/>
+<value name="Nevada" neg-value="false" weight="1"/>
+<value name="New Hampshire" neg-value="false" weight="1"/>
+<value name="New Jersey" neg-value="false" weight="1"/>
+<value name="New Mexico" neg-value="false" weight="1"/>
+<value name="New York" neg-value="false" weight="1"/>
+<value name="North Carolina" neg-value="false" weight="1"/>
+<value name="North Dakota" neg-value="false" weight="1"/>
+<value name="Ohio" neg-value="false" weight="1"/>
+<value name="Oklahoma" neg-value="false" weight="1"/>
+<value name="Oregon" neg-value="false" weight="1"/>
+<value name="Pennsylvania" neg-value="false" weight="1"/>
+<value name="Rhode Island" neg-value="false" weight="1"/>
+<value name="South Carolina" neg-value="false" weight="1"/>
+<value name="South Dakota" neg-value="false" weight="1"/>
+<value name="Tennessee" neg-value="false" weight="1"/>
+<value name="Texas" neg-value="false" weight="1"/>
+<value name="Utah" neg-value="false" weight="1"/>
+<value name="Vermont" neg-value="false" weight="1"/>
+<value name="Virginia" neg-value="false" weight="1"/>
+<value name="Washington" neg-value="false" weight="1"/>
+<value name="West Virginia" neg-value="false" weight="1"/>
+<value name="Wisconsin" neg-value="false" weight="1"/>
+<value name="Wyoming" neg-value="false" weight="1"/>
+<value name="Washington DC" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Product_Type_Deferred_Annuity_Income" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @FireLight" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Brighthouse_Guaranteed_Income_Builder_BHF" neg-value="false" weight="1"/>
+<value name="NULL" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Product_Type_Fixed_Annuity" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @FireLight" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Brighthouse_Fixed_Rate_Annuity_BHF" neg-value="false" weight="1"/>
+<value name="Brighthouse_Fixed_Rate_Annuity_MVA_BHF" neg-value="false" weight="1"/>
+<value name="NULL" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Product_Type_Fixed_Indexed_Annuity" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @FireLight" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Product_Type_Single_Premium_Immediate_Annuity" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @FireLight" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Single_Premium_Immediate_Annuity_BHF" neg-value="false" weight="1"/>
+<value name="NULL" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Product_Type_Variable_Annuity" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @FireLight" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Brighthouse_Shield_Level_Select_3Year_Annuity" neg-value="false" weight="1"/>
+<value name="NULL" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Tax_Market" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @FireLight" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Non_Qualified" neg-value="false" weight="1"/>
+<value name="Traditional_IRA" neg-value="false" weight="1"/>
+<value name="Roth_IRA" neg-value="false" weight="1"/>
+<value name="IRA_CLAC" neg-value="false" weight="1"/>
+<value name="Custodial_Roth_IRA" neg-value="false" weight="1"/>
+<value name="Custodial_Decent_IRA" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Owner_Type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @1.0 @Test_Sample @FireLight" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Individual" neg-value="false" weight="1"/>
+<value name="Joint" neg-value="false" weight="1"/>
+<value name="Trust" neg-value="false" weight="1"/>
+</attribute>
+<restriction expression="!((Start_New_Case_States.equals(&quot;Alabama&quot;) || Start_New_Case_States.equals(&quot;Alaska&quot;) || Start_New_Case_States.equals(&quot;Arizona&quot;) || Start_New_Case_States.equals(&quot;Arkansas&quot;) || Start_New_Case_States.equals(&quot;Colorado&quot;) || Start_New_Case_States.equals(&quot;Connecticut&quot;) || Start_New_Case_States.equals(&quot;Delaware&quot;) || Start_New_Case_States.equals(&quot;Florida&quot;) || Start_New_Case_States.equals(&quot;Georgia&quot;) || Start_New_Case_States.equals(&quot;Idaho&quot;) || Start_New_Case_States.equals(&quot;Illinois&quot;) || Start_New_Case_States.equals(&quot;Indiana&quot;) || Start_New_Case_States.equals(&quot;Iowa&quot;) || Start_New_Case_States.equals(&quot;Kansas&quot;) || Start_New_Case_States.equals(&quot;Kentucky&quot;) || Start_New_Case_States.equals(&quot;Louisiana&quot;) || Start_New_Case_States.equals(&quot;Maine&quot;) || Start_New_Case_States.equals(&quot;Maryland&quot;) || Start_New_Case_States.equals(&quot;Massachusetts&quot;) || Start_New_Case_States.equals(&quot;Michigan&quot;) || Start_New_Case_States.equals(&quot;Minnesota&quot;) || Start_New_Case_States.equals(&quot;Mississippi&quot;) || Start_New_Case_States.equals(&quot;Missouri&quot;) || Start_New_Case_States.equals(&quot;Montana&quot;) || Start_New_Case_States.equals(&quot;Nebraska&quot;) || Start_New_Case_States.equals(&quot;Nevada&quot;) || Start_New_Case_States.equals(&quot;New Hampshire&quot;) || Start_New_Case_States.equals(&quot;New Jersey&quot;) || Start_New_Case_States.equals(&quot;New Mexico&quot;) || Start_New_Case_States.equals(&quot;New York&quot;) || Start_New_Case_States.equals(&quot;North Carolina&quot;) || Start_New_Case_States.equals(&quot;North Dakota&quot;) || Start_New_Case_States.equals(&quot;Ohio&quot;) || Start_New_Case_States.equals(&quot;Oklahoma&quot;) || Start_New_Case_States.equals(&quot;Oregon&quot;) || Start_New_Case_States.equals(&quot;Pennsylvania&quot;) || Start_New_Case_States.equals(&quot;Rhode Island&quot;) || Start_New_Case_States.equals(&quot;South Carolina&quot;) || Start_New_Case_States.equals(&quot;South Dakota&quot;) || Start_New_Case_States.equals(&quot;Tennessee&quot;) || Start_New_Case_States.equals(&quot;Texas&quot;) || Start_New_Case_States.equals(&quot;Utah&quot;) || Start_New_Case_States.equals(&quot;Vermont&quot;) || Start_New_Case_States.equals(&quot;Virginia&quot;) || Start_New_Case_States.equals(&quot;Washington&quot;) || Start_New_Case_States.equals(&quot;West Virginia&quot;) || Start_New_Case_States.equals(&quot;Wisconsin&quot;) || Start_New_Case_States.equals(&quot;Wyoming&quot;) || Start_New_Case_States.equals(&quot;Washington DC&quot;)) &amp;&amp; Product_Type_Deferred_Annuity_Income.equals(&quot;NULL&quot;)) || Product_Type_Fixed_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Indexed_Annuity.equals(&quot;Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF&quot;) &amp;&amp; Product_Type_Single_Premium_Immediate_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Variable_Annuity.equals(&quot;NULL&quot;)" group="" groupedExpression="!((Start_New_Case_States.equals(&quot;Alabama&quot;) || Start_New_Case_States.equals(&quot;Alaska&quot;) || Start_New_Case_States.equals(&quot;Arizona&quot;) || Start_New_Case_States.equals(&quot;Arkansas&quot;) || Start_New_Case_States.equals(&quot;Colorado&quot;) || Start_New_Case_States.equals(&quot;Connecticut&quot;) || Start_New_Case_States.equals(&quot;Delaware&quot;) || Start_New_Case_States.equals(&quot;Florida&quot;) || Start_New_Case_States.equals(&quot;Georgia&quot;) || Start_New_Case_States.equals(&quot;Idaho&quot;) || Start_New_Case_States.equals(&quot;Illinois&quot;) || Start_New_Case_States.equals(&quot;Indiana&quot;) || Start_New_Case_States.equals(&quot;Iowa&quot;) || Start_New_Case_States.equals(&quot;Kansas&quot;) || Start_New_Case_States.equals(&quot;Kentucky&quot;) || Start_New_Case_States.equals(&quot;Louisiana&quot;) || Start_New_Case_States.equals(&quot;Maine&quot;) || Start_New_Case_States.equals(&quot;Maryland&quot;) || Start_New_Case_States.equals(&quot;Massachusetts&quot;) || Start_New_Case_States.equals(&quot;Michigan&quot;) || Start_New_Case_States.equals(&quot;Minnesota&quot;) || Start_New_Case_States.equals(&quot;Mississippi&quot;) || Start_New_Case_States.equals(&quot;Missouri&quot;) || Start_New_Case_States.equals(&quot;Montana&quot;) || Start_New_Case_States.equals(&quot;Nebraska&quot;) || Start_New_Case_States.equals(&quot;Nevada&quot;) || Start_New_Case_States.equals(&quot;New Hampshire&quot;) || Start_New_Case_States.equals(&quot;New Jersey&quot;) || Start_New_Case_States.equals(&quot;New Mexico&quot;) || Start_New_Case_States.equals(&quot;New York&quot;) || Start_New_Case_States.equals(&quot;North Carolina&quot;) || Start_New_Case_States.equals(&quot;North Dakota&quot;) || Start_New_Case_States.equals(&quot;Ohio&quot;) || Start_New_Case_States.equals(&quot;Oklahoma&quot;) || Start_New_Case_States.equals(&quot;Oregon&quot;) || Start_New_Case_States.equals(&quot;Pennsylvania&quot;) || Start_New_Case_States.equals(&quot;Rhode Island&quot;) || Start_New_Case_States.equals(&quot;South Carolina&quot;) || Start_New_Case_States.equals(&quot;South Dakota&quot;) || Start_New_Case_States.equals(&quot;Tennessee&quot;) || Start_New_Case_States.equals(&quot;Texas&quot;) || Start_New_Case_States.equals(&quot;Utah&quot;) || Start_New_Case_States.equals(&quot;Vermont&quot;) || Start_New_Case_States.equals(&quot;Virginia&quot;) || Start_New_Case_States.equals(&quot;Washington&quot;) || Start_New_Case_States.equals(&quot;West Virginia&quot;) || Start_New_Case_States.equals(&quot;Wisconsin&quot;) || Start_New_Case_States.equals(&quot;Wyoming&quot;) || Start_New_Case_States.equals(&quot;Washington DC&quot;)) &amp;&amp; Product_Type_Deferred_Annuity_Income.equals(&quot;NULL&quot;)) || Product_Type_Fixed_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Indexed_Annuity.equals(&quot;Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF&quot;) &amp;&amp; Product_Type_Single_Premium_Immediate_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Variable_Annuity.equals(&quot;NULL&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Start_New_Case_States" operation="Equals">
+<focus-ctd-cond-val value="Alabama"/>
+<focus-ctd-cond-val value="Alaska"/>
+<focus-ctd-cond-val value="Arizona"/>
+<focus-ctd-cond-val value="Arkansas"/>
+<focus-ctd-cond-val value="Colorado"/>
+<focus-ctd-cond-val value="Connecticut"/>
+<focus-ctd-cond-val value="Delaware"/>
+<focus-ctd-cond-val value="Florida"/>
+<focus-ctd-cond-val value="Georgia"/>
+<focus-ctd-cond-val value="Idaho"/>
+<focus-ctd-cond-val value="Illinois"/>
+<focus-ctd-cond-val value="Indiana"/>
+<focus-ctd-cond-val value="Iowa"/>
+<focus-ctd-cond-val value="Kansas"/>
+<focus-ctd-cond-val value="Kentucky"/>
+<focus-ctd-cond-val value="Louisiana"/>
+<focus-ctd-cond-val value="Maine"/>
+<focus-ctd-cond-val value="Maryland"/>
+<focus-ctd-cond-val value="Massachusetts"/>
+<focus-ctd-cond-val value="Michigan"/>
+<focus-ctd-cond-val value="Minnesota"/>
+<focus-ctd-cond-val value="Mississippi"/>
+<focus-ctd-cond-val value="Missouri"/>
+<focus-ctd-cond-val value="Montana"/>
+<focus-ctd-cond-val value="Nebraska"/>
+<focus-ctd-cond-val value="Nevada"/>
+<focus-ctd-cond-val value="New Hampshire"/>
+<focus-ctd-cond-val value="New Jersey"/>
+<focus-ctd-cond-val value="New Mexico"/>
+<focus-ctd-cond-val value="New York"/>
+<focus-ctd-cond-val value="North Carolina"/>
+<focus-ctd-cond-val value="North Dakota"/>
+<focus-ctd-cond-val value="Ohio"/>
+<focus-ctd-cond-val value="Oklahoma"/>
+<focus-ctd-cond-val value="Oregon"/>
+<focus-ctd-cond-val value="Pennsylvania"/>
+<focus-ctd-cond-val value="Rhode Island"/>
+<focus-ctd-cond-val value="South Carolina"/>
+<focus-ctd-cond-val value="South Dakota"/>
+<focus-ctd-cond-val value="Tennessee"/>
+<focus-ctd-cond-val value="Texas"/>
+<focus-ctd-cond-val value="Utah"/>
+<focus-ctd-cond-val value="Vermont"/>
+<focus-ctd-cond-val value="Virginia"/>
+<focus-ctd-cond-val value="Washington"/>
+<focus-ctd-cond-val value="West Virginia"/>
+<focus-ctd-cond-val value="Wisconsin"/>
+<focus-ctd-cond-val value="Wyoming"/>
+<focus-ctd-cond-val value="Washington DC"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Deferred_Annuity_Income" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Product_Type_Fixed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Indexed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Single_Premium_Immediate_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Variable_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Start_New_Case_States.equals(&quot;Alabama&quot;) || Start_New_Case_States.equals(&quot;Alaska&quot;) || Start_New_Case_States.equals(&quot;Arizona&quot;) || Start_New_Case_States.equals(&quot;Arkansas&quot;) || Start_New_Case_States.equals(&quot;Colorado&quot;) || Start_New_Case_States.equals(&quot;Connecticut&quot;) || Start_New_Case_States.equals(&quot;Delaware&quot;) || Start_New_Case_States.equals(&quot;Florida&quot;) || Start_New_Case_States.equals(&quot;Georgia&quot;) || Start_New_Case_States.equals(&quot;Idaho&quot;) || Start_New_Case_States.equals(&quot;Illinois&quot;) || Start_New_Case_States.equals(&quot;Indiana&quot;) || Start_New_Case_States.equals(&quot;Iowa&quot;) || Start_New_Case_States.equals(&quot;Kansas&quot;) || Start_New_Case_States.equals(&quot;Kentucky&quot;) || Start_New_Case_States.equals(&quot;Louisiana&quot;) || Start_New_Case_States.equals(&quot;Maine&quot;) || Start_New_Case_States.equals(&quot;Maryland&quot;) || Start_New_Case_States.equals(&quot;Massachusetts&quot;) || Start_New_Case_States.equals(&quot;Michigan&quot;) || Start_New_Case_States.equals(&quot;Minnesota&quot;) || Start_New_Case_States.equals(&quot;Mississippi&quot;) || Start_New_Case_States.equals(&quot;Missouri&quot;) || Start_New_Case_States.equals(&quot;Montana&quot;) || Start_New_Case_States.equals(&quot;Nebraska&quot;) || Start_New_Case_States.equals(&quot;Nevada&quot;) || Start_New_Case_States.equals(&quot;New Hampshire&quot;) || Start_New_Case_States.equals(&quot;New Jersey&quot;) || Start_New_Case_States.equals(&quot;New Mexico&quot;) || Start_New_Case_States.equals(&quot;North Carolina&quot;) || Start_New_Case_States.equals(&quot;New York&quot;) || Start_New_Case_States.equals(&quot;North Dakota&quot;) || Start_New_Case_States.equals(&quot;Ohio&quot;) || Start_New_Case_States.equals(&quot;Oklahoma&quot;) || Start_New_Case_States.equals(&quot;Oregon&quot;) || Start_New_Case_States.equals(&quot;Pennsylvania&quot;) || Start_New_Case_States.equals(&quot;Rhode Island&quot;) || Start_New_Case_States.equals(&quot;South Carolina&quot;) || Start_New_Case_States.equals(&quot;South Dakota&quot;) || Start_New_Case_States.equals(&quot;Tennessee&quot;) || Start_New_Case_States.equals(&quot;Texas&quot;) || Start_New_Case_States.equals(&quot;Utah&quot;) || Start_New_Case_States.equals(&quot;Vermont&quot;) || Start_New_Case_States.equals(&quot;Virginia&quot;) || Start_New_Case_States.equals(&quot;Washington&quot;) || Start_New_Case_States.equals(&quot;West Virginia&quot;) || Start_New_Case_States.equals(&quot;Wisconsin&quot;) || Start_New_Case_States.equals(&quot;Wyoming&quot;) || Start_New_Case_States.equals(&quot;Washington DC&quot;)) &amp;&amp; Product_Type_Fixed_Annuity.equals(&quot;NULL&quot;)) || Product_Type_Deferred_Annuity_Income.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Indexed_Annuity.equals(&quot;Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF&quot;) &amp;&amp; Product_Type_Single_Premium_Immediate_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Variable_Annuity.equals(&quot;NULL&quot;)" group="" groupedExpression="!((Start_New_Case_States.equals(&quot;Alabama&quot;) || Start_New_Case_States.equals(&quot;Alaska&quot;) || Start_New_Case_States.equals(&quot;Arizona&quot;) || Start_New_Case_States.equals(&quot;Arkansas&quot;) || Start_New_Case_States.equals(&quot;Colorado&quot;) || Start_New_Case_States.equals(&quot;Connecticut&quot;) || Start_New_Case_States.equals(&quot;Delaware&quot;) || Start_New_Case_States.equals(&quot;Florida&quot;) || Start_New_Case_States.equals(&quot;Georgia&quot;) || Start_New_Case_States.equals(&quot;Idaho&quot;) || Start_New_Case_States.equals(&quot;Illinois&quot;) || Start_New_Case_States.equals(&quot;Indiana&quot;) || Start_New_Case_States.equals(&quot;Iowa&quot;) || Start_New_Case_States.equals(&quot;Kansas&quot;) || Start_New_Case_States.equals(&quot;Kentucky&quot;) || Start_New_Case_States.equals(&quot;Louisiana&quot;) || Start_New_Case_States.equals(&quot;Maine&quot;) || Start_New_Case_States.equals(&quot;Maryland&quot;) || Start_New_Case_States.equals(&quot;Massachusetts&quot;) || Start_New_Case_States.equals(&quot;Michigan&quot;) || Start_New_Case_States.equals(&quot;Minnesota&quot;) || Start_New_Case_States.equals(&quot;Mississippi&quot;) || Start_New_Case_States.equals(&quot;Missouri&quot;) || Start_New_Case_States.equals(&quot;Montana&quot;) || Start_New_Case_States.equals(&quot;Nebraska&quot;) || Start_New_Case_States.equals(&quot;Nevada&quot;) || Start_New_Case_States.equals(&quot;New Hampshire&quot;) || Start_New_Case_States.equals(&quot;New Jersey&quot;) || Start_New_Case_States.equals(&quot;New Mexico&quot;) || Start_New_Case_States.equals(&quot;North Carolina&quot;) || Start_New_Case_States.equals(&quot;New York&quot;) || Start_New_Case_States.equals(&quot;North Dakota&quot;) || Start_New_Case_States.equals(&quot;Ohio&quot;) || Start_New_Case_States.equals(&quot;Oklahoma&quot;) || Start_New_Case_States.equals(&quot;Oregon&quot;) || Start_New_Case_States.equals(&quot;Pennsylvania&quot;) || Start_New_Case_States.equals(&quot;Rhode Island&quot;) || Start_New_Case_States.equals(&quot;South Carolina&quot;) || Start_New_Case_States.equals(&quot;South Dakota&quot;) || Start_New_Case_States.equals(&quot;Tennessee&quot;) || Start_New_Case_States.equals(&quot;Texas&quot;) || Start_New_Case_States.equals(&quot;Utah&quot;) || Start_New_Case_States.equals(&quot;Vermont&quot;) || Start_New_Case_States.equals(&quot;Virginia&quot;) || Start_New_Case_States.equals(&quot;Washington&quot;) || Start_New_Case_States.equals(&quot;West Virginia&quot;) || Start_New_Case_States.equals(&quot;Wisconsin&quot;) || Start_New_Case_States.equals(&quot;Wyoming&quot;) || Start_New_Case_States.equals(&quot;Washington DC&quot;)) &amp;&amp; Product_Type_Fixed_Annuity.equals(&quot;NULL&quot;)) || Product_Type_Deferred_Annuity_Income.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Indexed_Annuity.equals(&quot;Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF&quot;) &amp;&amp; Product_Type_Single_Premium_Immediate_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Variable_Annuity.equals(&quot;NULL&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Start_New_Case_States" operation="Equals">
+<focus-ctd-cond-val value="Alabama"/>
+<focus-ctd-cond-val value="Alaska"/>
+<focus-ctd-cond-val value="Arizona"/>
+<focus-ctd-cond-val value="Arkansas"/>
+<focus-ctd-cond-val value="Colorado"/>
+<focus-ctd-cond-val value="Connecticut"/>
+<focus-ctd-cond-val value="Delaware"/>
+<focus-ctd-cond-val value="Florida"/>
+<focus-ctd-cond-val value="Georgia"/>
+<focus-ctd-cond-val value="Idaho"/>
+<focus-ctd-cond-val value="Illinois"/>
+<focus-ctd-cond-val value="Indiana"/>
+<focus-ctd-cond-val value="Iowa"/>
+<focus-ctd-cond-val value="Kansas"/>
+<focus-ctd-cond-val value="Kentucky"/>
+<focus-ctd-cond-val value="Louisiana"/>
+<focus-ctd-cond-val value="Maine"/>
+<focus-ctd-cond-val value="Maryland"/>
+<focus-ctd-cond-val value="Massachusetts"/>
+<focus-ctd-cond-val value="Michigan"/>
+<focus-ctd-cond-val value="Minnesota"/>
+<focus-ctd-cond-val value="Mississippi"/>
+<focus-ctd-cond-val value="Missouri"/>
+<focus-ctd-cond-val value="Montana"/>
+<focus-ctd-cond-val value="Nebraska"/>
+<focus-ctd-cond-val value="Nevada"/>
+<focus-ctd-cond-val value="New Hampshire"/>
+<focus-ctd-cond-val value="New Jersey"/>
+<focus-ctd-cond-val value="New Mexico"/>
+<focus-ctd-cond-val value="North Carolina"/>
+<focus-ctd-cond-val value="New York"/>
+<focus-ctd-cond-val value="North Dakota"/>
+<focus-ctd-cond-val value="Ohio"/>
+<focus-ctd-cond-val value="Oklahoma"/>
+<focus-ctd-cond-val value="Oregon"/>
+<focus-ctd-cond-val value="Pennsylvania"/>
+<focus-ctd-cond-val value="Rhode Island"/>
+<focus-ctd-cond-val value="South Carolina"/>
+<focus-ctd-cond-val value="South Dakota"/>
+<focus-ctd-cond-val value="Tennessee"/>
+<focus-ctd-cond-val value="Texas"/>
+<focus-ctd-cond-val value="Utah"/>
+<focus-ctd-cond-val value="Vermont"/>
+<focus-ctd-cond-val value="Virginia"/>
+<focus-ctd-cond-val value="Washington"/>
+<focus-ctd-cond-val value="West Virginia"/>
+<focus-ctd-cond-val value="Wisconsin"/>
+<focus-ctd-cond-val value="Wyoming"/>
+<focus-ctd-cond-val value="Washington DC"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Product_Type_Deferred_Annuity_Income" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Indexed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Single_Premium_Immediate_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Variable_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Start_New_Case_States.equals(&quot;Alabama&quot;) || Start_New_Case_States.equals(&quot;Alaska&quot;) || Start_New_Case_States.equals(&quot;Arizona&quot;) || Start_New_Case_States.equals(&quot;Arkansas&quot;) || Start_New_Case_States.equals(&quot;Colorado&quot;) || Start_New_Case_States.equals(&quot;Connecticut&quot;) || Start_New_Case_States.equals(&quot;Delaware&quot;) || Start_New_Case_States.equals(&quot;Florida&quot;) || Start_New_Case_States.equals(&quot;Georgia&quot;) || Start_New_Case_States.equals(&quot;Idaho&quot;) || Start_New_Case_States.equals(&quot;Illinois&quot;) || Start_New_Case_States.equals(&quot;Indiana&quot;) || Start_New_Case_States.equals(&quot;Iowa&quot;) || Start_New_Case_States.equals(&quot;Kansas&quot;) || Start_New_Case_States.equals(&quot;Kentucky&quot;) || Start_New_Case_States.equals(&quot;Louisiana&quot;) || Start_New_Case_States.equals(&quot;Maine&quot;) || Start_New_Case_States.equals(&quot;Massachusetts&quot;) || Start_New_Case_States.equals(&quot;Maryland&quot;) || Start_New_Case_States.equals(&quot;Michigan&quot;) || Start_New_Case_States.equals(&quot;Minnesota&quot;) || Start_New_Case_States.equals(&quot;Mississippi&quot;) || Start_New_Case_States.equals(&quot;Missouri&quot;) || Start_New_Case_States.equals(&quot;Montana&quot;) || Start_New_Case_States.equals(&quot;Nebraska&quot;) || Start_New_Case_States.equals(&quot;Nevada&quot;) || Start_New_Case_States.equals(&quot;New Mexico&quot;) || Start_New_Case_States.equals(&quot;New Jersey&quot;) || Start_New_Case_States.equals(&quot;New Hampshire&quot;) || Start_New_Case_States.equals(&quot;New York&quot;) || Start_New_Case_States.equals(&quot;North Carolina&quot;) || Start_New_Case_States.equals(&quot;North Dakota&quot;) || Start_New_Case_States.equals(&quot;Ohio&quot;) || Start_New_Case_States.equals(&quot;Oklahoma&quot;) || Start_New_Case_States.equals(&quot;Oregon&quot;) || Start_New_Case_States.equals(&quot;Pennsylvania&quot;) || Start_New_Case_States.equals(&quot;Rhode Island&quot;) || Start_New_Case_States.equals(&quot;South Carolina&quot;) || Start_New_Case_States.equals(&quot;South Dakota&quot;) || Start_New_Case_States.equals(&quot;Tennessee&quot;) || Start_New_Case_States.equals(&quot;Texas&quot;) || Start_New_Case_States.equals(&quot;Utah&quot;) || Start_New_Case_States.equals(&quot;Vermont&quot;) || Start_New_Case_States.equals(&quot;Virginia&quot;) || Start_New_Case_States.equals(&quot;Washington&quot;) || Start_New_Case_States.equals(&quot;West Virginia&quot;) || Start_New_Case_States.equals(&quot;Wisconsin&quot;) || Start_New_Case_States.equals(&quot;Wyoming&quot;) || Start_New_Case_States.equals(&quot;Washington DC&quot;)) &amp;&amp; Product_Type_Fixed_Indexed_Annuity.equals(&quot;Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF&quot;)) || Product_Type_Deferred_Annuity_Income.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Single_Premium_Immediate_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Variable_Annuity.equals(&quot;NULL&quot;)" group="" groupedExpression="!((Start_New_Case_States.equals(&quot;Alabama&quot;) || Start_New_Case_States.equals(&quot;Alaska&quot;) || Start_New_Case_States.equals(&quot;Arizona&quot;) || Start_New_Case_States.equals(&quot;Arkansas&quot;) || Start_New_Case_States.equals(&quot;Colorado&quot;) || Start_New_Case_States.equals(&quot;Connecticut&quot;) || Start_New_Case_States.equals(&quot;Delaware&quot;) || Start_New_Case_States.equals(&quot;Florida&quot;) || Start_New_Case_States.equals(&quot;Georgia&quot;) || Start_New_Case_States.equals(&quot;Idaho&quot;) || Start_New_Case_States.equals(&quot;Illinois&quot;) || Start_New_Case_States.equals(&quot;Indiana&quot;) || Start_New_Case_States.equals(&quot;Iowa&quot;) || Start_New_Case_States.equals(&quot;Kansas&quot;) || Start_New_Case_States.equals(&quot;Kentucky&quot;) || Start_New_Case_States.equals(&quot;Louisiana&quot;) || Start_New_Case_States.equals(&quot;Maine&quot;) || Start_New_Case_States.equals(&quot;Massachusetts&quot;) || Start_New_Case_States.equals(&quot;Maryland&quot;) || Start_New_Case_States.equals(&quot;Michigan&quot;) || Start_New_Case_States.equals(&quot;Minnesota&quot;) || Start_New_Case_States.equals(&quot;Mississippi&quot;) || Start_New_Case_States.equals(&quot;Missouri&quot;) || Start_New_Case_States.equals(&quot;Montana&quot;) || Start_New_Case_States.equals(&quot;Nebraska&quot;) || Start_New_Case_States.equals(&quot;Nevada&quot;) || Start_New_Case_States.equals(&quot;New Mexico&quot;) || Start_New_Case_States.equals(&quot;New Jersey&quot;) || Start_New_Case_States.equals(&quot;New Hampshire&quot;) || Start_New_Case_States.equals(&quot;New York&quot;) || Start_New_Case_States.equals(&quot;North Carolina&quot;) || Start_New_Case_States.equals(&quot;North Dakota&quot;) || Start_New_Case_States.equals(&quot;Ohio&quot;) || Start_New_Case_States.equals(&quot;Oklahoma&quot;) || Start_New_Case_States.equals(&quot;Oregon&quot;) || Start_New_Case_States.equals(&quot;Pennsylvania&quot;) || Start_New_Case_States.equals(&quot;Rhode Island&quot;) || Start_New_Case_States.equals(&quot;South Carolina&quot;) || Start_New_Case_States.equals(&quot;South Dakota&quot;) || Start_New_Case_States.equals(&quot;Tennessee&quot;) || Start_New_Case_States.equals(&quot;Texas&quot;) || Start_New_Case_States.equals(&quot;Utah&quot;) || Start_New_Case_States.equals(&quot;Vermont&quot;) || Start_New_Case_States.equals(&quot;Virginia&quot;) || Start_New_Case_States.equals(&quot;Washington&quot;) || Start_New_Case_States.equals(&quot;West Virginia&quot;) || Start_New_Case_States.equals(&quot;Wisconsin&quot;) || Start_New_Case_States.equals(&quot;Wyoming&quot;) || Start_New_Case_States.equals(&quot;Washington DC&quot;)) &amp;&amp; Product_Type_Fixed_Indexed_Annuity.equals(&quot;Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF&quot;)) || Product_Type_Deferred_Annuity_Income.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Single_Premium_Immediate_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Variable_Annuity.equals(&quot;NULL&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Start_New_Case_States" operation="Equals">
+<focus-ctd-cond-val value="Alabama"/>
+<focus-ctd-cond-val value="Alaska"/>
+<focus-ctd-cond-val value="Arizona"/>
+<focus-ctd-cond-val value="Arkansas"/>
+<focus-ctd-cond-val value="Colorado"/>
+<focus-ctd-cond-val value="Connecticut"/>
+<focus-ctd-cond-val value="Delaware"/>
+<focus-ctd-cond-val value="Florida"/>
+<focus-ctd-cond-val value="Georgia"/>
+<focus-ctd-cond-val value="Idaho"/>
+<focus-ctd-cond-val value="Illinois"/>
+<focus-ctd-cond-val value="Indiana"/>
+<focus-ctd-cond-val value="Iowa"/>
+<focus-ctd-cond-val value="Kansas"/>
+<focus-ctd-cond-val value="Kentucky"/>
+<focus-ctd-cond-val value="Louisiana"/>
+<focus-ctd-cond-val value="Maine"/>
+<focus-ctd-cond-val value="Massachusetts"/>
+<focus-ctd-cond-val value="Maryland"/>
+<focus-ctd-cond-val value="Michigan"/>
+<focus-ctd-cond-val value="Minnesota"/>
+<focus-ctd-cond-val value="Mississippi"/>
+<focus-ctd-cond-val value="Missouri"/>
+<focus-ctd-cond-val value="Montana"/>
+<focus-ctd-cond-val value="Nebraska"/>
+<focus-ctd-cond-val value="Nevada"/>
+<focus-ctd-cond-val value="New Mexico"/>
+<focus-ctd-cond-val value="New Jersey"/>
+<focus-ctd-cond-val value="New Hampshire"/>
+<focus-ctd-cond-val value="New York"/>
+<focus-ctd-cond-val value="North Carolina"/>
+<focus-ctd-cond-val value="North Dakota"/>
+<focus-ctd-cond-val value="Ohio"/>
+<focus-ctd-cond-val value="Oklahoma"/>
+<focus-ctd-cond-val value="Oregon"/>
+<focus-ctd-cond-val value="Pennsylvania"/>
+<focus-ctd-cond-val value="Rhode Island"/>
+<focus-ctd-cond-val value="South Carolina"/>
+<focus-ctd-cond-val value="South Dakota"/>
+<focus-ctd-cond-val value="Tennessee"/>
+<focus-ctd-cond-val value="Texas"/>
+<focus-ctd-cond-val value="Utah"/>
+<focus-ctd-cond-val value="Vermont"/>
+<focus-ctd-cond-val value="Virginia"/>
+<focus-ctd-cond-val value="Washington"/>
+<focus-ctd-cond-val value="West Virginia"/>
+<focus-ctd-cond-val value="Wisconsin"/>
+<focus-ctd-cond-val value="Wyoming"/>
+<focus-ctd-cond-val value="Washington DC"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Indexed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Product_Type_Deferred_Annuity_Income" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Single_Premium_Immediate_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Variable_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Start_New_Case_States.equals(&quot;Alabama&quot;) || Start_New_Case_States.equals(&quot;Alaska&quot;) || Start_New_Case_States.equals(&quot;Arizona&quot;) || Start_New_Case_States.equals(&quot;Arkansas&quot;) || Start_New_Case_States.equals(&quot;Colorado&quot;) || Start_New_Case_States.equals(&quot;Connecticut&quot;) || Start_New_Case_States.equals(&quot;Delaware&quot;) || Start_New_Case_States.equals(&quot;Florida&quot;) || Start_New_Case_States.equals(&quot;Georgia&quot;) || Start_New_Case_States.equals(&quot;Idaho&quot;) || Start_New_Case_States.equals(&quot;Illinois&quot;) || Start_New_Case_States.equals(&quot;Indiana&quot;) || Start_New_Case_States.equals(&quot;Iowa&quot;) || Start_New_Case_States.equals(&quot;Kansas&quot;) || Start_New_Case_States.equals(&quot;Kentucky&quot;) || Start_New_Case_States.equals(&quot;Louisiana&quot;) || Start_New_Case_States.equals(&quot;Maine&quot;) || Start_New_Case_States.equals(&quot;Maryland&quot;) || Start_New_Case_States.equals(&quot;Massachusetts&quot;) || Start_New_Case_States.equals(&quot;Michigan&quot;) || Start_New_Case_States.equals(&quot;Minnesota&quot;) || Start_New_Case_States.equals(&quot;Mississippi&quot;) || Start_New_Case_States.equals(&quot;Missouri&quot;) || Start_New_Case_States.equals(&quot;Montana&quot;) || Start_New_Case_States.equals(&quot;Nebraska&quot;) || Start_New_Case_States.equals(&quot;Nevada&quot;) || Start_New_Case_States.equals(&quot;New Hampshire&quot;) || Start_New_Case_States.equals(&quot;New Jersey&quot;) || Start_New_Case_States.equals(&quot;New Mexico&quot;) || Start_New_Case_States.equals(&quot;New York&quot;) || Start_New_Case_States.equals(&quot;North Carolina&quot;) || Start_New_Case_States.equals(&quot;North Dakota&quot;) || Start_New_Case_States.equals(&quot;Ohio&quot;) || Start_New_Case_States.equals(&quot;Oklahoma&quot;) || Start_New_Case_States.equals(&quot;Oregon&quot;) || Start_New_Case_States.equals(&quot;Pennsylvania&quot;) || Start_New_Case_States.equals(&quot;Rhode Island&quot;) || Start_New_Case_States.equals(&quot;South Carolina&quot;) || Start_New_Case_States.equals(&quot;South Dakota&quot;) || Start_New_Case_States.equals(&quot;Tennessee&quot;) || Start_New_Case_States.equals(&quot;Texas&quot;) || Start_New_Case_States.equals(&quot;Utah&quot;) || Start_New_Case_States.equals(&quot;Vermont&quot;) || Start_New_Case_States.equals(&quot;Virginia&quot;) || Start_New_Case_States.equals(&quot;Washington&quot;) || Start_New_Case_States.equals(&quot;West Virginia&quot;) || Start_New_Case_States.equals(&quot;Wisconsin&quot;) || Start_New_Case_States.equals(&quot;Wyoming&quot;) || Start_New_Case_States.equals(&quot;Washington DC&quot;)) &amp;&amp; Product_Type_Single_Premium_Immediate_Annuity.equals(&quot;NULL&quot;)) || Product_Type_Deferred_Annuity_Income.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Indexed_Annuity.equals(&quot;Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF&quot;) &amp;&amp; Product_Type_Variable_Annuity.equals(&quot;NULL&quot;)" group="" groupedExpression="!((Start_New_Case_States.equals(&quot;Alabama&quot;) || Start_New_Case_States.equals(&quot;Alaska&quot;) || Start_New_Case_States.equals(&quot;Arizona&quot;) || Start_New_Case_States.equals(&quot;Arkansas&quot;) || Start_New_Case_States.equals(&quot;Colorado&quot;) || Start_New_Case_States.equals(&quot;Connecticut&quot;) || Start_New_Case_States.equals(&quot;Delaware&quot;) || Start_New_Case_States.equals(&quot;Florida&quot;) || Start_New_Case_States.equals(&quot;Georgia&quot;) || Start_New_Case_States.equals(&quot;Idaho&quot;) || Start_New_Case_States.equals(&quot;Illinois&quot;) || Start_New_Case_States.equals(&quot;Indiana&quot;) || Start_New_Case_States.equals(&quot;Iowa&quot;) || Start_New_Case_States.equals(&quot;Kansas&quot;) || Start_New_Case_States.equals(&quot;Kentucky&quot;) || Start_New_Case_States.equals(&quot;Louisiana&quot;) || Start_New_Case_States.equals(&quot;Maine&quot;) || Start_New_Case_States.equals(&quot;Maryland&quot;) || Start_New_Case_States.equals(&quot;Massachusetts&quot;) || Start_New_Case_States.equals(&quot;Michigan&quot;) || Start_New_Case_States.equals(&quot;Minnesota&quot;) || Start_New_Case_States.equals(&quot;Mississippi&quot;) || Start_New_Case_States.equals(&quot;Missouri&quot;) || Start_New_Case_States.equals(&quot;Montana&quot;) || Start_New_Case_States.equals(&quot;Nebraska&quot;) || Start_New_Case_States.equals(&quot;Nevada&quot;) || Start_New_Case_States.equals(&quot;New Hampshire&quot;) || Start_New_Case_States.equals(&quot;New Jersey&quot;) || Start_New_Case_States.equals(&quot;New Mexico&quot;) || Start_New_Case_States.equals(&quot;New York&quot;) || Start_New_Case_States.equals(&quot;North Carolina&quot;) || Start_New_Case_States.equals(&quot;North Dakota&quot;) || Start_New_Case_States.equals(&quot;Ohio&quot;) || Start_New_Case_States.equals(&quot;Oklahoma&quot;) || Start_New_Case_States.equals(&quot;Oregon&quot;) || Start_New_Case_States.equals(&quot;Pennsylvania&quot;) || Start_New_Case_States.equals(&quot;Rhode Island&quot;) || Start_New_Case_States.equals(&quot;South Carolina&quot;) || Start_New_Case_States.equals(&quot;South Dakota&quot;) || Start_New_Case_States.equals(&quot;Tennessee&quot;) || Start_New_Case_States.equals(&quot;Texas&quot;) || Start_New_Case_States.equals(&quot;Utah&quot;) || Start_New_Case_States.equals(&quot;Vermont&quot;) || Start_New_Case_States.equals(&quot;Virginia&quot;) || Start_New_Case_States.equals(&quot;Washington&quot;) || Start_New_Case_States.equals(&quot;West Virginia&quot;) || Start_New_Case_States.equals(&quot;Wisconsin&quot;) || Start_New_Case_States.equals(&quot;Wyoming&quot;) || Start_New_Case_States.equals(&quot;Washington DC&quot;)) &amp;&amp; Product_Type_Single_Premium_Immediate_Annuity.equals(&quot;NULL&quot;)) || Product_Type_Deferred_Annuity_Income.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Indexed_Annuity.equals(&quot;Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF&quot;) &amp;&amp; Product_Type_Variable_Annuity.equals(&quot;NULL&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Start_New_Case_States" operation="Equals">
+<focus-ctd-cond-val value="Alabama"/>
+<focus-ctd-cond-val value="Alaska"/>
+<focus-ctd-cond-val value="Arizona"/>
+<focus-ctd-cond-val value="Arkansas"/>
+<focus-ctd-cond-val value="Colorado"/>
+<focus-ctd-cond-val value="Connecticut"/>
+<focus-ctd-cond-val value="Delaware"/>
+<focus-ctd-cond-val value="Florida"/>
+<focus-ctd-cond-val value="Georgia"/>
+<focus-ctd-cond-val value="Idaho"/>
+<focus-ctd-cond-val value="Illinois"/>
+<focus-ctd-cond-val value="Indiana"/>
+<focus-ctd-cond-val value="Iowa"/>
+<focus-ctd-cond-val value="Kansas"/>
+<focus-ctd-cond-val value="Kentucky"/>
+<focus-ctd-cond-val value="Louisiana"/>
+<focus-ctd-cond-val value="Maine"/>
+<focus-ctd-cond-val value="Maryland"/>
+<focus-ctd-cond-val value="Massachusetts"/>
+<focus-ctd-cond-val value="Michigan"/>
+<focus-ctd-cond-val value="Minnesota"/>
+<focus-ctd-cond-val value="Mississippi"/>
+<focus-ctd-cond-val value="Missouri"/>
+<focus-ctd-cond-val value="Montana"/>
+<focus-ctd-cond-val value="Nebraska"/>
+<focus-ctd-cond-val value="Nevada"/>
+<focus-ctd-cond-val value="New Hampshire"/>
+<focus-ctd-cond-val value="New Jersey"/>
+<focus-ctd-cond-val value="New Mexico"/>
+<focus-ctd-cond-val value="New York"/>
+<focus-ctd-cond-val value="North Carolina"/>
+<focus-ctd-cond-val value="North Dakota"/>
+<focus-ctd-cond-val value="Ohio"/>
+<focus-ctd-cond-val value="Oklahoma"/>
+<focus-ctd-cond-val value="Oregon"/>
+<focus-ctd-cond-val value="Pennsylvania"/>
+<focus-ctd-cond-val value="Rhode Island"/>
+<focus-ctd-cond-val value="South Carolina"/>
+<focus-ctd-cond-val value="South Dakota"/>
+<focus-ctd-cond-val value="Tennessee"/>
+<focus-ctd-cond-val value="Texas"/>
+<focus-ctd-cond-val value="Utah"/>
+<focus-ctd-cond-val value="Vermont"/>
+<focus-ctd-cond-val value="Virginia"/>
+<focus-ctd-cond-val value="Washington"/>
+<focus-ctd-cond-val value="West Virginia"/>
+<focus-ctd-cond-val value="Wisconsin"/>
+<focus-ctd-cond-val value="Wyoming"/>
+<focus-ctd-cond-val value="Washington DC"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Single_Premium_Immediate_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Product_Type_Deferred_Annuity_Income" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Indexed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Variable_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!((Start_New_Case_States.equals(&quot;Alabama&quot;) || Start_New_Case_States.equals(&quot;Alaska&quot;) || Start_New_Case_States.equals(&quot;Arizona&quot;) || Start_New_Case_States.equals(&quot;Arkansas&quot;) || Start_New_Case_States.equals(&quot;Colorado&quot;) || Start_New_Case_States.equals(&quot;Connecticut&quot;) || Start_New_Case_States.equals(&quot;Delaware&quot;) || Start_New_Case_States.equals(&quot;Florida&quot;) || Start_New_Case_States.equals(&quot;Georgia&quot;) || Start_New_Case_States.equals(&quot;Idaho&quot;) || Start_New_Case_States.equals(&quot;Illinois&quot;) || Start_New_Case_States.equals(&quot;Indiana&quot;) || Start_New_Case_States.equals(&quot;Iowa&quot;) || Start_New_Case_States.equals(&quot;Kansas&quot;) || Start_New_Case_States.equals(&quot;Kentucky&quot;) || Start_New_Case_States.equals(&quot;Louisiana&quot;) || Start_New_Case_States.equals(&quot;Maine&quot;) || Start_New_Case_States.equals(&quot;Maryland&quot;) || Start_New_Case_States.equals(&quot;Massachusetts&quot;) || Start_New_Case_States.equals(&quot;Michigan&quot;) || Start_New_Case_States.equals(&quot;Minnesota&quot;) || Start_New_Case_States.equals(&quot;Mississippi&quot;) || Start_New_Case_States.equals(&quot;Missouri&quot;) || Start_New_Case_States.equals(&quot;Montana&quot;) || Start_New_Case_States.equals(&quot;Nebraska&quot;) || Start_New_Case_States.equals(&quot;Nevada&quot;) || Start_New_Case_States.equals(&quot;New Hampshire&quot;) || Start_New_Case_States.equals(&quot;New Jersey&quot;) || Start_New_Case_States.equals(&quot;New Mexico&quot;) || Start_New_Case_States.equals(&quot;New York&quot;) || Start_New_Case_States.equals(&quot;North Carolina&quot;) || Start_New_Case_States.equals(&quot;North Dakota&quot;) || Start_New_Case_States.equals(&quot;Ohio&quot;) || Start_New_Case_States.equals(&quot;Oklahoma&quot;) || Start_New_Case_States.equals(&quot;Oregon&quot;) || Start_New_Case_States.equals(&quot;Pennsylvania&quot;) || Start_New_Case_States.equals(&quot;Rhode Island&quot;) || Start_New_Case_States.equals(&quot;South Carolina&quot;) || Start_New_Case_States.equals(&quot;South Dakota&quot;) || Start_New_Case_States.equals(&quot;Tennessee&quot;) || Start_New_Case_States.equals(&quot;Texas&quot;) || Start_New_Case_States.equals(&quot;Utah&quot;) || Start_New_Case_States.equals(&quot;Vermont&quot;) || Start_New_Case_States.equals(&quot;Virginia&quot;) || Start_New_Case_States.equals(&quot;Washington&quot;) || Start_New_Case_States.equals(&quot;West Virginia&quot;) || Start_New_Case_States.equals(&quot;Wisconsin&quot;) || Start_New_Case_States.equals(&quot;Wyoming&quot;) || Start_New_Case_States.equals(&quot;Washington DC&quot;)) &amp;&amp; Product_Type_Variable_Annuity.equals(&quot;NULL&quot;)) || Product_Type_Deferred_Annuity_Income.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Indexed_Annuity.equals(&quot;Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF&quot;) &amp;&amp; Product_Type_Single_Premium_Immediate_Annuity.equals(&quot;NULL&quot;)" group="" groupedExpression="!((Start_New_Case_States.equals(&quot;Alabama&quot;) || Start_New_Case_States.equals(&quot;Alaska&quot;) || Start_New_Case_States.equals(&quot;Arizona&quot;) || Start_New_Case_States.equals(&quot;Arkansas&quot;) || Start_New_Case_States.equals(&quot;Colorado&quot;) || Start_New_Case_States.equals(&quot;Connecticut&quot;) || Start_New_Case_States.equals(&quot;Delaware&quot;) || Start_New_Case_States.equals(&quot;Florida&quot;) || Start_New_Case_States.equals(&quot;Georgia&quot;) || Start_New_Case_States.equals(&quot;Idaho&quot;) || Start_New_Case_States.equals(&quot;Illinois&quot;) || Start_New_Case_States.equals(&quot;Indiana&quot;) || Start_New_Case_States.equals(&quot;Iowa&quot;) || Start_New_Case_States.equals(&quot;Kansas&quot;) || Start_New_Case_States.equals(&quot;Kentucky&quot;) || Start_New_Case_States.equals(&quot;Louisiana&quot;) || Start_New_Case_States.equals(&quot;Maine&quot;) || Start_New_Case_States.equals(&quot;Maryland&quot;) || Start_New_Case_States.equals(&quot;Massachusetts&quot;) || Start_New_Case_States.equals(&quot;Michigan&quot;) || Start_New_Case_States.equals(&quot;Minnesota&quot;) || Start_New_Case_States.equals(&quot;Mississippi&quot;) || Start_New_Case_States.equals(&quot;Missouri&quot;) || Start_New_Case_States.equals(&quot;Montana&quot;) || Start_New_Case_States.equals(&quot;Nebraska&quot;) || Start_New_Case_States.equals(&quot;Nevada&quot;) || Start_New_Case_States.equals(&quot;New Hampshire&quot;) || Start_New_Case_States.equals(&quot;New Jersey&quot;) || Start_New_Case_States.equals(&quot;New Mexico&quot;) || Start_New_Case_States.equals(&quot;New York&quot;) || Start_New_Case_States.equals(&quot;North Carolina&quot;) || Start_New_Case_States.equals(&quot;North Dakota&quot;) || Start_New_Case_States.equals(&quot;Ohio&quot;) || Start_New_Case_States.equals(&quot;Oklahoma&quot;) || Start_New_Case_States.equals(&quot;Oregon&quot;) || Start_New_Case_States.equals(&quot;Pennsylvania&quot;) || Start_New_Case_States.equals(&quot;Rhode Island&quot;) || Start_New_Case_States.equals(&quot;South Carolina&quot;) || Start_New_Case_States.equals(&quot;South Dakota&quot;) || Start_New_Case_States.equals(&quot;Tennessee&quot;) || Start_New_Case_States.equals(&quot;Texas&quot;) || Start_New_Case_States.equals(&quot;Utah&quot;) || Start_New_Case_States.equals(&quot;Vermont&quot;) || Start_New_Case_States.equals(&quot;Virginia&quot;) || Start_New_Case_States.equals(&quot;Washington&quot;) || Start_New_Case_States.equals(&quot;West Virginia&quot;) || Start_New_Case_States.equals(&quot;Wisconsin&quot;) || Start_New_Case_States.equals(&quot;Wyoming&quot;) || Start_New_Case_States.equals(&quot;Washington DC&quot;)) &amp;&amp; Product_Type_Variable_Annuity.equals(&quot;NULL&quot;)) || Product_Type_Deferred_Annuity_Income.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Annuity.equals(&quot;NULL&quot;) &amp;&amp; Product_Type_Fixed_Indexed_Annuity.equals(&quot;Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF&quot;) &amp;&amp; Product_Type_Single_Premium_Immediate_Annuity.equals(&quot;NULL&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Start_New_Case_States" operation="Equals">
+<focus-ctd-cond-val value="Alabama"/>
+<focus-ctd-cond-val value="Alaska"/>
+<focus-ctd-cond-val value="Arizona"/>
+<focus-ctd-cond-val value="Arkansas"/>
+<focus-ctd-cond-val value="Colorado"/>
+<focus-ctd-cond-val value="Connecticut"/>
+<focus-ctd-cond-val value="Delaware"/>
+<focus-ctd-cond-val value="Florida"/>
+<focus-ctd-cond-val value="Georgia"/>
+<focus-ctd-cond-val value="Idaho"/>
+<focus-ctd-cond-val value="Illinois"/>
+<focus-ctd-cond-val value="Indiana"/>
+<focus-ctd-cond-val value="Iowa"/>
+<focus-ctd-cond-val value="Kansas"/>
+<focus-ctd-cond-val value="Kentucky"/>
+<focus-ctd-cond-val value="Louisiana"/>
+<focus-ctd-cond-val value="Maine"/>
+<focus-ctd-cond-val value="Maryland"/>
+<focus-ctd-cond-val value="Massachusetts"/>
+<focus-ctd-cond-val value="Michigan"/>
+<focus-ctd-cond-val value="Minnesota"/>
+<focus-ctd-cond-val value="Mississippi"/>
+<focus-ctd-cond-val value="Missouri"/>
+<focus-ctd-cond-val value="Montana"/>
+<focus-ctd-cond-val value="Nebraska"/>
+<focus-ctd-cond-val value="Nevada"/>
+<focus-ctd-cond-val value="New Hampshire"/>
+<focus-ctd-cond-val value="New Jersey"/>
+<focus-ctd-cond-val value="New Mexico"/>
+<focus-ctd-cond-val value="New York"/>
+<focus-ctd-cond-val value="North Carolina"/>
+<focus-ctd-cond-val value="North Dakota"/>
+<focus-ctd-cond-val value="Ohio"/>
+<focus-ctd-cond-val value="Oklahoma"/>
+<focus-ctd-cond-val value="Oregon"/>
+<focus-ctd-cond-val value="Pennsylvania"/>
+<focus-ctd-cond-val value="Rhode Island"/>
+<focus-ctd-cond-val value="South Carolina"/>
+<focus-ctd-cond-val value="South Dakota"/>
+<focus-ctd-cond-val value="Tennessee"/>
+<focus-ctd-cond-val value="Texas"/>
+<focus-ctd-cond-val value="Utah"/>
+<focus-ctd-cond-val value="Vermont"/>
+<focus-ctd-cond-val value="Virginia"/>
+<focus-ctd-cond-val value="Washington"/>
+<focus-ctd-cond-val value="West Virginia"/>
+<focus-ctd-cond-val value="Wisconsin"/>
+<focus-ctd-cond-val value="Wyoming"/>
+<focus-ctd-cond-val value="Washington DC"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Variable_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Product_Type_Deferred_Annuity_Income" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Indexed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Single_Premium_Immediate_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<coverage-reqs-sets defaultCoverageRequirementsSet="1.0">
+<coverage-reqs-set description="1.0" name="1.0">
+<coverage-req>
+<attribute name="Start_New_Case_States"/>
+<attribute name="Product_Type_Deferred_Annuity_Income"/>
+<attribute name="Product_Type_Fixed_Annuity"/>
+<attribute name="Product_Type_Fixed_Indexed_Annuity"/>
+<attribute name="Product_Type_Single_Premium_Immediate_Annuity"/>
+<attribute name="Product_Type_Variable_Annuity"/>
+<attribute name="Tax_Market"/>
+<attribute name="Owner_Type"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+</coverage-reqs-set>
+</coverage-reqs-sets>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true">
+<focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Test1" negative="false" suppressNewLine="false" triggerType="Test Description">
+<focus-ctd-single-template>
+<focus-ctd-template text="Test"/>
+</focus-ctd-single-template>
+<focus-ctd-cond attribute="Start_New_Case_States" operation="Equals">
+<focus-ctd-cond-val value="Alabama"/>
+<focus-ctd-cond-val value="Alaska"/>
+<focus-ctd-cond-val value="Arizona"/>
+<focus-ctd-cond-val value="Arkansas"/>
+<focus-ctd-cond-val value="Colorado"/>
+<focus-ctd-cond-val value="Connecticut"/>
+<focus-ctd-cond-val value="Delaware"/>
+<focus-ctd-cond-val value="Florida"/>
+<focus-ctd-cond-val value="Georgia"/>
+<focus-ctd-cond-val value="Idaho"/>
+<focus-ctd-cond-val value="Illinois"/>
+<focus-ctd-cond-val value="Indiana"/>
+<focus-ctd-cond-val value="Iowa"/>
+<focus-ctd-cond-val value="Kansas"/>
+<focus-ctd-cond-val value="Kentucky"/>
+<focus-ctd-cond-val value="Louisiana"/>
+<focus-ctd-cond-val value="Maine"/>
+<focus-ctd-cond-val value="Maryland"/>
+<focus-ctd-cond-val value="Massachusetts"/>
+<focus-ctd-cond-val value="Michigan"/>
+<focus-ctd-cond-val value="Minnesota"/>
+<focus-ctd-cond-val value="Mississippi"/>
+<focus-ctd-cond-val value="Missouri"/>
+<focus-ctd-cond-val value="Montana"/>
+<focus-ctd-cond-val value="Nebraska"/>
+<focus-ctd-cond-val value="Nevada"/>
+<focus-ctd-cond-val value="New Hampshire"/>
+<focus-ctd-cond-val value="New Jersey"/>
+<focus-ctd-cond-val value="New Mexico"/>
+<focus-ctd-cond-val value="New York"/>
+<focus-ctd-cond-val value="North Carolina"/>
+<focus-ctd-cond-val value="North Dakota"/>
+<focus-ctd-cond-val value="Ohio"/>
+<focus-ctd-cond-val value="Oklahoma"/>
+<focus-ctd-cond-val value="Oregon"/>
+<focus-ctd-cond-val value="Pennsylvania"/>
+<focus-ctd-cond-val value="Rhode Island"/>
+<focus-ctd-cond-val value="South Carolina"/>
+<focus-ctd-cond-val value="South Dakota"/>
+<focus-ctd-cond-val value="Tennessee"/>
+<focus-ctd-cond-val value="Texas"/>
+<focus-ctd-cond-val value="Utah"/>
+<focus-ctd-cond-val value="Vermont"/>
+<focus-ctd-cond-val value="Virginia"/>
+<focus-ctd-cond-val value="Washington"/>
+<focus-ctd-cond-val value="West Virginia"/>
+<focus-ctd-cond-val value="Wisconsin"/>
+<focus-ctd-cond-val value="Wyoming"/>
+<focus-ctd-cond-val value="Washington DC"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Deferred_Annuity_Income" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Fixed_Indexed_Annuity" operation="Equals">
+<focus-ctd-cond-val value="Brighthouse_Secure_Advantage_6Year_Fixed_Index_Annuity_BHF"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Single_Premium_Immediate_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Product_Type_Variable_Annuity" operation="Equals">
+<focus-ctd-cond-val value="NULL"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Tax_Market" operation="Equals">
+<focus-ctd-cond-val value="Non_Qualified"/>
+<focus-ctd-cond-val value="Traditional_IRA"/>
+<focus-ctd-cond-val value="Roth_IRA"/>
+<focus-ctd-cond-val value="IRA_CLAC"/>
+<focus-ctd-cond-val value="Custodial_Roth_IRA"/>
+<focus-ctd-cond-val value="Custodial_Decent_IRA"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Owner_Type" operation="Equals">
+<focus-ctd-cond-val value="Individual"/>
+<focus-ctd-cond-val value="Joint"/>
+<focus-ctd-cond-val value="Trust"/>
+</focus-ctd-cond>
+</focus-ctd-trigger>
+</focus-ctd-decoration>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="Firelight_CTD.model" parentDetailsModelTag="@Test @1.0 @Test_Sample @FireLight" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
+<deactivates/>
+<attrs-to-delete/>
+<pool_comments/>
+<db-dependencies/>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
