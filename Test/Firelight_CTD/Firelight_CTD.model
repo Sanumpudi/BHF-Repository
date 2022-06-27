@@ -10,7 +10,7 @@
 <model-identification-field name="Created By" partOfTag="false" value="sananjap@in.ibm.com"/>
 <model-identification-field name="Created Date and Time" partOfTag="false" value="05 Nov 2018 05:01:12"/>
 <model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
-<model-identification-field name="Updated Date and Time" partOfTag="false" value="21 Jun 2022 14:25:59"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="27 Jun 2022 10:13:20"/>
 <model-identification-field name="Application Sub Function" partOfTag="true" value="FireLight"/>
 <model-identification-field name="Test Stage" partOfTag="false" value=""/>
 <model-identification-field name="Criticality" partOfTag="false" value=""/>
@@ -574,7 +574,16 @@
 <defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="Firelight_CTD.model" parentDetailsModelTag="@Test @1.0 @Test_Sample @FireLight" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
 <deactivates/>
 <attrs-to-delete/>
-<pool_comments/>
+<pool_comments>
+<pool_comment key="614a90fa-cef5-48cc-9ad8-b23be9632514" value="{&quot;name&quot;:&quot;Product_Type_Single_Premium_Immediate_Annuity&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="1cb201e8-6fab-4e8f-8d84-ea732f97aaa4" value="{&quot;name&quot;:&quot;Owner_Type&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="7195867f-9d55-48a6-a747-6e1ff38cf6b2" value="{&quot;name&quot;:&quot;Product_Type_Fixed_Annuity&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="73e62bba-7660-4ff4-a54d-e2c8fcd2e147" value="{&quot;name&quot;:&quot;Product_Type_Deferred_Annuity_Income&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="1139de6f-947d-4051-8625-de62cec34c6b" value="{&quot;name&quot;:&quot;Tax_Market&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="533d6f3f-e8e1-435e-9fe0-5fd0d7772e2a" value="{&quot;name&quot;:&quot;Product_Type_Fixed_Indexed_Annuity&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="a58e7910-58d8-4f99-a9d3-cbba4aa29404" value="{&quot;name&quot;:&quot;Start_New_Case_States&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="a2b80130-dfc5-49c2-91a7-88e6ec4a47b2" value="{&quot;name&quot;:&quot;Product_Type_Variable_Annuity&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+</pool_comments>
 <db-dependencies/>
 <focus-ctd-model-sync>
 <focus-ctd-model-sync-mult/>
