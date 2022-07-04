@@ -10,7 +10,7 @@
 <model-identification-field name="Created By" partOfTag="false" value="no user"/>
 <model-identification-field name="Created Date and Time" partOfTag="false" value="11 Sep 2020 04:41:10"/>
 <model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
-<model-identification-field name="Updated Date and Time" partOfTag="false" value="21 Jun 2022 14:37:10"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="04 Jul 2022 11:47:34"/>
 <model-identification-field name="Application Sub Function" partOfTag="true" value="Assignment"/>
 <model-identification-field name="Test Stage" partOfTag="false" value=""/>
 <model-identification-field name="Criticality" partOfTag="false" value=""/>
@@ -387,7 +387,14 @@
 <defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="BeelineMassAssignmentCorrection.model" parentDetailsModelTag="@Test @1 @Test_Sample @Assignment" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
 <deactivates/>
 <attrs-to-delete/>
-<pool_comments/>
+<pool_comments>
+<pool_comment key="15202838-a734-459a-a875-0bc5e8d56c25" value="{&quot;name&quot;:&quot;Submission_of_Changes&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="ebacce92-3537-4b7a-b6f9-b16f9b65917b" value="{&quot;name&quot;:&quot;Amendment_Start_Date_is_a_prior_date_than_Current_Assignment_Date&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="ce48cb4e-abfa-4ed1-ba58-e23256c8ffeb" value="{&quot;name&quot;:&quot;Assignment_Group_Contains_In_Process_Assignments&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="d0273e09-4fee-4999-a6df-a7e3e12b151e" value="{&quot;name&quot;:&quot;Amendment_End_Date_is_a_date_past_the_current_Assigment_Date&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="70467547-cb4a-41a2-8da0-eeeaf4eaf3d5" value="{&quot;name&quot;:&quot;Assignment_Group_Created&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="eaf0043e-7d46-4508-a11d-12332a441de8" value="{&quot;name&quot;:&quot;Assignment_Group_details_Entered_successfully&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+</pool_comments>
 <db-dependencies/>
 <focus-ctd-model-sync>
 <focus-ctd-model-sync-mult/>
