@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--CTD_Disconnected--><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="" inputOutput="false" manual="true">
+<model-identification modelTag="@Test @2.7.12 @Test_Sample @CTD_Disconnected">
+<model-identification-field name="Application Name" partOfTag="true" value="Test"/>
+<model-identification-field name="Application code version #" partOfTag="true" value="2.7.12"/>
+<model-identification-field name="Application Function" partOfTag="true" value="Test_Sample"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+<model-identification-field name="Created By" partOfTag="false" value="no user"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="29 Oct 2020 01:37:28"/>
+<model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="04 Jul 2022 11:25:27"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value="CTD_Disconnected"/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+<model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Raise_Request" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @CTD_Disconnected" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Self" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Request_Type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @CTD_Disconnected" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="New" neg-value="false" weight="1"/>
+<value name="Remove" neg-value="false" weight="1"/>
+<value name="Modify" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Elevated" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @CTD_Disconnected" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+<value name="No" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Email_Notifiers" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @CTD_Disconnected" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="User_Manager_RoleOwner" neg-value="false" weight="1"/>
+<value name="User_Manager" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Saviynt_Approvers" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @CTD_Disconnected" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Manager_RoleOwner" neg-value="false" weight="1"/>
+<value name="Manager" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Tasks_Created" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @CTD_Disconnected" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Admin_Notification" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @CTD_Disconnected" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Yes" neg-value="false" weight="1"/>
+</attribute>
+<restriction expression="!(Email_Notifiers.equals(&quot;User_Manager_RoleOwner&quot;)) || Saviynt_Approvers.equals(&quot;Manager_RoleOwner&quot;)" group="" groupedExpression="!(Email_Notifiers.equals(&quot;User_Manager_RoleOwner&quot;)) || Saviynt_Approvers.equals(&quot;Manager_RoleOwner&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Email_Notifiers" operation="Equals">
+<focus-ctd-cond-val value="User_Manager_RoleOwner"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager_RoleOwner"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Elevated.equals(&quot;No&quot;)) || Saviynt_Approvers.equals(&quot;Manager&quot;)" group="" groupedExpression="!(Elevated.equals(&quot;No&quot;)) || Saviynt_Approvers.equals(&quot;Manager&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Elevated" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Elevated.equals(&quot;No&quot;) &amp;&amp; Email_Notifiers.equals(&quot;User_Manager_RoleOwner&quot;)) || Saviynt_Approvers.equals(&quot;Manager&quot;)" group="" groupedExpression="!(Elevated.equals(&quot;No&quot;) &amp;&amp; Email_Notifiers.equals(&quot;User_Manager_RoleOwner&quot;)) || Saviynt_Approvers.equals(&quot;Manager&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Elevated" operation="Equals">
+<focus-ctd-cond-val value="No"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Email_Notifiers" operation="Equals">
+<focus-ctd-cond-val value="User_Manager_RoleOwner"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Raise_Request.equals(&quot;Self&quot;) &amp;&amp; Request_Type.equals(&quot;New&quot;) &amp;&amp; Elevated.equals(&quot;Yes&quot;)) || Email_Notifiers.equals(&quot;User_Manager_RoleOwner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_RoleOwner&quot;)" group="" groupedExpression="!(Raise_Request.equals(&quot;Self&quot;) &amp;&amp; Request_Type.equals(&quot;New&quot;) &amp;&amp; Elevated.equals(&quot;Yes&quot;)) || Email_Notifiers.equals(&quot;User_Manager_RoleOwner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_RoleOwner&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Raise_Request" operation="Equals">
+<focus-ctd-cond-val value="Self"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Request_Type" operation="Equals">
+<focus-ctd-cond-val value="New"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Elevated" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Email_Notifiers" operation="Equals">
+<focus-ctd-cond-val value="User_Manager_RoleOwner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager_RoleOwner"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Raise_Request.equals(&quot;Self&quot;) &amp;&amp; Request_Type.equals(&quot;Modify&quot;) &amp;&amp; Elevated.equals(&quot;Yes&quot;)) || Email_Notifiers.equals(&quot;User_Manager_RoleOwner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_RoleOwner&quot;)" group="" groupedExpression="!(Raise_Request.equals(&quot;Self&quot;) &amp;&amp; Request_Type.equals(&quot;Modify&quot;) &amp;&amp; Elevated.equals(&quot;Yes&quot;)) || Email_Notifiers.equals(&quot;User_Manager_RoleOwner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_RoleOwner&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Raise_Request" operation="Equals">
+<focus-ctd-cond-val value="Self"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Request_Type" operation="Equals">
+<focus-ctd-cond-val value="Modify"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Elevated" operation="Equals">
+<focus-ctd-cond-val value="Yes"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Email_Notifiers" operation="Equals">
+<focus-ctd-cond-val value="User_Manager_RoleOwner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager_RoleOwner"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="Raise_Request.equals(&quot;Self&quot;) &amp;&amp; Request_Type.equals(&quot;Remove&quot;) &amp;&amp; Elevated.equals(&quot;Yes&quot;) &amp;&amp; Email_Notifiers.equals(&quot;User_Manager_RoleOwner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_RoleOwner&quot;) &amp;&amp; Tasks_Created.equals(&quot;Yes&quot;) &amp;&amp; Admin_Notification.equals(&quot;Yes&quot;)" group="" groupedExpression="Raise_Request.equals(&quot;Self&quot;) &amp;&amp; Request_Type.equals(&quot;Remove&quot;) &amp;&amp; Elevated.equals(&quot;Yes&quot;) &amp;&amp; Email_Notifiers.equals(&quot;User_Manager_RoleOwner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_RoleOwner&quot;) &amp;&amp; Tasks_Created.equals(&quot;Yes&quot;) &amp;&amp; Admin_Notification.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="02 Nov 20 06:36:23 0" type="Auto-Exclusion"/>
+<restriction expression="Raise_Request.equals(&quot;Self&quot;) &amp;&amp; Request_Type.equals(&quot;Remove&quot;) &amp;&amp; Elevated.equals(&quot;Yes&quot;) &amp;&amp; Email_Notifiers.equals(&quot;User_Manager&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_RoleOwner&quot;) &amp;&amp; Tasks_Created.equals(&quot;Yes&quot;) &amp;&amp; Admin_Notification.equals(&quot;Yes&quot;)" group="" groupedExpression="Raise_Request.equals(&quot;Self&quot;) &amp;&amp; Request_Type.equals(&quot;Remove&quot;) &amp;&amp; Elevated.equals(&quot;Yes&quot;) &amp;&amp; Email_Notifiers.equals(&quot;User_Manager&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_RoleOwner&quot;) &amp;&amp; Tasks_Created.equals(&quot;Yes&quot;) &amp;&amp; Admin_Notification.equals(&quot;Yes&quot;)" isActive="true" isAutoGenerated="false" name="02 Nov 20 06:36:28 0" type="Auto-Exclusion"/>
+<coverage-reqs-sets defaultCoverageRequirementsSet="Saviynt_Workflow">
+<coverage-reqs-set description="Workflow of Approvals in Saviynt" name="Saviynt_Workflow">
+<coverage-req>
+<attribute name="Raise_Request"/>
+<attribute name="Request_Type"/>
+<attribute name="Elevated"/>
+<attribute name="Email_Notifiers"/>
+<attribute name="Saviynt_Approvers"/>
+<attribute name="Tasks_Created"/>
+<attribute name="Admin_Notification"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+</coverage-reqs-set>
+</coverage-reqs-sets>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true"/>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="CTD_Disconnected.model" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @CTD_Disconnected" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
+<deactivates/>
+<attrs-to-delete/>
+<pool_comments/>
+<db-dependencies/>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
