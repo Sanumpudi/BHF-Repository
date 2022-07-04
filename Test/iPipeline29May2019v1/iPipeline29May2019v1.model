@@ -10,7 +10,7 @@
 <model-identification-field name="Created By" partOfTag="false" value="sananjap@in.ibm.com"/>
 <model-identification-field name="Created Date and Time" partOfTag="false" value="05 Nov 2018 05:01:12"/>
 <model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
-<model-identification-field name="Updated Date and Time" partOfTag="false" value="21 Jun 2022 14:30:08"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="04 Jul 2022 11:06:08"/>
 <model-identification-field name="Application Sub Function" partOfTag="true" value="Ipipeline"/>
 <model-identification-field name="Test Stage" partOfTag="false" value=""/>
 <model-identification-field name="Criticality" partOfTag="false" value=""/>
@@ -1025,7 +1025,53 @@
 <defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="iPipeline29May2019v1.model" parentDetailsModelTag="@Test @1.0 @Test_Sample @Ipipeline" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
 <deactivates/>
 <attrs-to-delete/>
-<pool_comments/>
+<pool_comments>
+<pool_comment key="9e8bdaa2-2adb-4501-a2af-46c8c20195d4" value="{&quot;name&quot;:&quot;Insurance_Replacement&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="888c136d-2a66-40b0-87f3-f9816b262944" value="{&quot;name&quot;:&quot;PI_Used_Nicotine_product_Last_12_Month&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="acca6e58-8bce-44dc-8692-f0b1d23c7f16" value="{&quot;name&quot;:&quot;Submit_to_Financial_advisor&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="667bf9a4-b188-495d-b7d5-36dff28d9706" value="{&quot;name&quot;:&quot;Agent_Appointment_Available&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="31580c76-b095-4695-bfa9-614b5b0179c3" value="{&quot;name&quot;:&quot;App_Setup_High_Profile_or_Employee_Application_If_yes&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="d7793728-bad9-49a4-af4b-b104c2a70e8c" value="{&quot;name&quot;:&quot;Application_Setup_Riders_4&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="09b4008e-592a-4d90-bbb0-a3e9a8938ddc" value="{&quot;name&quot;:&quot;PI_Application_Completed_USA&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="eafb45f0-b857-4c4e-9da5-bfe53e169391" value="{&quot;name&quot;:&quot;Medical_History&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="d725e5a4-5394-455e-bf73-877909e5a8ac" value="{&quot;name&quot;:&quot;LTC_Supplement_Replacement&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="171059c4-09d3-4ebf-91b3-8f52794e6e07" value="{&quot;name&quot;:&quot;Beneficiary_Information_Have_Contingent_Beneficiaries&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="e6ccbec7-03fa-486c-ad5d-34a627c6ea1e" value="{&quot;name&quot;:&quot;Application_Setup_Continued_Compensation_Plan&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="31af5eb3-db98-4432-9fc2-600569489938" value="{&quot;name&quot;:&quot;Wholesaler_Attachment&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="cd918f97-c449-43d7-803a-378a09a82b20" value="{&quot;name&quot;:&quot;LTC_Supplement&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="6697bb06-59d2-4783-a2d0-0ca75a757bd5" value="{&quot;name&quot;:&quot;Existing_Applied_For_Insurance&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="5fefddfa-55e6-4803-b8f4-535dac5e45c6" value="{&quot;name&quot;:&quot;LTC_Supplement_Cover_Under_Medicaid&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="e5399ebd-a74c-48ab-9bfe-98df8b288aa3" value="{&quot;name&quot;:&quot;Agent_License_Valid&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="cc05f96c-0397-48a0-a91a-5ae3f19e059c" value="{&quot;name&quot;:&quot;Application_Setup_Riders&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="e5c60ca7-43aa-4754-99c2-d114e055ad35" value="{&quot;name&quot;:&quot;Application_Setup_Continued_Number_of_Financial_Advisors&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="e9a4b196-4eb0-42a0-be1b-ccd5cc80c6d9" value="{&quot;name&quot;:&quot;Start_New_Case_Product_Type&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="a0778f0d-0212-47a4-8404-0487c48fbae0" value="{&quot;name&quot;:&quot;PI_Drivers_License&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="7946173a-0c8f-4c52-9594-bb0e9c921a20" value="{&quot;name&quot;:&quot;Agent_Appointment_Action&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="8f70940d-e3f6-41c9-82bd-4d24c63a6d31" value="{&quot;name&quot;:&quot;Secondary_Addressee&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="203983d6-8f82-4c69-92d7-01bfe03585fe" value="{&quot;name&quot;:&quot;Application_Setup_Method_Of_Premium_Collection&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="eb7eabb9-0a4e-47fd-8a6e-d4c1c7fa5d58" value="{&quot;name&quot;:&quot;Application_Setup_Riders_3&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="ab87ba65-3cff-4289-a1b3-11e936915832" value="{&quot;name&quot;:&quot;App_Setup_High_Profile_or_Employee_Application&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="d56a152f-1651-4e75-9bfb-4c0b184fbd74" value="{&quot;name&quot;:&quot;Beneficiary_Information_Primary_Beneficiary&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="0b953aa6-c8f4-4086-a1cd-46b35ecc231f" value="{&quot;name&quot;:&quot;Beneficiary_Information_Add_New_Record_Relationship_To_PI&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="92a1c8cc-f321-474f-aaae-8ad5fd261ac8" value="{&quot;name&quot;:&quot;Application_Setup_Premium_Amount&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="8bf32896-089d-4724-92eb-3b74efc38b4a" value="{&quot;name&quot;:&quot;Beneficiary_Information__Contingent_Beneficiary&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="11cde876-1790-4d32-b9e9-247b33b37cb8" value="{&quot;name&quot;:&quot;FA_eSignature_Consent&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="0e771e5d-8db2-41c7-b6d0-af175d3eab96" value="{&quot;name&quot;:&quot;Personal_Physician_Have&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="62d5d9b2-1539-4f9d-9e35-8f5441c92790" value="{&quot;name&quot;:&quot;Case_Type&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="10e3d218-5dff-493a-8b4f-c241289b08d5" value="{&quot;name&quot;:&quot;Validate_and_Lock&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="a58e7910-58d8-4f99-a9d3-cbba4aa29404" value="{&quot;name&quot;:&quot;Start_New_Case_States&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="b4ffe201-5ab0-4326-80d8-900ce83f768e" value="{&quot;name&quot;:&quot;PI_Member_US_Military&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="5549c8b2-09a3-4eaa-89a4-cd3d9d0c9ece" value="{&quot;name&quot;:&quot;Payment_Information&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="8b0eea73-11cb-4605-b904-d68650571299" value="{&quot;name&quot;:&quot;Beneficiary_information_Designating_Future_Children_Of_PI_Contingency&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="6dc1faa3-c47b-4e1d-8c37-82067bd7efb4" value="{&quot;name&quot;:&quot;Application_Setup_Riders_2&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="d03e4782-d08d-41a3-9b74-2280566261d1" value="{&quot;name&quot;:&quot;Existing_Applied_For_Insurance_If_Yes&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="f6520eeb-2e4a-4377-b916-c45111d1784d" value="{&quot;name&quot;:&quot;Agent_LTC_Training_Completed&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="6ac69e2f-ccd3-4caf-a3ae-764b6de2fa36" value="{&quot;name&quot;:&quot;Application_Setup_Premium_Mode&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="da389900-0e51-483a-9f51-4f5757cf85b5" value="{&quot;name&quot;:&quot;HIPAA_Signature&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="0ca65adb-16a7-46b1-bce5-8df21b6d2ed8" value="{&quot;name&quot;:&quot;Signature_Method&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="58877c76-1912-4b7f-a502-fa9438898988" value="{&quot;name&quot;:&quot;Submit_to_DXC&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="de928111-fcae-4037-8fc6-46eec71a6967" value="{&quot;name&quot;:&quot;Auto_Cash_Value_Rebalancing&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+</pool_comments>
 <db-dependencies/>
 <focus-ctd-model-sync>
 <focus-ctd-model-sync-mult/>
