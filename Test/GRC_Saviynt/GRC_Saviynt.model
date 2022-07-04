@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--Saviynt_GRC--><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="" inputOutput="false" manual="true">
+<model-identification modelTag="@Test @2.7.12 @Test_Sample @GRC_Saviynt">
+<model-identification-field name="Application Name" partOfTag="true" value="Test"/>
+<model-identification-field name="Application code version #" partOfTag="true" value="2.7.12"/>
+<model-identification-field name="Application Function" partOfTag="true" value="Test_Sample"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+<model-identification-field name="Created By" partOfTag="false" value="no user"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="30 Oct 2020 06:00:47"/>
+<model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="04 Jul 2022 11:21:31"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value="GRC_Saviynt"/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+<model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model CTD_Saviynt 1" group="" iotype="NEITHER" name="Raise_Request" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @GRC_Saviynt" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Self" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model CTD_Saviynt 1" group="" iotype="NEITHER" name="Request_Type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @GRC_Saviynt" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="New" neg-value="false" weight="1"/>
+<value name="Revoke" neg-value="false" weight="1"/>
+<value name="Modify" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model CTD_Saviynt 1" group="" iotype="NEITHER" name="Role_Type" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @GRC_Saviynt" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="SOD" neg-value="false" weight="1"/>
+<value name="NON-SOD" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model CTD_Saviynt 1" group="" iotype="NEITHER" name="Email_Notifiers" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @GRC_Saviynt" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Manager" neg-value="false" weight="1"/>
+<value name="Manager_Roleowner" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model CTD_Saviynt 1" group="" iotype="NEITHER" name="Saviynt_Approvers" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @GRC_Saviynt" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="Manager" neg-value="false" weight="1"/>
+<value name="Manager_Roleowner" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model CTD_Saviynt 1" group="" iotype="NEITHER" name="Email_Notification" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @GRC_Saviynt" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="With_Password" neg-value="false" weight="1"/>
+<value name="Without_Password" neg-value="false" weight="1"/>
+<value name="No_Email" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model CTD_Saviynt 1" group="" iotype="NEITHER" name="GRC_Approvals" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @GRC_Saviynt" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+<value name="RiskOwner_ComplainceOwner" neg-value="false" weight="1"/>
+<value name="ComplainceOwner" neg-value="false" weight="1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Imported from model CTD_Saviynt 1" group="" iotype="NEITHER" name="Mitigation" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @GRC_Saviynt" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="BOOLEAN">
+<value name="true" neg-value="false" weight="1"/>
+<value name="false" neg-value="false" weight="1"/>
+</attribute>
+<restriction expression="!(Request_Type.equals(&quot;New&quot;) &amp;&amp; Role_Type.equals(&quot;SOD&quot;)) || Email_Notifiers.equals(&quot;Manager_Roleowner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_Roleowner&quot;) &amp;&amp; Email_Notification.equals(&quot;With_Password&quot;) &amp;&amp; GRC_Approvals.equals(&quot;RiskOwner_ComplainceOwner&quot;) &amp;&amp; Mitigation == true" group="" groupedExpression="!(Request_Type.equals(&quot;New&quot;) &amp;&amp; Role_Type.equals(&quot;SOD&quot;)) || Email_Notifiers.equals(&quot;Manager_Roleowner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_Roleowner&quot;) &amp;&amp; Email_Notification.equals(&quot;With_Password&quot;) &amp;&amp; GRC_Approvals.equals(&quot;RiskOwner_ComplainceOwner&quot;) &amp;&amp; Mitigation == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from CTD_Saviynt 1" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Request_Type" operation="Equals">
+<focus-ctd-cond-val value="New"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Role_Type" operation="Equals">
+<focus-ctd-cond-val value="SOD"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Email_Notifiers" operation="Equals">
+<focus-ctd-cond-val value="Manager_Roleowner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager_Roleowner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Email_Notification" operation="Equals">
+<focus-ctd-cond-val value="With_Password"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="GRC_Approvals" operation="Equals">
+<focus-ctd-cond-val value="RiskOwner_ComplainceOwner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Mitigation" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Request_Type.equals(&quot;New&quot;) &amp;&amp; Role_Type.equals(&quot;NON-SOD&quot;)) || Email_Notifiers.equals(&quot;Manager&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager&quot;) &amp;&amp; Email_Notification.equals(&quot;With_Password&quot;) &amp;&amp; GRC_Approvals.equals(&quot;ComplainceOwner&quot;) &amp;&amp; Mitigation == true" group="" groupedExpression="!(Request_Type.equals(&quot;New&quot;) &amp;&amp; Role_Type.equals(&quot;NON-SOD&quot;)) || Email_Notifiers.equals(&quot;Manager&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager&quot;) &amp;&amp; Email_Notification.equals(&quot;With_Password&quot;) &amp;&amp; GRC_Approvals.equals(&quot;ComplainceOwner&quot;) &amp;&amp; Mitigation == true" iff="false" isActive="true" isAutoGenerated="false" name="Imported from CTD_Saviynt 1" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Request_Type" operation="Equals">
+<focus-ctd-cond-val value="New"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Role_Type" operation="Equals">
+<focus-ctd-cond-val value="NON-SOD"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Email_Notifiers" operation="Equals">
+<focus-ctd-cond-val value="Manager"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Email_Notification" operation="Equals">
+<focus-ctd-cond-val value="With_Password"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="GRC_Approvals" operation="Equals">
+<focus-ctd-cond-val value="ComplainceOwner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Mitigation" operation="Equals">
+<focus-ctd-cond-val value="true"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Request_Type.equals(&quot;Revoke&quot;) &amp;&amp; Role_Type.equals(&quot;SOD&quot;)) || Email_Notifiers.equals(&quot;Manager&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager&quot;) &amp;&amp; Email_Notification.equals(&quot;No_Email&quot;) &amp;&amp; GRC_Approvals.equals(&quot;ComplainceOwner&quot;) &amp;&amp; Mitigation == false" group="" groupedExpression="!(Request_Type.equals(&quot;Revoke&quot;) &amp;&amp; Role_Type.equals(&quot;SOD&quot;)) || Email_Notifiers.equals(&quot;Manager&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager&quot;) &amp;&amp; Email_Notification.equals(&quot;No_Email&quot;) &amp;&amp; GRC_Approvals.equals(&quot;ComplainceOwner&quot;) &amp;&amp; Mitigation == false" iff="false" isActive="true" isAutoGenerated="false" name="Imported from CTD_Saviynt 1" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Request_Type" operation="Equals">
+<focus-ctd-cond-val value="Revoke"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Role_Type" operation="Equals">
+<focus-ctd-cond-val value="SOD"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Email_Notifiers" operation="Equals">
+<focus-ctd-cond-val value="Manager"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Email_Notification" operation="Equals">
+<focus-ctd-cond-val value="No_Email"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="GRC_Approvals" operation="Equals">
+<focus-ctd-cond-val value="ComplainceOwner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Mitigation" operation="Equals">
+<focus-ctd-cond-val value="false"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Request_Type.equals(&quot;Revoke&quot;) &amp;&amp; Role_Type.equals(&quot;NON-SOD&quot;)) || Email_Notifiers.equals(&quot;Manager_Roleowner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager&quot;) &amp;&amp; Email_Notification.equals(&quot;No_Email&quot;) &amp;&amp; GRC_Approvals.equals(&quot;ComplainceOwner&quot;) &amp;&amp; Mitigation == false" group="" groupedExpression="!(Request_Type.equals(&quot;Revoke&quot;) &amp;&amp; Role_Type.equals(&quot;NON-SOD&quot;)) || Email_Notifiers.equals(&quot;Manager_Roleowner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager&quot;) &amp;&amp; Email_Notification.equals(&quot;No_Email&quot;) &amp;&amp; GRC_Approvals.equals(&quot;ComplainceOwner&quot;) &amp;&amp; Mitigation == false" iff="false" isActive="true" isAutoGenerated="false" name="Imported from CTD_Saviynt 1" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Request_Type" operation="Equals">
+<focus-ctd-cond-val value="Revoke"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Role_Type" operation="Equals">
+<focus-ctd-cond-val value="NON-SOD"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Email_Notifiers" operation="Equals">
+<focus-ctd-cond-val value="Manager_Roleowner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Email_Notification" operation="Equals">
+<focus-ctd-cond-val value="No_Email"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="GRC_Approvals" operation="Equals">
+<focus-ctd-cond-val value="ComplainceOwner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Mitigation" operation="Equals">
+<focus-ctd-cond-val value="false"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Request_Type.equals(&quot;Modify&quot;) &amp;&amp; Role_Type.equals(&quot;SOD&quot;)) || Email_Notifiers.equals(&quot;Manager_Roleowner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_Roleowner&quot;) &amp;&amp; Email_Notification.equals(&quot;Without_Password&quot;) &amp;&amp; GRC_Approvals.equals(&quot;RiskOwner_ComplainceOwner&quot;) &amp;&amp; Mitigation == false" group="" groupedExpression="!(Request_Type.equals(&quot;Modify&quot;) &amp;&amp; Role_Type.equals(&quot;SOD&quot;)) || Email_Notifiers.equals(&quot;Manager_Roleowner&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager_Roleowner&quot;) &amp;&amp; Email_Notification.equals(&quot;Without_Password&quot;) &amp;&amp; GRC_Approvals.equals(&quot;RiskOwner_ComplainceOwner&quot;) &amp;&amp; Mitigation == false" iff="false" isActive="true" isAutoGenerated="false" name="Imported from CTD_Saviynt 1" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Request_Type" operation="Equals">
+<focus-ctd-cond-val value="Modify"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Role_Type" operation="Equals">
+<focus-ctd-cond-val value="SOD"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Email_Notifiers" operation="Equals">
+<focus-ctd-cond-val value="Manager_Roleowner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager_Roleowner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Email_Notification" operation="Equals">
+<focus-ctd-cond-val value="Without_Password"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="GRC_Approvals" operation="Equals">
+<focus-ctd-cond-val value="RiskOwner_ComplainceOwner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Mitigation" operation="Equals">
+<focus-ctd-cond-val value="false"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<restriction expression="!(Request_Type.equals(&quot;Modify&quot;) &amp;&amp; Role_Type.equals(&quot;NON-SOD&quot;)) || Email_Notifiers.equals(&quot;Manager&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager&quot;) &amp;&amp; Email_Notification.equals(&quot;Without_Password&quot;) &amp;&amp; GRC_Approvals.equals(&quot;ComplainceOwner&quot;) &amp;&amp; Mitigation == false" group="" groupedExpression="!(Request_Type.equals(&quot;Modify&quot;) &amp;&amp; Role_Type.equals(&quot;NON-SOD&quot;)) || Email_Notifiers.equals(&quot;Manager&quot;) &amp;&amp; Saviynt_Approvers.equals(&quot;Manager&quot;) &amp;&amp; Email_Notification.equals(&quot;Without_Password&quot;) &amp;&amp; GRC_Approvals.equals(&quot;ComplainceOwner&quot;) &amp;&amp; Mitigation == false" iff="false" isActive="true" isAutoGenerated="false" name="Imported from CTD_Saviynt 1" type="If-Then">
+<if-expr is_or="false">
+<focus-ctd-cond attribute="Request_Type" operation="Equals">
+<focus-ctd-cond-val value="Modify"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Role_Type" operation="Equals">
+<focus-ctd-cond-val value="NON-SOD"/>
+</focus-ctd-cond>
+</if-expr>
+<then-expr is_or="false">
+<focus-ctd-cond attribute="Email_Notifiers" operation="Equals">
+<focus-ctd-cond-val value="Manager"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Saviynt_Approvers" operation="Equals">
+<focus-ctd-cond-val value="Manager"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Email_Notification" operation="Equals">
+<focus-ctd-cond-val value="Without_Password"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="GRC_Approvals" operation="Equals">
+<focus-ctd-cond-val value="ComplainceOwner"/>
+</focus-ctd-cond>
+<focus-ctd-cond attribute="Mitigation" operation="Equals">
+<focus-ctd-cond-val value="false"/>
+</focus-ctd-cond>
+</then-expr>
+</restriction>
+<coverage-reqs-sets defaultCoverageRequirementsSet="">
+<coverage-reqs-set description="Imported from CTD_Saviynt 1: CTD Implementation for Saviynt Connected Applications" name="Saviynt_Connected_1">
+<coverage-req>
+<attribute name="Raise_Request"/>
+<attribute name="Request_Type"/>
+<attribute name="Role_Type"/>
+<attribute name="Email_Notifiers"/>
+<attribute name="Saviynt_Approvers"/>
+<attribute name="Email_Notification"/>
+<attribute name="GRC_Approvals"/>
+<attribute name="Mitigation"/>
+<coverage-goal coverage-goal-val="2"/>
+</coverage-req>
+</coverage-reqs-set>
+</coverage-reqs-sets>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true"/>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="GRC_Saviynt.model" parentDetailsModelTag="@Test @2.7.12 @Test_Sample @GRC_Saviynt" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
+<deactivates/>
+<attrs-to-delete/>
+<pool_comments/>
+<db-dependencies/>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
