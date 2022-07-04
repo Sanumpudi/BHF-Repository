@@ -10,7 +10,7 @@
 <model-identification-field name="Created By" partOfTag="false" value="no user"/>
 <model-identification-field name="Created Date and Time" partOfTag="false" value="15 Sep 2020 03:01:46"/>
 <model-identification-field name="Updated By" partOfTag="false" value="Narendranath.Reddy.Karnati1@ibm.com"/>
-<model-identification-field name="Updated Date and Time" partOfTag="false" value="21 Jun 2022 14:42:39"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="04 Jul 2022 11:40:33"/>
 <model-identification-field name="Application Sub Function" partOfTag="true" value="Demo"/>
 <model-identification-field name="Test Stage" partOfTag="false" value=""/>
 <model-identification-field name="Criticality" partOfTag="false" value=""/>
@@ -799,7 +799,19 @@
 <defaultParentDetails parentDetailsApplicationName="Test" parentDetailsFunctionality="Sample" parentDetailsModel="BeelineModelContractorOnboarding.model" parentDetailsModelTag="@Test @1 @Test_Sample @Demo" parentDetailsPortfolio="BrightHouse" parentDetailsTenantId="BrightHouse" parentDetailsUsername="Narendranath.Reddy.Karnati1"/>
 <deactivates/>
 <attrs-to-delete/>
-<pool_comments/>
+<pool_comments>
+<pool_comment key="87792dcc-8ae4-43d4-b5cd-c91ee17b4d67" value="{&quot;name&quot;:&quot;Offer_has_been_Sent&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="9724bde6-7871-4e5c-bac5-57e3ef07f6af" value="{&quot;name&quot;:&quot;Release_to_Suppliers&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="10a48e99-818b-43a5-bdba-b0dda82ebfe9" value="{&quot;name&quot;:&quot;Pending_Worker_Download&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="610cfa02-27d4-4ef3-8131-67de11e43e84" value="{&quot;name&quot;:&quot;Hiring_Manager_Scheduled_the_Interview&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="228e7c6c-4ee1-4007-8331-255f46b8c603" value="{&quot;name&quot;:&quot;Employee_Details_Submitted_Successfully_and_Request_has_been_Created&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="da50b0ba-794b-406e-b77f-d512d5e8763a" value="{&quot;name&quot;:&quot;Offer_Accepted_by_Supplier&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="a4495855-0876-44ef-abcf-e2ef4fc05fd6" value="{&quot;name&quot;:&quot;VMO_approved_the_Request&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="e64305fa-281e-43fa-9129-faafd348273f" value="{&quot;name&quot;:&quot;Employee_Type&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="1c4f8021-950f-4e92-ad1b-156bff6afa9c" value="{&quot;name&quot;:&quot;Hiring_Manager_Qualifies_the_Candidate&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="923592cb-4830-4849-afc2-65292b70d12b" value="{&quot;name&quot;:&quot;Supplier_Accepted_the_Interview&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+<pool_comment key="3f02d97a-417c-46a5-8e6b-4b81d5822ab1" value="{&quot;name&quot;:&quot;Selection_of_Candidate&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+</pool_comments>
 <db-dependencies/>
 <focus-ctd-model-sync>
 <focus-ctd-model-sync-mult/>
